@@ -1,3 +1,5 @@
+<!--
+
 <a class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center"
     href="#">
     <img src="../../assets/img14.jpeg" class="shadow rounded-lg overflow-hidden border" >
@@ -10,3 +12,23 @@
         </div>
     </div>
 </a>
+-->
+
+
+
+
+
+<div class="container">
+    <div *ngFor="let clase of clases" class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center">
+      <img [src]="clase.imagen" class="shadow rounded-lg overflow-hidden border">
+      <div class="mt-8">
+        <h4 class="font-bold text-xl">{{ clase.titulo }}</h4>
+        <p class="mt-2 text-gray-600">{{ clase.descripcion }}</p>
+        <p class="mt-2 text-gray-600">Horario: {{ clase.horario }}</p>
+        <div class="mt-5">
+          <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Más info.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

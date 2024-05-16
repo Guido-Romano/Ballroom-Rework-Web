@@ -1,0 +1,10 @@
+<div class="max-w-md mx-auto mt-20">
+    <h1 class="py-2 font-bold text-xl">{{ articleHeading }}</h1>
+    <p class="leading-relaxed">
+      {{ articleIntro }}
+      <span *ngIf="showMore">{{ articleMoreText }}</span>
+    </p>
+    <button *ngIf="!showMore" (click)="toggleText()" class="mt-4 text-blue-500 focus:outline-none">Leer Más</button>
+    <button *ngIf="showMore" (click)="toggleText()" class="mt-4 text-blue-500 focus:outline-none">ocultar</button>
+  </div>
+  
