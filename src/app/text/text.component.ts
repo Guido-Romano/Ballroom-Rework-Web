@@ -1,17 +1,23 @@
-import { Component } from '@angular/core';
+// src/app/text/text.component.ts
+import { Component, Input, OnInit } from '@angular/core';
+import { TextService } from '../services/text.service';
 
 @Component({
   selector: 'app-text',
   templateUrl: './text.component.html',
   styleUrls: ['./text.component.css']
 })
-export class TextComponent {
-  articleHeading = 'Titulo principal';
-  articleIntro = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ipsum vel nunc commodo hendrerit sit amet vel nisi. Donec sodales maximus justo, nec dictum lectus malesuada non. Sed auctor ultrices tellus non varius.';
-  articleMoreText = 'Sed eu enim malesuada, fermentum mi eu, finibus velit. Nam quis blandit velit, vel vehicula neque. Etiam eu lorem suscipit, sollicitudin ante at, pharetra quam.';
-  showMore = false;
+export class TextComponent implements OnInit {
+  @Input() articleId!: number;
+  article: any;
+
+  constructor(private textService: TextService) { }
+
+  ngOnInit() {
+    this.article = this.textService.getArticleById(this.articleId);
+  }
 
   toggleText() {
-    this.showMore = !this.showMore;
-}
+    this.article.showMore = !this.article.showMore;
+  }
 }

@@ -5,6 +5,7 @@
 /* Base font-size for the root element */
 html {
     font-size: 14px; /* 1rem = 16px */
+    background-color: #111111;
 }
 
 /* Base styles for mobile first */
