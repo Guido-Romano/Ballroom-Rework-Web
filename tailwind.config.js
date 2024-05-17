@@ -11,11 +11,6 @@ module.exports = {
         color4: '#3a3a3a',
         color5: '#474747',
       },
-      screens: {
-        'tablet': '640px',
-        'laptop': '1024px',
-        'desktop': '1280px',
-      },
     },
   },
   plugins: [],
