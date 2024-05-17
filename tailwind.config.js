@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/**/*.{html,ts}", 
@@ -11,6 +10,11 @@ module.exports = {
         color3: '#2c2c2c',
         color4: '#3a3a3a',
         color5: '#474747',
+      },
+      screens: {
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1280px',
       },
     },
   },
