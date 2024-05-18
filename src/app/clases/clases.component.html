@@ -1,8 +1,13 @@
 
+<app-text [articleId]="37"></app-text>
 <app-class></app-class>
-<app-photo [articleId]="1"></app-photo>
-<app-photo [articleId]="2"></app-photo>
-<app-photo [articleId]="3"></app-photo>
+<div class="flex justify-center">
+    <div class="grid md:grid-cols-3 gap-4">
+      <app-photo [articleId]="1"></app-photo>
+      <app-photo [articleId]="2"></app-photo>
+      <app-photo [articleId]="3"></app-photo>
+    </div>
+  </div>
 
 
 

@@ -1,7 +1,6 @@
 export const TextConfig = {
   articles: [
 
-
      // CLASES
     {
       id: 1,
@@ -15,7 +14,7 @@ export const TextConfig = {
       id: 2,
       articleHeading: '¡Sábados! (Nivel: principiante/intermedio)',
       articleIntro: '¡Ven y aprende los pasos de baile más populares!',
-      articleMoreText: 'Horario:17:30 Hs a 18:30 Hs',
+      articleMoreText: 'Horario: 17:30 Hs a 18:30 Hs',
       imageUrl: '../../assets/img10.jpeg',
       articleLink: ''
     },
