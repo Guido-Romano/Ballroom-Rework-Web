@@ -1,4 +1,3 @@
-// src/app/text/text.component.ts
 import { Component, Input, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 
