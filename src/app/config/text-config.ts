@@ -6,25 +6,25 @@ export const TextConfig = {
     {
       id: 1,
       articleHeading: 'Sábados, entrenamiento. (Nivel: competitivo)',
-      articleIntro: 'Clases Grupales de Ballroom Dance (International Style)',
-      articleMoreText: 'Horario: Horarios: 09:00 Hs - 10:00 Hs / 19:00 Hs - 20:00 Hs',
-      imageUrl: '../../assets/img14.jpeg',
+      articleIntro: 'Clases Grupales de Ballroom (International Style)',
+      articleMoreText: 'Horario: 09:00 Hs - 10:00 Hs / 19:00 Hs - 20:00 Hs',
+      imageUrl: '../../assets/img09.jpeg',
       articleLink: ''
     },
     {
       id: 2,
       articleHeading: '¡Sábados! (Nivel: principiante/intermedio)',
       articleIntro: '¡Ven y aprende los pasos de baile más populares!',
-      articleMoreText: 'Horario: Horario: 17:30 Hs a 18:30 Hs',
-      imageUrl: '../../assets/img12.jpeg',
+      articleMoreText: 'Horario:17:30 Hs a 18:30 Hs',
+      imageUrl: '../../assets/img10.jpeg',
       articleLink: ''
     },
     {
       id: 3,
       articleHeading: '¡Domingos! (Nivel: principiante/intermedio)',
       articleIntro: '¡Disfruta de una noche llena de ritmo y diversión!',
-      articleMoreText: 'Horario: Horario: 19:00 Hs - 20:00 Hs',
-      imageUrl: '../../assets/img13.jpeg',
+      articleMoreText: 'Horario: 19:00 Hs - 20:00 Hs',
+      imageUrl: '../../assets/img11.jpeg',
       articleLink: ''
     },
     {
