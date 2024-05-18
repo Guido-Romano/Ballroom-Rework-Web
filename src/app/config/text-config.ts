@@ -18,6 +18,12 @@ export const TextConfig = {
         articleHeading: 'Titulo tres',
         articleIntro: 'Lorem ipsum tres',
         articleMoreText: 'asdsaaadaaasaadsaadadad.'
+      },
+      {
+        id: 4,
+        articleHeading: 'Nueva pregunta',
+        articleIntro: 'Nueva respuesta intro...',
+        articleMoreText: 'Nueva respuesta más texto...'
       }
     ]
   };

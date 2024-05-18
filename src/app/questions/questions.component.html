@@ -1,52 +1,19 @@
 <section class="bg-[#1D1D1D] text-gray-100 py-32 min-h-64">
-    <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-      <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Preguntas frecuentes</h2>
-      <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+  <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
+    <h2 class="mb-12 font-bold leadi text-center">Preguntas frecuentes</h2>
+    <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+      <ng-container *ngFor="let article of articles">
         <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 1</summary>
+          <summary class="py-2 outline-none cursor-pointer focus:underline">{{ article.articleHeading }}</summary>
           <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.</p>
+            <p>{{ article.articleIntro }}</p>
+            <p *ngIf="article.showMore">{{ article.articleMoreText }}</p>
+            <a *ngIf="article.email" href="mailto:{{ article.email }}" class="underline">{{ article.email }}</a>
           </div>
         </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 2</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.</p>
-          </div>
-        </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 2</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.</p>
-          </div>
-        </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 3</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.<a href="" class="underline">example@gmail.com</a> for assistance.</p>
-          </div>
-        </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 4</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.</p>
-          </div>
-        </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 5</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.<a href="" class="underline">example@gmail.com</a>.</p>
-          </div>
-        </details>
-        <details>
-          <summary class="py-2 outline-none cursor-pointer focus:underline">Pregunta 6</summary>
-          <div class="px-4 pb-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit et incidunt asperiores! Delectus temporibus suscipit voluptas quaerat repudiandae quod voluptatum saepe ullam? Tenetur doloribus nam modi debitis ut distinctio error.
-              <a href="" class="underline">Terminos de servicio</a> 
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </details>
-      </div>
+      </ng-container>
     </div>
-  </section>
+  </div>
+</section>
+
   
