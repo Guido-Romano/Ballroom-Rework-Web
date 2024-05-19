@@ -1,6 +1,32 @@
 export const TextConfig = {
   articles: [
 
+     // Testimonios
+     {
+      id: 99,
+      articleHeading: '',
+      articleIntro: 'Administro nuestras redes y aporto ideas creativas tanto en diseño como para el modelo de nuestro negocio.',
+      articleMoreText: '- Cecilia Bulgarelli, Com. Manager',
+      imageUrl: '',
+      articleLink: ''
+    },
+    {
+      id: 98,
+      articleHeading: '',
+      articleIntro: 'Creador de BASC Argentina. Comparto mi gran pasión por el baile con aquellas personas que tenga ganas de aprender.',
+      articleMoreText: '- Juan Manuel Almirón, CEO',
+      imageUrl: '',
+      articleLink: ''
+    },
+    {
+      id: 97,
+      articleHeading: '',
+      articleIntro: 'Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente de nuestra comunidad.',
+      articleMoreText: '- Guido Romano, Desarrollador',
+      imageUrl: '',
+      articleLink: ''
+    },
+
      // CLASES
     {
       id: 1,
