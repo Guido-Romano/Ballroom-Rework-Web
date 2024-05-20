@@ -15,7 +15,7 @@ export class TestimonialComponent implements OnInit {
  
     this.articles = this.textService.getArticles();
 
-    const allowedIds = [99, 98, 97, 96, 95, 94];
+    const allowedIds = [101, 102, 103];
     this.articles = this.articles.filter(article => allowedIds.includes(article.id));
   }
 }

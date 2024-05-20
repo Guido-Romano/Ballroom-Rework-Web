@@ -1,28 +1,10 @@
-<!--
-<div class="container">
-    <div *ngFor="let clase of clases" class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-      <img [src]="clase.imagen" class="shadow rounded-lg overflow-hidden border">
-      <div class="mt-8 text-white">
-        <h4 class="font-bold text-xl">{{ clase.titulo }}</h4>
-        <p class="mt-2 text-gray-500">{{ clase.descripcion }}</p>
-        <p class="mt-2 text-gray-500">Horario: {{ clase.horario }}</p>
-        <div class="mt-5">
-          <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Más info.</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
-
-
-  
-  <div class="container">
+<div class="container p-5 sm:p-0">
     <div class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
       <img [src]="article?.imageUrl" alt="article image" class="shadow rounded-lg overflow-hidden border" *ngIf="article?.imageUrl">
       <div class="mt-8 text-white">
         <h4 class="font-bold text-xl">{{ article?.articleHeading }}</h4>
-        <p class="mt-2 text-gray-500">{{ article?.articleIntro }}</p>
-        <p class="mt-2 text-gray-500">{{ article?.articleMoreText }}</p>
+        <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ article?.articleIntro }}</p>
+        <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ article?.articleMoreText }}</p>
         <div class="mt-5">
           <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
             Más info.

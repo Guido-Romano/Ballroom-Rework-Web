@@ -15,7 +15,7 @@ export class QuestionsComponent implements OnInit {
     // Obtener todos los artículos
     this.articles = this.textService.getArticles();
 
-    this.articles = this.articles.filter(article => article.id >= 6 && article.id <= 15);
+    this.articles = this.articles.filter(article => article.id >= 1 && article.id <= 9);
   }
 }
 
