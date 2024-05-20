@@ -75,35 +75,36 @@ export const TextConfig = {
     {
       id: 6,
       articleHeading: '¿Qué es el ballroom?',
-      articleIntro: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standar" el Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive .',
+      articleIntro: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standar".\n\nEstos son: Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive .',
       articleMoreText: 'Pregunta 1 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 7,
-      articleHeading: '¿Qué días se ofrecen las clases de ballroom?',
-      articleIntro: 'Las clases se ofrecen los sábados y domingos:\n\nSábados: Nivel principiante/intermedio y competitivo.\n\nDomingos: Nivel principiante/intermedio .',
-      articleMoreText: 'Pregunta 2 oculta.',
+      articleHeading: '¿Ofrecen clases gratis?',
+      articleIntro: 'Si! La primer clase siempre es gratis, podes venir a ver o probar sin compromiso!',
+      articleMoreText: 'Pregunta 8 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 8,
-      articleHeading: '¿Cuáles son los horarios de las clases?',
-      articleIntro: 'Sábados: 09:00 Hs - 10:00 Hs (Competitivo).\n\n17:30 Hs - 18:30 Hs (Principiante/intermedio).\n\n19:00 Hs - 20:00 Hs (Competitivo).\n\nDomingos:\n\n19:00 Hs - 20:00 Hs (Principiante/intermedio).',
-      articleMoreText: 'Pregunta 3 oculta.',
+      articleHeading: '¿Qué días se ofrecen las clases de ballroom?',
+      articleIntro: 'Sábados y domingos',
+      articleMoreText: '',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 9,
-      articleHeading: '¿Cuál es el precio de las clases?',
-      articleIntro: 'Debido a niveles de inflacion actuales, el precio podes consultarlo directamente comunicandote con nosotros por wsp.',
-      articleMoreText: 'Pregunta 4 oculta.',
+      articleHeading: '¿Cuáles son los horarios de las clases?',
+      articleIntro: 'Sábados:\n\n 09:00 Hs - 10:00 Hs (Competitivo).\n\n17:30 Hs - 18:30 Hs (Principiante/intermedio).\n\n19:00 Hs - 20:00 Hs (Competitivo).\n\nDomingos:\n\n19:00 Hs - 20:00 Hs (Principiante/intermedio).',
+      articleMoreText: 'Pregunta 3 oculta.',
       imageUrl: '',
       articleLink: ''
     },
+
     {
       id: 10,
       articleHeading: '¿Dónde se realizan las clases?',
@@ -112,31 +113,33 @@ export const TextConfig = {
       imageUrl: '',
       articleLink: ''
     },
+
+    {
+      id: 11,
+      articleHeading: '¿Cuál es el precio de las clases?',
+      articleIntro: 'Debido a los niveles de inflacion en la actualidad, el precio podes consultarlo directamente comunicandote con nosotros por whatsapp.',
+      articleMoreText: 'Pregunta 4 oculta.',
+      imageUrl: '',
+      articleLink: ''
+    },
   
   {
-    id: 11,
+    id: 12,
     articleHeading: '¿Cómo son las clases de ballroom? ¿Son adecuadas para principiantes?',
-    articleIntro: 'Tenemos clases, en dias y horarios diferentes, las cuales estan pensadas para distintos niveles, los cuales incluyen principiante, intermedio y avanzado.',
+    articleIntro: 'Sábados: Nivel principiante, intermedio y competitivo.\n\nDomingos: Nivel principiante e intermedio.',
     articleMoreText: 'Pregunta 6 oculta.',
     imageUrl: '',
     articleLink: ''
   },
   {
-    id: 12,
+    id: 13,
     articleHeading: '¿Cómo debo ir vestido para las clases?',
-    articleIntro: 'Para tus primeras clases, se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles. A medida que continúes, es recomendable usar ropa y calzado específico de ballroom .',
+    articleIntro: 'Al, se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles.\n\nA medida que continúes, es recomendable usar ropa y calzado específico de ballroom .',
     articleMoreText: 'Pregunta 7 oculta.',
     imageUrl: '',
     articleLink: ''
   },
-  {
-    id: 13,
-    articleHeading: '¿Ofrecen clases gratis?',
-    articleIntro: 'Si! la primer clase siempre es gratis, podes venir a ver o probar sin compromiso.',
-    articleMoreText: 'Pregunta 8 oculta.',
-    imageUrl: '',
-    articleLink: ''
-  },
+ 
   {
     id: 14,
     articleHeading: '¿Debo o puedo ir acompañado a las clases?',
