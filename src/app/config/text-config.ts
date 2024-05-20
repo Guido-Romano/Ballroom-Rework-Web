@@ -5,7 +5,7 @@ export const TextConfig = {
      {
       id: 99,
       articleHeading: '',
-      articleIntro: 'Administro nuestras redes y aporto ideas creativas tanto en diseño como para el modelo de nuestro negocio.',
+      articleIntro: 'Trabajo en la Administracion de nuestras redes e ideas creativas tanto en diseño como para el modelo de nuestro negocio.',
       articleMoreText: '- Cecilia Bulgarelli, Com. Manager',
       imageUrl: '',
       articleLink: ''
@@ -21,7 +21,7 @@ export const TextConfig = {
     {
       id: 97,
       articleHeading: '',
-      articleIntro: 'Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente de nuestra comunidad.',
+      articleIntro: 'Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente con nuestra comunidad.',
       articleMoreText: '- Guido Romano, Desarrollador',
       imageUrl: '',
       articleLink: ''
@@ -74,40 +74,40 @@ export const TextConfig = {
     // PREGUNTAS
     {
       id: 6,
-      articleHeading: 'Pregunta 1',
-      articleIntro: 'Respuesta 1',
+      articleHeading: '¿Qué es el ballroom?',
+      articleIntro: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standar" el Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive .',
       articleMoreText: 'Pregunta 1 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 7,
-      articleHeading: 'Pregunta 2',
-      articleIntro: 'Respuesta 2',
+      articleHeading: '¿Qué días se ofrecen las clases de ballroom?',
+      articleIntro: 'Las clases se ofrecen los sábados y domingos:\n\nSábados: Nivel principiante/intermedio y competitivo.\n\nDomingos: Nivel principiante/intermedio .',
       articleMoreText: 'Pregunta 2 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 8,
-      articleHeading: 'Pregunta 3',
-      articleIntro: 'Respuesta 3',
+      articleHeading: '¿Cuáles son los horarios de las clases?',
+      articleIntro: 'Sábados: 09:00 Hs - 10:00 Hs (Competitivo).\n\n17:30 Hs - 18:30 Hs (Principiante/intermedio).\n\n19:00 Hs - 20:00 Hs (Competitivo).\n\nDomingos:\n\n19:00 Hs - 20:00 Hs (Principiante/intermedio).',
       articleMoreText: 'Pregunta 3 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 9,
-      articleHeading: 'Pregunta 4',
-      articleIntro: 'Respuesta 4',
+      articleHeading: '¿Cuál es el precio de las clases?',
+      articleIntro: 'Debido a niveles de inflacion actuales, el precio podes consultarlo directamente comunicandote con nosotros por wsp.',
       articleMoreText: 'Pregunta 4 oculta.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 10,
-      articleHeading: 'Pregunta 5',
-      articleIntro: 'Respuesta 5',
+      articleHeading: '¿Dónde se realizan las clases?',
+      articleIntro: 'Calle Lambaré 990, Avenida Corrientes 4534, Capital Federal',
       articleMoreText: 'Pregunta 5 oculta.',
       imageUrl: '',
       articleLink: ''
@@ -115,44 +115,37 @@ export const TextConfig = {
   
   {
     id: 11,
-    articleHeading: 'Pregunta 6',
-    articleIntro: 'Respuesta 6',
+    articleHeading: '¿Cómo son las clases de ballroom? ¿Son adecuadas para principiantes?',
+    articleIntro: 'Tenemos clases, en dias y horarios diferentes, las cuales estan pensadas para distintos niveles, los cuales incluyen principiante, intermedio y avanzado.',
     articleMoreText: 'Pregunta 6 oculta.',
     imageUrl: '',
     articleLink: ''
   },
   {
     id: 12,
-    articleHeading: 'Pregunta 7',
-    articleIntro: 'Respuesta 7',
+    articleHeading: '¿Cómo debo ir vestido para las clases?',
+    articleIntro: 'Para tus primeras clases, se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles. A medida que continúes, es recomendable usar ropa y calzado específico de ballroom .',
     articleMoreText: 'Pregunta 7 oculta.',
     imageUrl: '',
     articleLink: ''
   },
   {
     id: 13,
-    articleHeading: 'Pregunta 8',
-    articleIntro: 'Respuesta 8',
+    articleHeading: '¿Ofrecen clases gratis?',
+    articleIntro: 'Si! la primer clase siempre es gratis, podes venir a ver o probar sin compromiso.',
     articleMoreText: 'Pregunta 8 oculta.',
     imageUrl: '',
     articleLink: ''
   },
   {
     id: 14,
-    articleHeading: 'Pregunta 9',
-    articleIntro: 'Respuesta 9',
+    articleHeading: '¿Debo o puedo ir acompañado a las clases?',
+    articleIntro: 'No es necesario, pero para una mejor experiencia te recomendamos que lo hagas!',
     articleMoreText: 'Pregunta 9 oculta.',
     imageUrl: '',
     articleLink: ''
   },
-  {
-    id: 15,
-    articleHeading: 'Pregunta 10',
-    articleIntro: 'Respuesta 10',
-    articleMoreText: 'Pregunta 10 oculta.',
-    imageUrl: '',
-    articleLink: ''
-  },
+ 
 
 
 // TEXTOS
@@ -167,7 +160,7 @@ export const TextConfig = {
 
 {
   id: 17,
-  articleHeading: 'Titulo 7',
+  articleHeading: 'En la pista no son personas, son bailarines',
   articleIntro: 'Y sí, cuando pisas la pista de baile tenés que forzar la postura, no mirar el piso, esforzarte, tratar de sobresalir...',
   articleMoreText: 'Como dice mi entrenador cuando nos prepara para bailar en los torneos: "Ustedes en la pista no son personas, son bailarines"',
   imageUrl: '',
@@ -175,7 +168,7 @@ export const TextConfig = {
 },
 {
   id: 18,
-  articleHeading: 'Titulo 8',
+  articleHeading: 'Disciplina y determinacion',
   articleIntro: "Un gran 'SÍ' implica muchos pequeños 'No'. Decir 'SÍ' a bailar, a realmente aprender y formarse como un bailarín, conlleva sacrificios diarios que a menudo pasan desapercibidos.",
   articleMoreText: "Bailar bien no es resultado de un curso rápido que promete habilidades en 30 días con una garantía de empleo. No. Bailar bien requiere, como mínimo, meses de dedicación y estudio profundo. Implica asistir regularmente a clases, dejar atrás vicios que podrían menguar nuestro rendimiento físico, y renunciar a las constantes salidas de fiesta que podrían afectar nuestra recuperación. Implica regresar a casa después de horas en el salón y seguir estudiando.\n\nAprender a lidiar con la incertidumbre de eventos, la aceptación del público, y la superación de las expectativas. Implica NO adoptar malos hábitos alimenticios. Implica empezar a renunciar a las salidas frecuentes con amigos o familia. La selectividad en el tiempo compartido se convierte en una realidad. No derrochar en gastos innecesarios, pues el mundo del arte demanda inversiones considerables con retornos a largo plazo. No trasnochar frecuentemente (siempre que sea posible). Significa practicar hasta altas horas de la noche, madrugar al día siguiente para seguir practicando, y vivir con la incertidumbre del resultado. Esa es la única verdad.\n\nPero veámoslo desde el lado positivo, por más desafiante que sea la danza y sin importar las circunstancias, SIEMPRE hay espacio para mejorar y aprender. Solo depende de la práctica, la voluntad y la disciplina.",
   imageUrl: '',
@@ -184,7 +177,7 @@ export const TextConfig = {
 ,
 {
   id: 19,
-  articleHeading: 'Titulo 9',
+  articleHeading: 'Destreza adquirida',
   articleIntro: 'Nadie nace siendo buen bailarín/na, o bueno bailando.\n\nEn danza es casi todo, destreza adquirida.\n\nAsí como también, no hay una sola forma de ser buen bailarín.',
   articleMoreText: 'El secreto de bailar bien: Escuchar a tus maestros y luego, encerrarte en tu pieza a practicar hasta el quiebre emocional o que ya no puedas más, o júntate con amig@s que estén igual de emocionados que vos y pásensela genial en esos ensayos.\n\nY algún día, todo el mundo los va a aplaudir, van a terminar diciendo "¡Wuaw! ¡Yo quiero bailar como él!',
   imageUrl: '',
@@ -192,7 +185,7 @@ export const TextConfig = {
 },
 {
   id: 20,
-  articleHeading: 'Titulo 10',
+  articleHeading: '¡Gracias!',
   articleIntro: 'Me honran todas y cada una de las personas que me eligen para que les enseñe a bailar.',
   articleMoreText: 'Así que prometo nunca cerrar la puerta a un estudiante que llegue tarde, ni retirar del salón a quien no tenga la vestimenta "de primera línea" para entrenar, ni mucho menos a quien llegue con los zapatos de práctica rotos (porque conozco de sobra los grandes sacrificios que hay que hacer para bailar).\n\nMi única meta en este nuevo camino, es encender esa chispa, es que logren sacar o descubran ese bailarín/na que llevan dentro, ese amor por la danza, tal cual lo hicieron mis maestros conmigo.',
   imageUrl: '',
@@ -218,7 +211,7 @@ export const TextConfig = {
 },
 {
   id: 23,
-  articleHeading: ' ¿Quieres mantenerte al tanto de todas las novedades y eventos exclusivos de las clases de BASC?',
+  articleHeading: '¿Quieres mantenerte al tanto de todas las novedades y eventos exclusivos de las clases de BASC?',
   articleIntro: '¡Estamos emocionados de anunciar que hemos creado un grupo de WhatsApp para ti! ',
   articleMoreText: 'Únete ahora para recibir actualizaciones instantáneas, detalles de las clases y mucho más. No te pierdas esta oportunidad de ser parte de nuestra vibrante comunidad de bailarines.\n\n¡Únete hoy mismo haciendo clic en el enlace de abajo y déjate llevar por el ritmo! 🔗:',
   imageUrl: '',
@@ -242,7 +235,7 @@ export const TextConfig = {
 },
 {
   id: 26,
-  articleHeading: ' ¡Bienvenido a BASC (Ballroom Argentina Sport Club)!',
+  articleHeading: '¡Bienvenido a BASC (Ballroom Argentina Sport Club)!',
   articleIntro: ' Nuestra misión es difundir la pasión por el baile en Argentina y Latinoamérica. Ofrecemos clases para todos los niveles: principiantes, intermedios y avanzados. Ya sea que bailes por hobby, recreación o competitivamente, ¡tenemos algo para ti!',
   articleMoreText: 'Nos preocupamos por tu progreso, por eso nuestros instructores reciben formación continua en ballroom dance, preparación física y psicología deportiva. En BASC, creamos un ambiente cómodo donde el error es parte del aprendizaje y, sobre todo, ¡donde te diviertes mientras aprendes!\n\n¿Preguntas? ¿Quieres más información? ¡No dudes en contactarnos a través de MD y te responderemos lo antes posible!',
   imageUrl: '',
@@ -266,7 +259,7 @@ export const TextConfig = {
 },
 {
   id: 29,
-  articleHeading: 'SEÑALES DE SOBRENTRENAMIENTO',
+  articleHeading: 'Señales de sobreentrenamiento',
   articleIntro: '1) Sentir ansiedad prácticamente a diario.\n\n2) Sentirse constantemente fatigado, desmotivado o agotado emocionalmente',
   articleMoreText: '3) No estar disfrutando nada de tu deporte.\n\n4) Considerar que estás la mayor parte de tu día a día irritable o susceptible.\n\n5) Estar alejándote de tus vínculos sociales.',
   imageUrl: '',
@@ -328,7 +321,7 @@ export const TextConfig = {
 
 {
   id: 36,
-  articleHeading: 'Titulo 10',
+  articleHeading: 'Lo que naturalmente el cuerpo sabe hacer',
   articleIntro: 'Dando clases, observo que hay gente que es tan buena bailando que sólo tengo que hacer de psicólogo y destrabar los bloqueos para que haga lo que naturalmente su cuerpo sabe hacer.',
   articleMoreText: 'Hay gente que me canta la musicalidad con el cuerpo, sin escuchar la música ya sé que ritmo estan bailando.\n\nEn varios casos, el bailarín o la bailarina, siempre estuvieron ahí, solo tengo que sacar las cuerdas que le sujetan.',
   imageUrl: '',
@@ -337,7 +330,7 @@ export const TextConfig = {
 
 {
   id: 37,
-  articleHeading: 'Titulo 10',
+  articleHeading: 'Tecnica perfecta',
   articleIntro: 'La técnica es en danza, la/las herramientas básicas a partir de las cuales desarrollará uno su propia manera de expresarse o ser, adoptando lo útil, desechando lo inútil, y agregando lo esencialmente propio de uno, desarrollando así su propio estilo. Funciona como bálsamo que lo ayude a cruzar de orilla a orilla.',
   articleMoreText: 'Pero no es un Dios al que reverenciar ciegamente y si no es así, esta mal, no baila.... no seas esclavo de la teoría. Experimenta, prueba por ti mismo.',
   imageUrl: '',
