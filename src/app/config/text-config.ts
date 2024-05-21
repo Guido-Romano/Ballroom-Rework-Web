@@ -1,6 +1,7 @@
 export const TextConfig = {
-  articles: [
+ 
     // PREGUNTAS
+    preguntas: [
     {
       id: 1,
       articleHeading: '¿Qué es el ballroom?',
@@ -73,10 +74,11 @@ export const TextConfig = {
       imageUrl: '',
       articleLink: ''
     },
+  ],
 
 
-
-    // NOSOTROS
+   //PERSONAL
+    personal: [
     {
       id: 101,
       articleHeading: 'Cecilia Bulgarelli, Com. Manager',
@@ -101,6 +103,10 @@ export const TextConfig = {
       imageUrl: '',
       articleLink: ''
     },
+  ],
+
+   // NOSOTROS
+    nosotros: [
     {
       id: 104,
       articleHeading: 'Juan Manuel Almirón, creador de BASC.',
@@ -136,7 +142,9 @@ export const TextConfig = {
       imageUrl: '',
       articleLink: ''
     },
-    
+  ],
+      // CLASES
+      clases:[
     {
       id: 201,
       articleHeading: '¡Sábados! (Nivel: principiante/intermedio)',
@@ -217,11 +225,12 @@ export const TextConfig = {
       imageUrl: '',
       articleLink: ''
     },
-    
+  ],
 
 
 
   // VESTUARIO
+  vestuario: [
   {
   id: 901,
   articleHeading: 'La comodidad en el vestuario es crucial.',
@@ -250,8 +259,9 @@ export const TextConfig = {
   articleLink: ''
 },
 
-
+  ],
 //MAS INFO
+info: [
 {
   id: 401,
   articleHeading: '3 Puntos claves para todo practicante inicial de ballroom',
@@ -278,7 +288,6 @@ export const TextConfig = {
   imageUrl: '',
   articleLink: ''
 },
-
 
 {
   id: 404,
@@ -308,7 +317,6 @@ export const TextConfig = {
   articleLink: ''
 },
 
-
 {
   id: 407,
   articleHeading: 'Disciplina y determinación',
@@ -316,8 +324,7 @@ export const TextConfig = {
   articleMoreText: "Bailar bien no es resultado de un curso rápido que promete habilidades en 30 días con una garantía de empleo. No. Bailar bien requiere, como mínimo, meses de dedicación y estudio profundo. Implica asistir regularmente a clases, dejar atrás vicios que podrían menguar nuestro rendimiento físico, y renunciar a las constantes salidas de fiesta que podrían afectar nuestra recuperación. Implica regresar a casa después de horas en el salón y seguir estudiando.\n\nAprender a lidiar con la incertidumbre de eventos, la aceptación del público, y la superación de las expectativas. Implica NO adoptar malos hábitos alimenticios. Implica empezar a renunciar a las salidas frecuentes con amigos o familia. La selectividad en el tiempo compartido se convierte en una realidad. No derrochar en gastos innecesarios, pues el mundo del arte demanda inversiones considerables con retornos a largo plazo. No trasnochar frecuentemente (siempre que sea posible). Significa practicar hasta altas horas de la noche, madrugar al día siguiente para seguir practicando, y vivir con la incertidumbre del resultado. Esa es la única verdad.\n\nPero veámoslo desde el lado positivo, por más desafiante que sea la danza y sin importar las circunstancias, SIEMPRE hay espacio para mejorar y aprender. Solo depende de la práctica, la voluntad y la disciplina.",
   imageUrl: '',
   articleLink: ''
-}
-,
+},
 
 {
   id: 408,
@@ -327,6 +334,7 @@ export const TextConfig = {
   imageUrl: '',
   articleLink: 'https://chat.whatsapp.com/IK5BVsSuMQ4LHX6Nc6cDAj'
 },
+
 {
   id: 409,
   articleHeading: 'Cosas que puedes hacer para apoyar a tu hijo/a que quiere ser bailarín',

@@ -7,13 +7,13 @@ import { TextService } from '../services/text.service';
   styleUrls: ['./photo.component.css']
 })
 export class PhotoComponent implements OnInit {
-  @Input() articleId!: number;
-  article: any;
+  @Input() claseId!: number;
+  clase: any;
 
   constructor(private textService: TextService) { }
 
   ngOnInit() {
-    this.article = this.textService.getArticleById(this.articleId);
+    this.clase = this.textService.getClasesById(this.claseId);
   }
 }
 

@@ -13,7 +13,7 @@ export class TextComponent implements OnInit {
   constructor(private textService: TextService) { }
 
   ngOnInit() {
-    this.article = this.textService.getArticleById(this.articleId);
+    this.article = this.textService.getInfoById(this.articleId);
   }
 
   toggleText() {

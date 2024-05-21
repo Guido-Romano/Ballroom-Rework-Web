@@ -13,10 +13,7 @@ export class TestimonialComponent implements OnInit {
 
   ngOnInit(): void {
  
-    this.articles = this.textService.getArticles();
-
-    const allowedIds = [101, 102, 103];
-    this.articles = this.articles.filter(article => allowedIds.includes(article.id));
+    this.articles = this.textService.getPersonal();
   }
 }
 

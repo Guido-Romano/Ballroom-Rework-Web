@@ -7,15 +7,13 @@ import { TextService } from '../services/text.service';
   styleUrls: ['./questions.component.css']
 })
 export class QuestionsComponent implements OnInit {
-  articles: any[] = [];
+  preguntas: any[] = [];
 
   constructor(private textService: TextService) { }
 
   ngOnInit(): void {
     // Obtener todos los artículos
-    this.articles = this.textService.getArticles();
-
-    this.articles = this.articles.filter(article => article.id >= 1 && article.id <= 9);
+    this.preguntas = this.textService.getPreguntas();
   }
 }
 

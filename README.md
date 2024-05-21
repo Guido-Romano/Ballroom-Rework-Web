@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "texto actualizado" 
+git commit -m "array texts" 
 git push origin main
