@@ -18,6 +18,7 @@ import { ClasesComponent } from './clases/clases.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { TextComponent } from './text/text.component';
 import { IndumentariaComponent } from './indumentaria/indumentaria.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -36,11 +37,12 @@ import { IndumentariaComponent } from './indumentaria/indumentaria.component';
     ClasesComponent,
     ContactoComponent,
     TextComponent,
-    IndumentariaComponent
+    IndumentariaComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, // Importa AppRoutingModule aquí
+    AppRoutingModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

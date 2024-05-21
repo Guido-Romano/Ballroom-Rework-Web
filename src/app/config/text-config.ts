@@ -227,43 +227,10 @@ export const TextConfig = {
     },
   ],
 
-
-
-  // VESTUARIO
-  vestuario: [
-  {
-  id: 901,
-  articleHeading: 'La comodidad en el vestuario es crucial.',
-  articleIntro: '• Para practicar tener en cuenta la comodidad combinado con la conciencia que el profesor o profesora, deberá corregirte líneas, postura y el uso correcto de los músculos. El vestuario podría facilitar este trabajo.',
-  articleMoreText: 'Para competir hay que tener en cuenta: el estilo de tu danza, tus intenciones, el vestuario de tu pareja, la elegancia, tus particularidades acerca de tu somatotipo, los reglamentos vigentes de la asociación de baile deportivo donde participarás.',
-  imageUrl: '',
-  articleLink: ''
-},
-
-{
-  id: 902,
-  articleHeading: '¿Qué zapatos debo usar para Ballroom Dance?',
-  articleIntro: 'Si bien no es necesario tener el calzado específico de Ballroom Dance en tus primeras clases, con el transcurrir del tiempo se vuelven imprescindibles para que la práctica sea la adecuada.',
-  articleMoreText: 'Se debe a la costumbre que le darás a tus músculos de pisar de forma correcta con el calzado específico.',
-  imageUrl: '',
-  articleLink: ''
-},
-
-
-{
-  id: 903,
-  articleHeading: '¿Cómo ir vestido a tus primeras clases de ballroom?',
-  articleIntro: 'Pantalón o jogging, remera y camisa cómodos\n\nZapatos o zapatillas flexibles',
-  articleMoreText: 'Luego, a medida que el alumno continué asistiendo a clases, se recomienda usar la ropa característica de ballroom, como los pantalones y zapatos.\n\nPuntualmente, el calzado de ballroom se vuelve una herramienta imprescindible para asistir a clases.(El color negro es por tradición el color que más se estila para asistir a clases)',
-  imageUrl: '',
-  articleLink: ''
-},
-
-  ],
 //MAS INFO
 info: [
 {
-  id: 401,
+  id: 301,
   articleHeading: '3 Puntos claves para todo practicante inicial de ballroom',
   articleIntro: 'En las etapas iniciales de Ballroom Latin, donde un bailarín/na empieza con su alfabetización en cuanto al nombre de las figuras, los tiempos de cada ritmo, los fundamentos del ballroom, conviene tener en cuenta los siguientes conceptos:',
   articleMoreText: '1. Figuras claras: Debe quedar claro las distinciones entre una figura, la transición, y la figura que le continua.\n\n2. Tiempos precisos: Criterio fundamental y crítico tanto a la hora de evaluar una pareja, como también el poder demostrar que se entiende el lenguaje por el que esta compuesto la música.\n\n3. Postura correcta: Fundamental tanto a la hora de la presentación del bailarín tanto individual como la pareja, ya que transmite entre tantas cosas, la presencia hacia el público, la claridad de los movimientos, la distinción y caracterización de cada ritmo.',
@@ -272,7 +239,7 @@ info: [
 },
 
 {
-  id: 402,
+  id: 302,
   articleHeading: 'No son simples personas, sino intérpretes de la danza.',
   articleIntro: 'Y sí, cuando pisas la pista de baile tenés que forzar la postura, no mirar el piso, esforzarte, tratar de sobresalir...\n\n',
   articleMoreText: 'Como dice mi entrenador cuando nos prepara para bailar en los torneos: "Ustedes en la pista no son personas, son bailarines"',
@@ -281,7 +248,7 @@ info: [
 },
 
 {
-  id: 403,
+  id: 303,
   articleHeading: 'Bailarines de Showmatch vs Bailarines de Ballroom',
   articleIntro: 'A raíz de la aparición del ballroom en televisión de la mano de programas como "Showmatch", "Strictly Come Dancing" o "Dancing Whit the Stars", el ballrom ha logrado tener cierta llegada al público. Sin embargo, es importante distinguir las diferencias entre el ballroom original y la fusión de elementos que se ven en los show televisivos.',
   articleMoreText: '1) COREOGRAFÍAS: Las coreografías son sin duda el principal elemento distintivo entre los concursos televisivos y el ballroom original.\n\nLas coreografías hechas para los programas, tienen como finalidad principal el show y el espectáculo. Las coreografías de ballroom tiene como directriz subyacente el concepto de "elegancia", lo que suele derivar en prescindir de trucos y acrobacias.\n\nCONTEXTO // AMBIENTE: En los concursos televisivos se puede preparar todo un show alrededor de una coreografía. Se permite tanto elegir el tema y la comodidad de bailar una sola pareja en la pista, sumado a que no se encuentran los parámetros de evaluación por los cuales son evaluadas las parejas en competición.\n\nEn los torneos de ballroom, se suele bailar con varias parejas al mismo tiempo, no se puede elegir la canción o música. Si bien hay un orden de ritmos predeterminados (Samba, Cha Cha Cha, Rumba, Paso Doble, Jive) no se puede elegir el tema a bailar. Simplemente la música suena, los bailarines demuestran su capacidad de interpretación, escucha de tiempos y bailan.\n\nEs mucho menos controlado, las parejas tienen coreografías acorde a este factor y también teniendo en cuenta que son evaluadas por: conexión física, coreografía, postura y balance, calidad de los movimientos, musicalidad, precisión, fluidez en las transiciones. Pero no buscan el puro show o llamar la atención, de hecho, muchas veces se prescinden de esos factores porque rompe con la estética de los torneos, en otras palabras, "ensucian" la expresión de la música.',
@@ -290,7 +257,7 @@ info: [
 },
 
 {
-  id: 404,
+  id: 304,
   articleHeading: '¿Quién gana un torneo de ballroom?',
   articleIntro: '¿Los más rápidos?\n\n¿Los más técnicos?\n\n¿Los más precisos?\n\n¿La coreografía más complicada?\n\n¿La mejor conexión?',
   articleMoreText: '🟡Puede que una suma balanceada de todos estos factores sea una respuesta, incluso puede que esten balanceados en todo esto y sobresalgan en una de estas cualidades, lo que es bueno ya que da la marca personal. Y todos sabemos lo importante que es ser único y original en el arte.\n\nBryan Watson dice que el mejor bailarín es quien mejor expresa la música. La técnica, las herramientas y habilidades son herrramientras para ello, pero no replicar constantemente la coreografía una y otra vez, ejecutando la mécanica de los movimientos a la perfección, infinitas veces en todos los temas de todos los ritmos de la misma manera, eso no te hará un gran bailarín. Debes adecuar tus herramientas para expresar de la mejor forma posible la música.\n\nPor lo tanto, la coreografía con distintas canciones debe verse diferente (musicalmente por lo menos). Si se ven todas iguales, eres como un atleta de 100 mt llanos, que apenas suena la campana sale corriendo y dando lo máximo físicamente que puede entregar su cuerpo. Perfecto, eres un gran atleta, pero no estás realmente bailando. Y digo que no estás realmente bailando porque no hay una escucha, una interpretación y una expresión de lo que la música te genera. Y aquí en danza hay que tener en cuenta que también y en gran parte es arte, y como dijo Bruce, el arte no solo es embellecimiento u ornamento, también es expresión.\n\n¿Y tú que pareja crees que debe ganar una competencia?',
@@ -300,7 +267,7 @@ info: [
 
 
 {
-  id: 405,
+  id: 305,
   articleHeading: '¿Qué evalúan en las primeras rondas de los torneos de baile de salón?',
   articleIntro: 'Postura\n\nTécnica básica\n\nPrecisión musical\n\nClaridad de las figuras',
   articleMoreText: 'Décimo texto oculto.',
@@ -309,7 +276,7 @@ info: [
 },
 
 {
-  id: 406,
+  id: 306,
   articleHeading: 'Señales de sobreentrenamiento',
   articleIntro: '1) Sentir ansiedad prácticamente a diario.\n\n2) Sentirse constantemente fatigado, desmotivado o agotado emocionalmente',
   articleMoreText: '3) No estar disfrutando nada de tu deporte.\n\n4) Considerar que estás la mayor parte de tu día a día irritable o susceptible.\n\n5) Estar alejándote de tus vínculos sociales.',
@@ -318,7 +285,7 @@ info: [
 },
 
 {
-  id: 407,
+  id: 307,
   articleHeading: 'Disciplina y determinación',
   articleIntro: "Un gran 'SÍ' implica muchos pequeños 'No'. Decir 'SÍ' a bailar, a realmente aprender y formarse como un bailarín, conlleva sacrificios diarios que a menudo pasan desapercibidos.\n\n",
   articleMoreText: "Bailar bien no es resultado de un curso rápido que promete habilidades en 30 días con una garantía de empleo. No. Bailar bien requiere, como mínimo, meses de dedicación y estudio profundo. Implica asistir regularmente a clases, dejar atrás vicios que podrían menguar nuestro rendimiento físico, y renunciar a las constantes salidas de fiesta que podrían afectar nuestra recuperación. Implica regresar a casa después de horas en el salón y seguir estudiando.\n\nAprender a lidiar con la incertidumbre de eventos, la aceptación del público, y la superación de las expectativas. Implica NO adoptar malos hábitos alimenticios. Implica empezar a renunciar a las salidas frecuentes con amigos o familia. La selectividad en el tiempo compartido se convierte en una realidad. No derrochar en gastos innecesarios, pues el mundo del arte demanda inversiones considerables con retornos a largo plazo. No trasnochar frecuentemente (siempre que sea posible). Significa practicar hasta altas horas de la noche, madrugar al día siguiente para seguir practicando, y vivir con la incertidumbre del resultado. Esa es la única verdad.\n\nPero veámoslo desde el lado positivo, por más desafiante que sea la danza y sin importar las circunstancias, SIEMPRE hay espacio para mejorar y aprender. Solo depende de la práctica, la voluntad y la disciplina.",
@@ -327,7 +294,7 @@ info: [
 },
 
 {
-  id: 408,
+  id: 308,
   articleHeading: '¿Quieres mantenerte al tanto de todas las novedades y eventos exclusivos de las clases de BASC?',
   articleIntro: '¡Estamos emocionados de anunciar que hemos creado un grupo de WhatsApp para ti! ',
   articleMoreText: 'Únete ahora para recibir actualizaciones instantáneas, detalles de las clases y mucho más. No te pierdas esta oportunidad de ser parte de nuestra vibrante comunidad de bailarines.\n\n¡Únete hoy mismo haciendo clic en el enlace de abajo y déjate llevar por el ritmo!:',
@@ -336,14 +303,128 @@ info: [
 },
 
 {
-  id: 409,
+  id: 309,
   articleHeading: 'Cosas que puedes hacer para apoyar a tu hijo/a que quiere ser bailarín',
   articleIntro: 'Si la danza es un ambiente ajeno a tu experiencia, ten en cuenta estos tips que siempre puedes hacer para acompañar a crecer a tu hijo/a en este mundo:',
   articleMoreText: '1. Intenta ir a verle siempre que tenga presentaciones, shows, competencias, etc.\n\nEntiende, escuchale, y apoya sus sueños. La danza es una hermosa vida, pero requiere trabajo y paciencia.\n\nAyúdalo/a con su peinado, vestuario, maquillaje.\n\nGrita su nombre y aplaude después de cada presentación.\n\nAcompáñalo/a a sus ensayos y clases de danza.',
   imageUrl: '',
   articleLink: ''
 },
-]
+
+{
+  id: 310,
+  articleHeading: 'La comodidad en el vestuario es crucial.',
+  articleIntro: '• Para practicar tener en cuenta la comodidad combinado con la conciencia que el profesor o profesora, deberá corregirte líneas, postura y el uso correcto de los músculos. El vestuario podría facilitar este trabajo.',
+  articleMoreText: 'Para competir hay que tener en cuenta: el estilo de tu danza, tus intenciones, el vestuario de tu pareja, la elegancia, tus particularidades acerca de tu somatotipo, los reglamentos vigentes de la asociación de baile deportivo donde participarás.',
+  imageUrl: '',
+  articleLink: ''
+},
+
+{
+  id: 311,
+  articleHeading: '¿Qué zapatos debo usar para Ballroom Dance?',
+  articleIntro: 'Si bien no es necesario tener el calzado específico de Ballroom Dance en tus primeras clases, con el transcurrir del tiempo se vuelven imprescindibles para que la práctica sea la adecuada.',
+  articleMoreText: 'Se debe a la costumbre que le darás a tus músculos de pisar de forma correcta con el calzado específico.',
+  imageUrl: '',
+  articleLink: ''
+},
+
+
+{
+  id:312,
+  articleHeading: '¿Cómo ir vestido a tus primeras clases de ballroom?',
+  articleIntro: 'Pantalón o jogging, remera y camisa cómodos\n\nZapatos o zapatillas flexibles',
+  articleMoreText: 'Luego, a medida que el alumno continué asistiendo a clases, se recomienda usar la ropa característica de ballroom, como los pantalones y zapatos.\n\nPuntualmente, el calzado de ballroom se vuelve una herramienta imprescindible para asistir a clases.(El color negro es por tradición el color que más se estila para asistir a clases)',
+  imageUrl: '',
+  articleLink: ''
+},
+
+],
+
+  // PRODUCTOS
+  producto: [
+    {
+    id: 901,
+    articleHeading: 'Baile Latino con Lentejuelas',
+    articleIntro: 'Material exterior: hecho de cuero sintético y lentejuelas de alta calidad. Los zapatos brillarán con pasos elegantes y serás el Centro de atención de todos. La plantilla cómoda tiene una excelente resistencia a la compresión, Anti - deformación y anti - distorsión, puede soportar la fuerza de larga duración, alta frecuencia pisotear sin deformación, especialmente diseñado para bailar.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/61pHz1ri7fL._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3WQ56mH'
+  },
+  
+  {
+    id: 902,
+    articleHeading: 'Diamantes de Imitación para Salón de Baile',
+    articleIntro: 'Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3UTSOXO'
+  },
+  
+  
+  {
+    id: 903,
+    articleHeading: 'Moderno Tango Tap',
+    articleIntro: 'Este zapato de baile está hecho de satén y caucho de alta calidad,tiene cuatro correas en la parte superior para la mayoría de los trajes de baile e incluso para los zapatos de todos los días,adecuados para usar al aire libre.Nota:El tamaño de los zapatos es el código de la etiqueta, consulte la tabla de tallas y el número de código real correspondiente.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/51HMobCtcML._AC_SX679_.jpg',
+    articleLink: 'https://amzn.to/3KaPoe9'
+  },
+
+  {
+    id: 904,
+    articleHeading: 'Puntera Cerrada, Tango cha-cha',
+    articleIntro: 'Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3WTqvv4'
+  },
+
+  {
+    id: 905,
+    articleHeading: 'Latín, Sandalia con talón Mujer',
+    articleIntro: 'nuestro tamaño de zapatos es todo en tamaño estándar europeo, el ancho de los zapatos es medio (b o m), si sus zapatos diarios ancho de tamaño ancho (D, W o ee), por favor compre un tamaño más grande. Consulte la tabla de tallas para comparar cuidadosamente los datos de longitud del pie antes de realizar el pedido.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3V76TT0'
+  },
+
+  {
+    id: 906,
+    articleHeading: 'Bachata Brillantes',
+    articleIntro: 'Material externo: hecho de cuero sintético / satinado de alta calidad, la suela es de gamuza, suave, cómoda y antideslizante, la mejor opción para el entrenamiento y el rendimiento en la danza.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/61mGdsYBBcL._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3wATMjF'
+  },
+
+  {
+    id: 907,
+    articleHeading: 'Zapatos de Baile Suave y cómodo',
+    articleIntro: 'Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar.  Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/4bxexf9'
+  },
+
+  {
+    id: 908,
+    articleHeading: 'Cuero con Punta Redonda',
+    articleIntro: 'Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/41tUOBDkVXL._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/44T5RgH'
+  },
+
+  {
+    id: 909,
+    articleHeading: 'Baile Latino',
+    articleIntro: 'Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del talón: 2.7 centímetros, ancho del zapato: normal.',
+    articleMoreText: '',
+    imageUrl: 'https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg',
+    articleLink: 'https://amzn.to/3UPwaQ7'
+  },
+  ]
 }
 
 

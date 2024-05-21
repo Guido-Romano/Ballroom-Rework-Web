@@ -40,12 +40,12 @@ export class TextService {
     return TextConfig.nosotros.find(nosotros => nosotros.id === id);
   }
 
-  getVestuario() {
-    return TextConfig.vestuario;
+  getProducto() {
+    return TextConfig.producto;
   }
 
-  getVestuarioById(id: number) {
-    return TextConfig.vestuario.find(vestuario => vestuario.id === id);
+  getProductoById(id: number) {
+    return TextConfig.producto.find(producto => producto.id === id);
   }
 
   getInfo() {
