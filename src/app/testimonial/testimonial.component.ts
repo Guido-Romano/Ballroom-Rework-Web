@@ -7,13 +7,14 @@ import { TextService } from '../services/text.service';
   styleUrls: ['./testimonial.component.css']
 })
 export class TestimonialComponent implements OnInit {
-  articles: any[] = [];
+  personals: any[] = [];
 
   constructor(private textService: TextService) { }
 
   ngOnInit(): void {
- 
-    this.articles = this.textService.getPersonal();
+    this.personals = this.textService.getPersonal();
   }
 }
+
+
 

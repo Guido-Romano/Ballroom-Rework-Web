@@ -4,7 +4,6 @@ import { TextConfig } from '../config/text-config';
 @Injectable({
   providedIn: 'root'
 })
-
 export class TextService {
 
   constructor() { }
@@ -18,18 +17,19 @@ export class TextService {
   }
 
   getPersonal() {
-    return TextConfig.nosotros;
+    return TextConfig.personal;
   }
 
   getPersonalById(id: number) {
     return TextConfig.personal.find(personal => personal.id === id);
   }
+
   getClases() {
-    return TextConfig.nosotros;
+    return TextConfig.clases;
   }
 
   getClasesById(id: number) {
-    return TextConfig.clases.find(clases => clases.id === id);
+    return TextConfig.clases.find(clase => clase.id === id);
   }
 
   getNosotros() {
@@ -44,19 +44,17 @@ export class TextService {
     return TextConfig.vestuario;
   }
 
-
   getVestuarioById(id: number) {
     return TextConfig.vestuario.find(vestuario => vestuario.id === id);
   }
-
 
   getInfo() {
     return TextConfig.info;
   }
 
-
   getInfoById(id: number) {
     return TextConfig.info.find(info => info.id === id);
   }
 }
+
 
