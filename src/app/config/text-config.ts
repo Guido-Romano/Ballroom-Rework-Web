@@ -5,8 +5,8 @@ export const TextConfig = {
     {
       id: 1,
       articleHeading: '¿Qué es el ballroom?',
-      articleIntro: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standard".\n\nEstos son: Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive.',
-      articleMoreText: '',
+      articleIntro: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standard".',
+      articleMoreText: 'Estos son: Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive.',
       imageUrl: '',
       articleLink: ''
     },
@@ -21,7 +21,7 @@ export const TextConfig = {
     {
       id: 3,
       articleHeading: '¿Qué días son las clases de Ballroom?',
-      articleIntro: 'Sábados y domingos',
+      articleIntro: 'Sábados y Domingos.',
       articleMoreText: '',
       imageUrl: '',
       articleLink: ''
@@ -29,8 +29,8 @@ export const TextConfig = {
     {
       id: 4,
       articleHeading: '¿Cuáles son los horarios de las clases?',
-      articleIntro: 'Sábados:\n\n09:00 Hs - 10:00 Hs (Competitivo).\n\n17:30 Hs - 18:30 Hs (Principiante/Intermedio).\n\n19:00 Hs - 20:00 Hs (Competitivo).\n\nDomingos:\n\n19:00 Hs - 20:00 Hs (Principiante/Intermedio).',
-      articleMoreText: '',
+      articleIntro: 'Sábados: 09:00 hs a 10:00 hs. / 17:30 hs a 18:30 hs. / 19:00 Hs a 20:00 hs.',
+      articleMoreText: 'Domingos: 19:00 hs a 20:00 hs.',
       imageUrl: '',
       articleLink: ''
     },
@@ -53,16 +53,16 @@ export const TextConfig = {
     {
       id: 7,
       articleHeading: '¿Cuándo son las clases para principiantes?',
-      articleIntro: 'Sábados: 17:30 Hs - 18:30 Hs.\n\nDomingos: 19:00 Hs - 20:00 Hs.',
-      articleMoreText: '',
+      articleIntro: 'Sábados: 17:30 hs a 18:30 hs.',
+      articleMoreText: 'Domingos: 19:00 hs a 20:00 hs.',
       imageUrl: '',
       articleLink: ''
     },
     {
       id: 8,
       articleHeading: '¿Cómo debo ir vestido para las clases?',
-      articleIntro: 'Se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles.\n\nA medida que continúes, es recomendable usar ropa y calzado específicos de ballroom.',
-      articleMoreText: '',
+      articleIntro: 'Se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles.',
+      articleMoreText: 'A medida que continúes, es recomendable usar ropa y calzado específicos de ballroom.',
       imageUrl: '',
       articleLink: ''
     },

@@ -19,6 +19,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { TextComponent } from './text/text.component';
 import { IndumentariaComponent } from './indumentaria/indumentaria.component';
 import { ProductsComponent } from './products/products.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ProductsComponent } from './products/products.component';
     ContactoComponent,
     TextComponent,
     IndumentariaComponent,
-    ProductsComponent
+    ProductsComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,

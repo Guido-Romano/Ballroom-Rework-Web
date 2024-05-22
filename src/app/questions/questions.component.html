@@ -6,8 +6,7 @@
         <details>
           <summary class="py-2 outline-none cursor-pointer focus:underline text-lg">{{pregunta.articleHeading }}</summary>
           <div class="px-4 pb-4">
-            <p class="whitespace-pre-line leading-none text-lg">{{ pregunta.articleIntro }}</p>
-            <p *ngIf="pregunta.showMore" class="whitespace-pre-line">{{ pregunta.articleMoreText }}</p>
+            <p class="text-lg text-gray-400">{{ pregunta.articleIntro }}<br>{{ pregunta.articleMoreText }}</p>
           </div>
         </details>
       </ng-container>
