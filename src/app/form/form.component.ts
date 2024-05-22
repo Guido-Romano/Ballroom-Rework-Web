@@ -11,7 +11,7 @@ export class FormComponent {
 
   constructor(private fb: FormBuilder) {
     this.form = this.fb.group({
-      name: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(20), Validators.pattern('[a-zA-Z0-9._]+')]],
+      name: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(30), Validators.pattern('[a-zA-Z0-9._]+')]],
       email: ['', [Validators.required, Validators.pattern('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}')]],
       message: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(255), Validators.pattern('[a-zA-Z0-9._]+')]],
     });

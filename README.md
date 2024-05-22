@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "formulario update" 
+git commit -m "tienda test" 
 git push origin main
