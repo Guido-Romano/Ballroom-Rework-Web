@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "tienda test" 
+git commit -m "tienda responsive" 
 git push origin main

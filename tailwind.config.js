@@ -12,6 +12,9 @@ module.exports = {
         color4: '#3a3a3a',
         color5: '#474747',
       },
+      screens: {
+        'mini': '390px', 
+      },
     },
   },
   plugins: [],
