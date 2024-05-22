@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "array texts" 
+git commit -m "formulario update" 
 git push origin main

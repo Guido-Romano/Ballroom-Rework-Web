@@ -37,7 +37,7 @@ export const TextConfig = {
     {
       id: 5,
       articleHeading: '¿Dónde se realizan las clases?',
-      articleIntro: 'Calle Lambaré 990, Avenida Corrientes 4534, Capital Federal',
+      articleIntro: 'Calle Lambaré 990, Avenida Corrientes 4534, Capital Federal.',
       articleMoreText: '',
       imageUrl: '',
       articleLink: ''

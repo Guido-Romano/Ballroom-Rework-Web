@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module'; // Importa AppRoutingModule, no Routes
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavegadorComponent } from './navegador/navegador.component';
 import { BannerComponent } from './banner/banner.component';
@@ -44,7 +45,8 @@ import { PricingComponent } from './pricing/pricing.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
