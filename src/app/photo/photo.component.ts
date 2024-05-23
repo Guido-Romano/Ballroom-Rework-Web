@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+// photo.component.ts
+
+import { Component, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 
 @Component({
@@ -7,13 +9,11 @@ import { TextService } from '../services/text.service';
   styleUrls: ['./photo.component.css']
 })
 export class PhotoComponent implements OnInit {
-  @Input() claseId!: number;
-  clase: any;
+  clases: any[] = [];
 
   constructor(private textService: TextService) { }
 
-  ngOnInit() {
-    this.clase = this.textService.getClasesById(this.claseId);
+  ngOnInit(): void {
+    this.clases = this.textService.getClases();
   }
 }
-

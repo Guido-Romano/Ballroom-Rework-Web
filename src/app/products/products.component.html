@@ -4,16 +4,16 @@
       <div class="container p-5 mini:p-0">
         <div class="p-8 max-w-lg rounded-2xl hover:shadow-2xl hover:shadow-grey flex flex-col items-center">
           <div class="relative flex flex-col justify-end min-w-[75vw] min-h-[30vh] mini:min-w-[45vw] mini:min-h-[15vh] sm:min-w-[32vw] sm:min-h-[15vh] md:min-w-[25vw] md:min-h-[21vh] lg:min-w-[25vw] lg:min-h-[23vh] xl:min-w-[18vw] xl:min-h-[17vh] 2xl:min-w-[14vw] 2xl:min-h-[23vh]">
-            <img [src]="producto?.imageUrl" alt="article image" class="rounded-lg overflow-hidden object-contain absolute inset-x-0 bottom-0 w-full h-full" *ngIf="producto?.imageUrl">
+            <img [src]="producto?.imagen" alt="article image" class="rounded-lg overflow-hidden object-contain absolute inset-x-0 bottom-0 w-full h-full" *ngIf="producto?.imagen">
           </div>
           <div class="mt-8 text-gray-800">
-            <h4 class="font-bold text-xl">{{ producto.articleHeading }}</h4>
-            <p class="mt-2 text-gray-500 text-lg">{{ producto.articleIntro }}
-              <span class="text-lg" *ngIf="producto?.showMore">{{ producto?.articleMoreText }}</span>
+            <h4 class="font-bold text-xl">{{ producto.titulo }}</h4>
+            <p class="mt-2 text-gray-500 text-lg">{{ producto.info}}
+              <span class="text-lg" *ngIf="producto?.showMore">{{ producto?.info2 }}</span>
             </p>
             
             <div class="mt-5 flex justify-between w-full">
-              <a [href]="producto.articleLink" target="_blank" class="mr-2">
+              <a [href]="producto.link" target="_blank" class="mr-2">
                 <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
                   Ver en Amazon
                 </button>

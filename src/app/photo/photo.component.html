@@ -1,18 +1,24 @@
 <div class="container p-5 sm:p-0">
-  <div class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-    <img [src]="clase?.imageUrl" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="clase?.imageUrl">
-    <div class="mt-8 text-white">
-      <h4 class="font-bold text-xl">{{ clase?.articleHeading }}</h4>
-      <p class="mt-2 text-gray-500 text-lg">{{ clase?.articleIntro }}</p>
-      <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ clase?.articleMoreText }}</p>
-      <div class="mt-5">
-        <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
-          Más info.
-        </button>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
+    <ng-container *ngFor="let clase of clases">
+      <div class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
+        <img [src]="clase.imagen" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="clase.imagen">
+        <div class="mt-8 text-white">
+          <h4 class="font-bold text-xl">{{ clase.titulo }}</h4>
+          <p class="mt-2 text-gray-500 text-lg">{{ clase.info }}</p>
+          <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ clase.info2 }}</p>
+          <div class="mt-5">
+            <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
+              Más info.
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </ng-container>
   </div>
 </div>
+
+
 
 
 

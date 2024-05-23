@@ -8,13 +8,14 @@ export class TextService {
 
   constructor() { }
 
-  getPreguntas() {
-    return TextConfig.preguntas;
+  getClases() {
+    return TextConfig.clase;
   }
 
-  getPreguntaById(id: number) {
-    return TextConfig.preguntas.find(pregunta => pregunta.id === id);
+  getClasesById(id: number) {
+    return TextConfig.clase.find(clase => clase.id === id);
   }
+
 
   getPersonal() {
     return TextConfig.personal;
@@ -24,20 +25,12 @@ export class TextService {
     return TextConfig.personal.find(personal => personal.id === id);
   }
 
-  getClases() {
-    return TextConfig.clases;
+  getPreguntas() {
+    return TextConfig.pregunta;
   }
 
-  getClasesById(id: number) {
-    return TextConfig.clases.find(clase => clase.id === id);
-  }
-
-  getNosotros() {
-    return TextConfig.nosotros;
-  }
-
-  getNosotrosById(id: number) {
-    return TextConfig.nosotros.find(nosotros => nosotros.id === id);
+  getPreguntaById(id: number) {
+    return TextConfig.pregunta.find(pregunta => pregunta.id === id);
   }
 
   getProducto() {
@@ -49,11 +42,11 @@ export class TextService {
   }
 
   getInfo() {
-    return TextConfig.info;
+    return TextConfig.texto;
   }
 
   getInfoById(id: number) {
-    return TextConfig.info.find(info => info.id === id);
+    return TextConfig.texto.find(info => info.id === id);
   }
 }
 

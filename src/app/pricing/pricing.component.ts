@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 
 @Component({
@@ -7,12 +7,11 @@ import { TextService } from '../services/text.service';
   styleUrls: ['./pricing.component.css']
 })
 export class PricingComponent implements OnInit {
-  @Input() claseId!: number;
-  clase: any;
+  clases: any[] = [];
 
   constructor(private textService: TextService) { }
 
-  ngOnInit() {
-    this.clase = this.textService.getClasesById(this.claseId);
+  ngOnInit(): void {
+    this.clases = this.textService.getClases();
   }
 }

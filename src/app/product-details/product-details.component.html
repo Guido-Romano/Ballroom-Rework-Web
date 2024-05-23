@@ -1,10 +1,10 @@
 <div class="container p-5 sm:p-0">
     <div class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-      <img [src]="data.producto?.imageUrl" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="data.producto?.imageUrl">
+      <img [src]="data.producto?.imagen" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="data.producto?.imagen">
       <div class="mt-8 text-white">
-        <h4 class="font-bold text-xl">{{ data.producto?.articleHeading }}</h4>
-        <p class="mt-2 text-gray-500 text-lg">{{ data.producto?.articleIntro }}</p>
-        <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ data.producto?.articleMoreText }}</p>
+        <h4 class="font-bold text-xl">{{ data.producto?.titulo }}</h4>
+        <p class="mt-2 text-gray-500 text-lg">{{ data.producto?.info}}</p>
+        <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ data.producto?.info2 }}</p>
         <div class="mt-5">
           <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
             Más info.
