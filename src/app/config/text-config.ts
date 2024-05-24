@@ -95,7 +95,7 @@ const pregunta: Pregunta[] = [
 
   { id: 7,
     titulo: '¿Hay clases para principiantes?' ,
-    info: 'Si, hay clases para distintos niveles.'},
+    info: 'Para principantes, intermedios y avanzados'},
 
   { id: 8, 
     titulo: '¿Cómo debo ir vestido para las clases?' ,

@@ -8,10 +8,12 @@ import { TextService } from '../services/text.service';
 })
 export class ClassComponent implements OnInit{
   clases: any[] = [];
+  preguntas: any[] = [];
 
   constructor(private textService: TextService) { }
 
   ngOnInit(): void {
     this.clases = this.textService.getClases();
+    this.preguntas = this.textService.getPreguntas();
   }
 }
