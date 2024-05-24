@@ -4,19 +4,25 @@
             <div class="w-full sm:w-auto sm:lg:w-2/3 sm:px-4 mb-8 lg:mb-0">
                 <img class="w-full rounded-lg shadow-lg" src="../../assets/img03.jpeg" alt="Concert Image">
             </div>
+            
             <div class="w-full lg:w-1/3 px-4">
                 <h1 class="font-bold">Clases Ballroom Latin</h1>
-                <p class="mb-6 text-lg italic">Principiantes</p>
+                <ng-container *ngFor="let clase of clases">
+                <p class="mb-6 text-lg italic"> {{clase[0].nivel+ ' / ' +clase[1].nivel+ ' / ' +clase[2].nivel}} </p> </ng-container>
                 <div class="mb-6">
                     <p class="font-bold mb-2 text-lg">Cuando:</p>
-                    <p class="text-lg">Sábados, Horario: 17:30 Hs a 18:30 Hs</p>
-                    <p class="text-lg">Domingos, Horarios: 19:00 Hs - 20:00 Hs</p>
+                    <ng-container *ngFor="let clase of clases">
+                    <p class="text-lg">{{clase[0].dia+ ', ' +clase[0].horario}}</p>
+                    <p class="text-lg">{{clase[1].dia+ ', ' +clase[1].horario}}</p>
+                    <p class="text-lg">{{clase[2].dia+ ', ' +clase[2].horario}}</p>
+                </ng-container>
                 </div>
                 <div class="mb-6">
                     <p class="font-bold mb-2 text-lg">Lugar:</p>
-                    <p class="text-lg">Lambaré 990</p>
-                    <p class="text-lg">Av. Corrientes 4534, Capital Federal.</p>
+                    <ng-container *ngFor="let clase of clases">
+                    <p class="text-lg">{{clase[0].dire + ' / ' + clase[1].dire + ' / ' + clase[2].dire}}</p></ng-container>
                 </div>
+           
                 <div class="mb-6">
                     <p class="font-bold mb-2 text-lg">Ver o participar, sin compromiso:</p>
                     <p class="text-lg">Primer Clase - completamente gratis</p>
@@ -30,3 +36,4 @@
         </div>
     </div>
 </div>
+

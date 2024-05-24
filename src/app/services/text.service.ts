@@ -16,6 +16,13 @@ export class TextService {
     return TextConfig.clase.find(clase => clase.id === id);
   }
 
+  getPreguntas() {
+    return TextConfig.pregunta;
+  }
+
+  getPreguntaById(id: number) {
+    return TextConfig.pregunta.find(pregunta => pregunta.id === id);
+  }
 
   getPersonal() {
     return TextConfig.personal;
@@ -23,14 +30,6 @@ export class TextService {
 
   getPersonalById(id: number) {
     return TextConfig.personal.find(personal => personal.id === id);
-  }
-
-  getPreguntas() {
-    return TextConfig.pregunta;
-  }
-
-  getPreguntaById(id: number) {
-    return TextConfig.pregunta.find(pregunta => pregunta.id === id);
   }
 
   getProducto() {

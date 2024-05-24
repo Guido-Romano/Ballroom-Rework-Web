@@ -15,7 +15,7 @@
               <label for="name" class="absolute left-3 -top-6 bg-transparent leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Nombre</label>
               <div *ngIf="form.get('name')?.touched && form.get('name')?.invalid">
                 <small *ngIf="form.get('name')?.errors?.['required']" class="text-red-400">El nombre es requerido.</small>
-                <small *ngIf="form.get('name')?.errors?.['minlength']" class="text-red-400">El nombre debe tener al menos 8 caracteres.</small>
+                <small *ngIf="form.get('name')?.errors?.['minlength']" class="text-red-400">El nombre debe tener al menos 4 caracteres.</small>
                 <small *ngIf="form.get('name')?.errors?.['maxlength']" class="text-red-400">El nombre debe tener  máximo 30 caracteres.</small>
               </div>
             </div>

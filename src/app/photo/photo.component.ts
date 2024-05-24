@@ -1,5 +1,3 @@
-// photo.component.ts
-
 import { Component, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 

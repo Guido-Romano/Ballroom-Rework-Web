@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "angular material fix" 
+git commit -m "datos dinamicos" 
 git push origin main

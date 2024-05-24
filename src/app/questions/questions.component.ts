@@ -12,10 +12,10 @@ export class QuestionsComponent implements OnInit {
   constructor(private textService: TextService) { }
 
   ngOnInit(): void {
-    // Obtener todos los artículos
     this.preguntas = this.textService.getPreguntas();
   }
 }
+
 
 
 
