@@ -51,7 +51,7 @@ const clase: Clase[] = [
     precio: '$20.000',
     horario: '09:00 - 10:00 am',
     nivel: 'avanzado',
-    dire: 'Av. Corriente 4534 (El Juvenil)',
+    dire: 'Av. Corrientes 4534 (El Juvenil)',
     imagen: '../../assets/img09.jpeg',
   },
   {
@@ -63,7 +63,7 @@ const clase: Clase[] = [
     precio: '$20.000',
     horario: '19:00 - 20:00 hs',
     nivel: 'intermedio / avanzado',
-    dire: 'Av. Corriente 4534 (El Juvenil)',
+    dire: 'Av. Corrientes 4534 (El Juvenil)',
     imagen: '../../assets/img10.jpeg',
   },
   {
