@@ -1,11 +1,213 @@
-{
-    "NAV": {
-      "HOME": "Inicio",
-      "ABOUT": "Nosotros",
-      "CLASSES": "Clases",
-      "APPAREL": "Indumentaria",
-      "CONTACT": "Contacto",
-      "LANGUAGE" : "Cambiar Idioma"
-    }
+ {
+
+    "clase": [
+      {
+        "id": 1,
+        "titulo": "titulo 1",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+        "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+        "dia": "Sábados",
+        "precio": "$20.000",
+        "horario": "09:00 - 10:00 am",
+        "nivel": "avanzado",
+        "dire": "Av. Corrientes 4534 (El Juvenil)",
+        "imagen": "../../assets/img09.jpeg"
+      },
+      {
+        "id": 2,
+        "titulo": "titulo 2",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+        "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+        "dia": "Sábados",
+        "precio": "$20.000",
+        "horario": "19:00 - 20:00 hs",
+        "nivel": "intermedio / avanzado",
+        "dire": "Av. Corrientes 4534 (El Juvenil)",
+        "imagen": "../../assets/img10.jpeg"
+      },
+      {
+        "id": 3,
+        "titulo": "titulo 3",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+        "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+        "dia": "Domingos",
+        "precio": "$20.000",
+        "horario": "19:00 - 20:00 hs",
+        "nivel": "principante",
+        "dire": "Lambaré 990 (Sendas del Sol)",
+        "imagen": "../../assets/img11.jpeg"
+      }
+    ],
+    
+    "pregunta": [
+      {
+        "id": 1,
+        "titulo": "¿Qué es el ballroom?",
+        "info": "\"Ballroom\" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos \"Standard\": Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos \"Latin\": Samba, Cha Cha Cha, Rumba, Paso Doble, Jive."
+      },
+      {
+        "id": 2,
+        "titulo": "¿Ofrecen clases gratis?",
+        "info": "La primer clase es gratuita."
+      },
+      {
+        "id": 3,
+        "titulo": "¿Qué días son las clases de Ballroom?",
+        "info": "clase.map(c => c.dia).join(', ')"
+      },
+      {
+        "id": 4,
+        "titulo": "¿Cuáles son los horarios de las clases?",
+        "info": "clase.map(c => `${c.dia}, ${c.horario}`).join(' / ')"
+      },
+      {
+        "id": 5,
+        "titulo": "¿Dónde se realizan las clases?",
+        "info": "clase.map(c => c.dire).join(' / ')"
+      },
+      {
+        "id": 6,
+        "titulo": "¿Cuál es el precio de las clases?",
+        "info": "clase.map(c => c.precio).join(' / ') + ' al Mes.'"
+      },
+      {
+        "id": 7,
+        "titulo": "¿Hay clases para principiantes?",
+        "info": "Para principantes, intermedios y avanzados"
+      },
+      {
+        "id": 8,
+        "titulo": "¿Cómo debo ir vestido para las clases?",
+        "info": "Se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles."
+      },
+      {
+        "id": 9,
+        "titulo": "¿Debo ir acompañado a las clases?",
+        "info": "No es necesario, pero para una mejor experiencia te recomendamos hacerlo."
+      }
+    ],
+    
+    "personal": [
+      {
+        "id": 1,
+        "titulo": "Cecilia Bulgarelli",
+        "rol": "Community Manager",
+        "info": "Trabajo en la Administración de nuestras redes e ideas creativas tanto en diseño como para el modelo de nuestro negocio."
+      },
+      {
+        "id": 2,
+        "titulo": "Juan Manuel Almirón",
+        "rol": "CEO",
+        "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con aquellas personas que tengan ganas de aprender."
+      },
+      {
+        "id": 3,
+        "titulo": "Guido Romano",
+        "rol": "Desarrollador",
+        "info": "Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente con nuestra comunidad."
+      },
+      {
+        "id": 4,
+        "titulo": "Cami",
+        "rol": "Profesora y Pareja de Baile",
+        "info": "Experta en enseñanza de bailes de salón; guía con destreza y pasión en el arte del Ballroom."
+      }
+    ],
+    
+    "producto": [
+      {
+        "id": 1,
+        "titulo": "Baile Latino con Lentejuelas",
+        "info": "Material exterior: hecho de cuero sintético y lentejuelas de alta calidad. Los zapatos brillarán con pasos elegantes y serás el Centro de atención de todos. La plantilla cómoda tiene una excelente resistencia a la compresión, Anti - deformación y anti - distorsión, puede soportar la fuerza de larga duración, alta frecuencia pisotear sin deformación, especialmente diseñado para bailar.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/61pHz1ri7fL._AC_SY625_.jpg",
+        "link": "https://amzn.to/3WQ56mH"
+      },
+      {
+        "id": 2,
+        "titulo": "diamantes de Imitación para Salón de Baile",
+        "info": "Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg",
+        "link": "https://amzn.to/3UTSOXO"
+      },
+      {
+        "id": 3,
+        "titulo": "Moderno Tango Tap",
+        "info": "Este zapato de baile está hecho de satén y caucho de alta calidad,tiene cuatro correas en la parte superior para la mayoría de los trajes de baile e incluso para los zapatos de todos los días,adecuados para usar al aire libre.Nota:El tamaño de los zapatos es el código de la etiqueta, consulte la tabla de tallas y el número de código real correspondiente.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/51HMobCtcML._AC_SX679_.jpg",
+        "link": "https://amzn.to/3KaPoe9"
+      },
+      {
+        "id": 4,
+        "titulo": "Puntera Cerrada, Tango cha-cha",
+        "info": "Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg",
+        "link": "https://amzn.to/3WTqvv4"
+      },
+      {
+        "id": 5,
+        "titulo": "Latín, Sandalia con talón Mujer",
+        "info": "nuestro tamaño de zapatos es todo en tamaño estándar europeo, el ancho de los zapatos es medio (b o m), si sus zapatos diarios ancho de tamaño ancho (D, W o ee), por favor compre un tamaño más grande. Consulte la tabla de tallas para comparar cuidadosamente los datos de longitud del pie antes de realizar el pedido.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
+        "link": "https://amzn.to/3V76TT0"
+      },
+      {
+        "id": 6,
+        "titulo": "Bachata Brillantes",
+        "info": "Material externo: hecho de cuero sintético / satinado de alta calidad, la suela es de gamuza, suave, cómoda y antideslizante, la mejor opción para el entrenamiento y el rendimiento en la danza.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/61mGdsYBBcL._AC_SY625_.jpg",
+        "link": "https://amzn.to/3wATMjF"
+      },
+      {
+        "id": 7,
+        "titulo": "Zapatos de Baile Suave y cómodo",
+        "info": "Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar. Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg",
+        "link": "https://amzn.to/4bxexf9"
+      },
+      {
+        "id": 8,
+        "titulo": "Cuero con Punta Redonda",
+        "info": "Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/41tUOBDkVXL._AC_SY625_.jpg",
+        "link": "https://amzn.to/44T5RgH"
+      },
+      {
+        "id": 9,
+        "titulo": "Baile Latino",
+        "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del talón: 2.7 centímetros, ancho del zapato: normal.",
+        "info2": "",
+        "imagen": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+        "link": "https://amzn.to/3UPwaQ7"
+      }
+    ],
+    
+    "texto": [
+      {
+        "id": 1,
+        "titulo": "Juan Manuel Almirón, creador de BASC.",
+        "info": "Mi historia en el mundo del baile comenzó con una chispa de inspiración al presenciar la gracia y la destreza del bailarín Oleksandr Honcharov, fue él lo que me llevó a querer aprender esta danza.",
+        "info2": "Mi búsqueda de conocimiento me hizó descubrir DSC, una escuela de baile que se convertiría en el punto de partida de mi viaje en este apasionante universo. Recuerdo el día que crucé por primera vez las puertas de la sucursal en Avenida Corrientes, y conocí a los dos maestros que dejaron una huella indeleble en mi formación: Mery Lenz y Eugenio Dmytrenko. Desde ese momento, supe que quería absorber cada enseñanza que estos virtuosos de la danza tenían para ofrecerme.\n\nA lo largo de los años, he participado en competiciones de ballroom, destacándome en categorías de letras y Open, obteniendo primeros puestos y llegando a ser finalista en múltiples ocasiones. He compartido mis conocimientos a través de clases grupales y particulares en diversas provincias de Argentina, desde Buenos Aires hasta Santa Fe, desde niveles iniciales hasta avanzados.\n\nSin embargo, el año 2024 marca un nuevo capítulo en mi trayectoria, ya que he decidido emprender mi propio proyecto personal: BASC. Mi objetivo con BASC es claro: difundir los bailes de salón, transmitir mi amor por esta danza y apoyar, formar y acompañar a todos aquellos que deseen adentrarse en este apasionante mundo.\n\nPor lo tanto, los invito a todos a unirse a mí en este viaje de aprendizaje y descubrimiento. ¡Los espero con los brazos abiertos para aprender a bailar y compartir juntos este emocionante camino!"
+      },
+      {
+        "id": 2,
+        "titulo": "¡Bienvenido a BASC (Ballroom Argentina Sport Club)!",
+        "info": "Nuestra misión es difundir la pasión por el baile en Argentina y Latinoamérica. Ofrecemos clases para todos los niveles: principiantes, intermedios y avanzados. Ya sea que bailes por hobby, recreación o competitivamente, ¡tenemos algo para ti!",
+        "info2": "Nos preocupamos por tu progreso, por eso nuestros instructores reciben formación continua en ballroom dance, preparación física y psicología deportiva. En BASC, creamos un ambiente cómodo donde el error es parte del aprendizaje y, sobre todo, ¡donde te diviertes mientras aprendes!\n\n¿Preguntas? ¿Quieres más información? ¡No dudes en contactarnos a través de MD y te responderemos lo antes posible!"
+      },
+      {
+        "id": 3,
+        "titulo": "¿Qué es Ballroom?",
+        "info": "\"Ballroom\" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos \"Standard\": Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep.\n\nCorresponden a los ritmos \"Latin\": Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. En una competencia se puede competir en los 10 ritmos abarcando Standard y Latin, o en los 5 ritmos de Standard, o en los 5 ritmos de Latin. Pero nunca en 1 solo ritmo a selección de alguna modalidad.",
+        "info2": ""
+      }
+    ]
   }
   
