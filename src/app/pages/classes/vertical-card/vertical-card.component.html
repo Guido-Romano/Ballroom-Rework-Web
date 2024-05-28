@@ -1,15 +1,15 @@
 <div class="container p-5 sm:p-0 mx-auto">
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
-    <ng-container *ngFor="let clase of clases">
+    <ng-container *ngFor="let cards of classes">
       <div class="p-8 max-w-lg border border-color5 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-        <img [src]="clase.imagen" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="clase.imagen">
+        <img [src]="cards.img" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="cards.img">
         <div class="mt-8 text-white">
-          <h4 class="font-bold text-xl">{{ clase.titulo }}</h4>
-          <p class="mt-2 text-gray-500 text-lg">{{ clase.info }}</p>
-          <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ clase.info2 }}</p>
+          <h4 class="font-bold text-xl">{{ cards.title }}</h4>
+          <p class="mt-2 text-gray-500 text-lg">{{ cards.info }}</p>
+          <p class="mt-2 text-gray-500 text-lg sm:text-base">{{ cards.info2 }}</p>
           <div class="mt-5">
             <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">
-              Más info.
+              {{ cards.more }}
             </button>
           </div>
         </div>

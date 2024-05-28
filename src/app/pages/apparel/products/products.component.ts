@@ -1,24 +1,37 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { TextService } from '../../../services/text.service';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html'
 })
-export class ProductsComponent implements OnInit {
-  @Input() productoId!: number;
-  productos: any[] = [];
+export class ProductsComponent  implements OnInit, OnDestroy {
+  products: any[] = [];
+  private langChangeSubscription: Subscription | undefined;
 
-  constructor(private textService: TextService) {}
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('es');
+  }
 
   ngOnInit(): void {
-    this.getProductos();
+    this.loadText();
+    this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
+      this.loadText();
+    });
   }
 
-  getProductos(): void {
-    this.productos = this.textService.getProducto();
+  ngOnDestroy(): void {
+    if (this.langChangeSubscription) {
+      this.langChangeSubscription.unsubscribe();
+    }
   }
 
+  loadText(): void {
+    this.translate.get('PRODUCTS').subscribe((data: any[]) => {
+      this.products = data;
+    });
+  }
 }
 

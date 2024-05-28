@@ -1,32 +1,46 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-staff',
   templateUrl: './staff.component.html'
 })
-export class StaffComponent implements OnInit {
-  staffList: any[] = [];
+export class StaffComponent implements OnInit, OnDestroy {
+  staff: any[] = [];
+  question: any; 
+  private langChangeSubscription: Subscription | undefined;
 
-  constructor(private router: Router, private translate: TranslateService) {
+  constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('es');
   }
 
   ngOnInit(): void {
-    this.loadStaff();
-  }
-
-  loadStaff(): void {
-    this.translate.get('STAFF').subscribe((data: any) => {
-      this.staffList = data;
+    this.loadText();
+    this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
+      this.loadText();
     });
   }
 
-  isActive(url: string): boolean {
-    return this.router.isActive(url, true);
+  ngOnDestroy(): void {
+    if (this.langChangeSubscription) {
+      this.langChangeSubscription.unsubscribe();
+    }
+  }
+
+  loadText(): void {
+    this.translate.get('STAFF').subscribe((data: any[]) => {
+      this.staff = data;
+    });
+
+    this.translate.get('QUESTIONS.9').subscribe((data: any) => {
+      this.question = data; 
+    });
   }
 }
+
+
+
 
 
 
@@ -92,7 +106,7 @@ export class StaffComponent implements OnInit {
 
 /*
 import { Component, OnInit } from '@angular/core';
-import { TextService } from '../services/text.service';
+import { TextService } from '../services/staff.service';
 
 
 @Component({
@@ -102,10 +116,10 @@ import { TextService } from '../services/text.service';
 export class StaffComponent implements OnInit {
   personals: any[] = [];
 
-  constructor(private textService: TextService) { }
+  constructor(private staffService: TextService) { }
 
   ngOnInit(): void {
-    this.personals = this.textService.getPersonal();
+    this.personals = this.staffService.getPersonal();
   }
 }
 */

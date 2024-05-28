@@ -1,4 +1,4 @@
 ng build
 git add . 
-git commit -m "proyecto-ordenado" 
+git commit -m "traduciendo dinamicamente" 
 git push origin main

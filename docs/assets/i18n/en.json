@@ -8,6 +8,24 @@
   "contact": "Contact",
   "language": "Change Language"
   },
+
+  "FORM": {
+    "title": "Private Events",
+    "info": "We are currently also offering a personalized service for different types of events.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namerequired": "Name is required.",
+    "nameminlength": "Name must be at least 4 characters long.",
+    "namemaxlength": "Name can be up to 30 characters long.",
+    "emailrequired": "Email is required.",
+    "emailpattern": "Email is invalid.",
+    "messagerequired": "Message is required.",
+    "messageminlength": "Message must be at least 8 characters long.",
+    "messagemaxlength": "Message can be up to 255 characters long.",
+    "send": "Send"
+  },
+  
   
   "CLASSES": [
   {
@@ -20,7 +38,8 @@
   "schedule": "09:00 - 10:00 am",
   "level": "Advanced",
   "address": "Av. Corrientes 4534 (El Juvenil)",
-  "img": "../../assets/img09.jpeg"
+  "img": "../../assets/img09.jpeg",
+  "more" : "More info."
   },
   {
   "id": 2,
@@ -32,7 +51,8 @@
   "schedule": "07:00 - 08:00 pm",
   "level": "Intermediate / Advanced",
   "address": "Av. Corrientes 4534 (El Juvenil)",
-  "img": "../../assets/img10.jpeg"
+  "img": "../../assets/img10.jpeg",
+  "more" : "More info."
   },
   {
   "id": 3,
@@ -44,9 +64,48 @@
   "schedule": "07:00 - 08:00 pm",
   "level": "Beginner",
   "address": "Lambaré 990 (Sendas del Sol)",
-  "img": "../../assets/img11.jpeg"
+  "img": "../../assets/img11.jpeg",
+  "more" : "More info."
   }
   ],
+
+  "PROMOTION": [
+    {
+      "id": 1,
+      "title": "Come with your partner!",
+      "save": "save 15%",
+      "newprice": "25,500",
+      "oldprice": "30,000",
+      "info": "more info",
+      "info2": "much more info",
+      "time" : "per Month",
+      "join" : "join"
+    },
+    {
+      "id": 2,
+      "title": "Join our classes!",
+      "save": "",
+      "newprice": "30,000",
+      "oldprice": "",
+      "info": "enjoy good company and have a great time!",
+      "info2": "",
+      "time" : "per Month",
+      "join" : "join"
+
+    },
+    {
+      "id": 3,
+      "title": "Paying for 3 months",
+      "save": "save 20%",
+      "newprice": "72,000",
+      "oldprice": "90,000",
+      "info": "more info",
+      "info2": "much more info",
+      "time" : "per Month",
+      "join" : "join"
+    }
+  ],
+  
   "QUESTIONS": [
   {
   "id": 1,
@@ -92,7 +151,13 @@
   "id": 9,
   "title": "Should I bring a partner to the classes?",
   "info": "It is not necessary, but for a better experience, we recommend it."
+  },
+  {
+    "id": 10,
+    "title": "Our Work Team",
+    "info": "Juan Manuel Almirón (CEO), Guido Romano (Developer), Cecilia Bulgarelli (Digital Marketing)"
   }
+  
   ],
   "STAFF": [
   {
@@ -203,11 +268,11 @@
       "info2": "My quest for knowledge led me to discover DSC, a dance school that would become the starting point of my journey in this thrilling universe. I remember the day I first walked through the doors of the branch on Avenida Corrientes and met the two teachers who left an indelible mark on my formation: Mery Lenz and Eugenio Dmytrenko. From that moment on, I knew I wanted to absorb every teaching these dance virtuosos had to offer.\n\nOver the years, I have participated in ballroom competitions, excelling in letter and Open categories, achieving first places, and becoming a finalist on multiple occasions. I have shared my knowledge through group and private classes in various provinces of Argentina, from Buenos Aires to Santa Fe, from beginner to advanced levels.\n\nHowever, the year 2024 marks a new chapter in my journey, as I have decided to embark on my own personal project: BASC. My goal with BASC is clear: to spread ballroom dances, to transmit my love for this dance, and to support, train, and accompany all those who wish to delve into this exciting world.\n\nTherefore, I invite everyone to join me on this journey of learning and discovery. I await you with open arms to learn to dance and to share this thrilling path together!"
       },
       {
-      "id": 2,
-      "title": "Welcome to BASC (Ballroom Argentina Sport Club)!",
-      "info": "Our mission is to spread the passion for dance in Argentina and Latin America. We offer classes for all levels: beginners, intermediates, and advanced. Whether you dance for hobby, recreation, or competitively, we have something for you!",
-      "info2": "We care about your progress, which is why our instructors receive ongoing training in ballroom dance, physical preparation, and sports psychology. At BASC, we create a comfortable environment where mistakes are part of learning, and above all, where you have fun while learning!\n\nQuestions? Want more information? Feel free to contact us via DM, and we will respond as soon as possible!"
-      },
+        "id": 2,
+        "title": "Welcome to BASC (Ballroom Argentina Sport Club)!",
+        "info": "Our mission is to spread the passion for dance in Argentina and Latin America. We offer classes for all levels: beginners, intermediates, and advanced. Whether you dance for hobby, recreation, or competitively, we have something for you! We care about your progress, that's why our instructors receive ongoing training in ballroom dance, physical preparation, and sports psychology. At BASC, we create a comfortable environment where mistakes are part of learning and, above all, where you have fun while learning!\n\nQuestions? Want more information? Don't hesitate to contact us via DM, and we will respond as soon as possible!",
+        "info2": "Read more about us."
+        },
       {
       "id": 3,
       "title": "What is Ballroom?",

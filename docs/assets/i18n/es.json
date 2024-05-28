@@ -7,19 +7,37 @@
     "contact": "Contacto",
     "language": "Cambiar Idioma"
   },
+
+  "FORM": {
+    "title": "Eventos privados",
+    "info": "Actualmente, también estamos ofreciendo un servicio personalizado para distintos tipos de eventos.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "namerequired" : "El nombre es requerido.",
+    "nameminlength" : "El nombre debe tener al menos 4 caracteres.",
+    "namemaxlength" : "El nombre debe tener máximo 30 caracteres.",
+    "emailrequired" : "El correo electrónico es requerido.",
+    "emailpattern" : "El correo electrónico es inválido.",
+    "messagerequired" : "El mensaje es requerido.",
+    "messageminlength" : "El mensaje debe tener al menos 8 caracteres.",
+    "messagemaxlength" : "El mensaje debe tener máximo 255 caracteres.",
+    "send": "enviar"
+  },
   
   "CLASSES": [
     {
       "id": 1,
-      "title": "title 1",
+      "title": "titulo 1",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
       "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
       "day": "Sábados",
       "price": "$20.000",
       "schedule": "09:00 - 10:00 am",
-      "level": "avanzado",
+      "level": "principiante / intermedio",
       "address": "Av. Corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img09.jpeg"
+      "img": "../../assets/img09.jpeg",
+      "more" : "Más info."
     },
     {
       "id": 2,
@@ -29,9 +47,10 @@
       "day": "Sábados",
       "price": "$20.000",
       "schedule": "19:00 - 20:00 hs",
-      "level": "intermedio / avanzado",
+      "level": "principiante / intermedio",
       "address": "Av. Corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img10.jpeg"
+      "img": "../../assets/img10.jpeg",
+      "more" : "Más info."
     },
     {
       "id": 3,
@@ -41,11 +60,51 @@
       "day": "Domingos",
       "price": "$20.000",
       "schedule": "19:00 - 20:00 hs",
-      "level": "principiante",
+      "level": "principiante / intermedio",
       "address": "Lambaré 990 (Sendas del Sol)",
-      "img": "../../assets/img11.jpeg"
+      "img": "../../assets/img11.jpeg",
+      "more" : "Más info."
     }
   ],
+
+  "PROMOTION": [
+  {
+    "id": 1,
+    "title": "Ven con tu pareja!",
+    "save": "ahorras un 15%",
+    "newprice": "25.500",
+    "oldprice": "30.000",
+    "info": "mas info",
+    "info2": "mucha mas info",
+    "time" : "por Mes",
+    "join" : "Anotáte"
+  },
+  {
+    "id": 2,
+    "title": "Unete a nuetras clases!",
+    "save": "congela el precio ahora",
+    "newprice": "30.000",
+    "oldprice": "",
+    "info": "disfruta de buena compania y pasalo genial!",
+    "info2": "mucha mas info",
+    "time" : "por Mes",
+    "join" : "Anotáte"
+
+  },
+  {
+    "id": 3,
+    "title": "Abonando 3 meses",
+    "save": "ahorras un 20%",
+    "newprice": "72.000",
+    "oldprice": "90.000",
+    "info": "mas info",
+    "info2": "mucha mas info",
+    "time" : "por Mes",
+    "join" : "Anotáte"
+  }
+],
+
+
   "QUESTIONS": [
     {
       "id": 1,
@@ -55,7 +114,7 @@
     {
       "id": 2,
       "title": "¿Ofrecen clases gratis?",
-      "info": "La primer clase es gratuita."
+      "info": "¡Primera Clase es Completamente gratis!"
     },
     {
       "id": 3,
@@ -91,6 +150,12 @@
       "id": 9,
       "title": "¿Debo ir acompañado a las clases?",
       "info": "No es necesario, pero para una mejor experiencia te recomendamos hacerlo."
+    },
+
+    {
+      "id": 10,
+      "title": "Nuestro equipo de trabajo",
+      "info": "Juan Manuel Almirón (CEO), Guido Romano (Desarrollador), Cecilia Bulgarelli (Marketing digital)"
     }
   ],
   "STAFF": [
@@ -203,8 +268,8 @@
     {
       "id": 2,
       "title": "¡Bienvenido a BASC (Ballroom Argentina Sport Club)!",
-      "info": "Nuestra misión es difundir la pasión por el baile en Argentina y Latinoamérica. Ofrecemos clases para todos los niveles: principiantes, intermedios y avanzados. Ya sea que bailes por hobby, recreación o competitivamente, ¡tenemos algo para ti!",
-      "info2": "Nos preocupamos por tu progreso, por eso nuestros instructores reciben formación continua en ballroom dance, preparación física y psicología deportiva. En BASC, creamos un ambiente cómodo donde el error es parte del aprendizaje y, sobre todo, ¡donde te diviertes mientras aprendes!\n\n¿Preguntas? ¿Quieres más información? ¡No dudes en contactarnos a través de MD y te responderemos lo antes posible!"
+      "info": "Nuestra misión es difundir la pasión por el baile en Argentina y Latinoamérica. Ofrecemos clases para todos los niveles: principiantes, intermedios y avanzados. Ya sea que bailes por hobby, recreación o competitivamente, ¡tenemos algo para ti!. Nos preocupamos por tu progreso, por eso nuestros instructores reciben formación continua en ballroom dance, preparación física y psicología deportiva. En BASC, creamos un ambiente cómodo donde el error es parte del aprendizaje y, sobre todo, ¡donde te diviertes mientras aprendes!\n\n¿Preguntas? ¿Quieres más información? ¡No dudes en contactarnos a través de MD y te responderemos lo antes posible!",
+      "info2": "Lee más acerca de nosotros."
     },
     {
       "id": 3,
