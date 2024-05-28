@@ -6,15 +6,6 @@ git push origin main
 
 
 
-const pregunta: Pregunta[] = [
-  { id: 1, 
-    titulo: '¿Qué es el ballroom?',
-    info: '"Ballroom" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos "Standard". Estos son: Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos "Latin" Samba, Cha Cha Cha, Rumba, Paso Doble, Jive.'
-   },
-
-  { id: 2, 
-    titulo: '¿Ofrecen clases gratis?' ,
-    info: 'La primer clase es gratuita.'},
 
   { id: 3, 
     titulo: '¿Qué días son las clases de Ballroom?' ,
@@ -32,15 +23,3 @@ const pregunta: Pregunta[] = [
     titulo: '¿Cuál es el precio de las clases?' ,
     info: clase[0].precio + ' / ' + clase[1].precio + ' / ' + clase[2].precio + ' al Mes.'},
 
-  { id: 7,
-    titulo: '¿Hay clases para principiantes?' ,
-    info: 'Para principantes, intermedios y avanzados'},
-
-  { id: 8, 
-    titulo: '¿Cómo debo ir vestido para las clases?' ,
-    info: 'Se recomienda usar pantalón o jogging, remera y camisa cómodos, y zapatos o zapatillas flexibles.'},
-
-  { id: 9, 
-    titulo: '¿Debo ir acompañado a las clases?' ,
-    info: 'No es necesario, pero para una mejor experiencia te recomendamos hacerlo.'},
-];

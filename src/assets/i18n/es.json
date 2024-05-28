@@ -1,36 +1,4 @@
 {
-  "NAV": {
-    "home": "Inicio",
-    "about": "Nosotros",
-    "classes": "Clases",
-    "apparel": "Indumentaria",
-    "contact": "Contacto",
-    "language": "Cambiar Idioma"
-  },
-
-  "BANNER": {
-    "title": "Ballroom Argentina Sport Club",
-    "subtitle": "Turn your emotions into movements.",
-    "button": "Enjoy this experience completely free"
-  },
-
-  "FORM": {
-    "title": "Eventos privados",
-    "info": "Actualmente, también estamos ofreciendo un servicio personalizado para distintos tipos de eventos.",
-    "name": "Nombre",
-    "email": "Email",
-    "message": "Mensaje",
-    "namerequired" : "El nombre es requerido.",
-    "nameminlength" : "El nombre debe tener al menos 4 caracteres.",
-    "namemaxlength" : "El nombre debe tener máximo 30 caracteres.",
-    "emailrequired" : "El correo electrónico es requerido.",
-    "emailpattern" : "El correo electrónico es inválido.",
-    "messagerequired" : "El mensaje es requerido.",
-    "messageminlength" : "El mensaje debe tener al menos 8 caracteres.",
-    "messagemaxlength" : "El mensaje debe tener máximo 255 caracteres.",
-    "send": "enviar"
-  },
-  
   "CLASSES": [
     {
       "id": 1,
@@ -87,7 +55,7 @@
   },
   {
     "id": 2,
-    "title": "Unete a nuetras clases!",
+    "title": "Unete a nuestras clases!",
     "save": "congela el precio ahora",
     "newprice": "30.000",
     "oldprice": "",
@@ -110,6 +78,156 @@
   }
 ],
 
+"STAFF": [
+  {
+    "id": 1,
+    "title": "Cecilia Bulgarelli",
+    "rol": "Community Manager",
+    "info": "Trabajo en la Administración de nuestras redes e ideas creativas tanto en diseño como para el modelo de nuestro negocio."
+  },
+  {
+    "id": 2,
+    "title": "Juan Manuel Almirón",
+    "rol": "CEO",
+    "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con aquellas personas que tengan ganas de aprender."
+  },
+  {
+    "id": 3,
+    "title": "Guido Romano",
+    "rol": "Desarrollador",
+    "info": "Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente con nuestra comunidad."
+  },
+  {
+    "id": 4,
+    "title": "Cami",
+    "rol": "Profesora y Pareja de Baile",
+    "info": "Experta en enseñanza de bailes de salón; guía con destreza y pasión en el arte del Ballroom."
+  }
+],
+
+
+"PRODUCTS": [
+  {
+    "id": 1,
+    "title": "Baile Latino con Lentejuelas",
+    "info": "Material exterior: hecho de cuero sintético y lentejuelas de alta calidad. Los zapatos brillarán con pasos elegantes y serás el Centro de atención de todos. La plantilla cómoda tiene una excelente resistencia a la compresión, Anti - deformación y anti - distorsión, puede soportar la fuerza de larga duración, alta frecuencia pisotear sin deformación, especialmente diseñado para bailar.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61pHz1ri7fL._AC_SY625_.jpg",
+    "link": "https://amzn.to/3WQ56mH"
+  },
+  {
+    "id": 2,
+    "title": "diamantes de Imitación para Salón de Baile",
+    "info": "Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg",
+    "link": "https://amzn.to/3UTSOXO"
+  },
+  {
+    "id": 3,
+    "title": "Moderno Tango Tap",
+    "info": "Este zapato de baile está hecho de satén y caucho de alta calidad,tiene cuatro correas en la parte superior para la mayoría de los trajes de baile e incluso para los zapatos de todos los días,adecuados para usar al aire libre.Nota:El tamaño de los zapatos es el código de la etiqueta, consulte la tabla de tallas y el número de código real correspondiente.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/51HMobCtcML._AC_SX679_.jpg",
+    "link": "https://amzn.to/3KaPoe9"
+  },
+  {
+    "id": 4,
+    "title": "Puntera Cerrada, Tango cha-cha",
+    "info": "Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg",
+    "link": "https://amzn.to/3WTqvv4"
+  },
+  {
+    "id": 5,
+    "title": "Latín, Sandalia con talón Mujer",
+    "info": "Nuestro tamaño de zapatos es todo en tamaño estándar europeo, el ancho de los zapatos es medio (b o m), si sus zapatos diarios ancho de tamaño ancho (D, W o ee), por favor compre un tamaño más grande. Consulte la tabla de tallas para comparar cuidadosamente los datos de longitud del pie antes de realizar el pedido.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
+    "link": "https://amzn.to/3V76TT0"
+  },
+  {
+    "id": 6,
+    "title": "Bachata Brillantes",
+    "info": "Material externo: hecho de cuero sintético / satinado de alta calidad, la suela es de gamuza, suave, cómoda y antideslizante, la mejor opción para el entrenamiento y el rendimiento en la danza.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61mGdsYBBcL._AC_SY625_.jpg",
+    "link": "https://amzn.to/3wATMjF"
+  },
+  {
+    "id": 7,
+    "title": "Zapatos de Baile Suave y cómodo",
+    "info": "Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar. Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg",
+    "link": "https://amzn.to/4bxexf9"
+  },
+  {
+    "id": 8,
+    "title": "Cuero con Punta Redonda",
+    "info": "Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/41tUOBDkVXL._AC_SY625_.jpg",
+    "link": "https://amzn.to/44T5RgH"
+  },
+  {
+    "id": 9,
+    "title": "Baile Latino",
+    "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+    "link": "https://amzn.to/3UPwaQ7"
+  }
+],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"NAV": {
+  "home": "Inicio",
+  "about": "Nosotros",
+  "classes": "Clases",
+  "apparel": "Indumentaria",
+  "contact": "Contacto",
+  "language": "Cambiar Idioma"
+},
+
+"BANNER": {
+  "title": "Ballroom Argentina Sport Club",
+  "subtitle": "Transforma tus emociones en movimientos.",
+  "button": "Disfruta de esta experiencia de forma totalmente gratuita"
+},
+
+"FORM": {
+  "title": "Eventos privados",
+  "info": "Actualmente, también estamos ofreciendo un servicio personalizado para distintos tipos de eventos.",
+  "name": "Nombre",
+  "email": "Email",
+  "message": "Mensaje",
+  "namerequired" : "El nombre es requerido.",
+  "nameminlength" : "El nombre debe tener al menos 4 caracteres.",
+  "namemaxlength" : "El nombre debe tener máximo 30 caracteres.",
+  "emailrequired" : "El correo electrónico es requerido.",
+  "emailpattern" : "El correo electrónico es inválido.",
+  "messagerequired" : "El mensaje es requerido.",
+  "messageminlength" : "El mensaje debe tener al menos 8 caracteres.",
+  "messagemaxlength" : "El mensaje debe tener máximo 255 caracteres.",
+  "send": "enviar"
+},
+
+
 
   "QUESTIONS": [
     {
@@ -125,7 +243,7 @@
     {
       "id": 3,
       "title": "¿Qué días son las clases de Ballroom?",
-      "info": "Sábados, Sábados, Domingos"
+      "info": "Sábados, y Domingos"
     },
     {
       "id": 4,
@@ -135,12 +253,12 @@
     {
       "id": 5,
       "title": "¿Dónde se realizan las clases?",
-      "info": "Av. Corrientes 4534 (El Juvenil) / Av. Corrientes 4534 (El Juvenil) / Lambaré 990 (Sendas del Sol)"
+      "info": "Av. Corrientes 4534 (El Juvenil) y Lambaré 990 (Sendas del Sol)"
     },
     {
       "id": 6,
       "title": "¿Cuál es el precio de las clases?",
-      "info": "$20.000 / $20.000 / $20.000 al Mes."
+      "info": "$20.000 al Mes."
     },
     {
       "id": 7,
@@ -156,114 +274,13 @@
       "id": 9,
       "title": "¿Debo ir acompañado a las clases?",
       "info": "No es necesario, pero para una mejor experiencia te recomendamos hacerlo."
-    },
+    }
+ 
+  ],
+  
 
-    {
-      "id": 10,
-      "title": "Nuestro equipo de trabajo",
-      "info": "Juan Manuel Almirón (CEO), Guido Romano (Desarrollador), Cecilia Bulgarelli (Marketing digital)"
-    }
-  ],
-  "STAFF": [
-    {
-      "id": 1,
-      "title": "Cecilia Bulgarelli",
-      "rol": "Community Manager",
-      "info": "Trabajo en la Administración de nuestras redes e ideas creativas tanto en diseño como para el modelo de nuestro negocio."
-    },
-    {
-      "id": 2,
-      "title": "Juan Manuel Almirón",
-      "rol": "CEO",
-      "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con aquellas personas que tengan ganas de aprender."
-    },
-    {
-      "id": 3,
-      "title": "Guido Romano",
-      "rol": "Desarrollador",
-      "info": "Trabajo en Marketing digital y en aplicaciones para lograr un contacto más eficiente con nuestra comunidad."
-    },
-    {
-      "id": 4,
-      "title": "Cami",
-      "rol": "Profesora y Pareja de Baile",
-      "info": "Experta en enseñanza de bailes de salón; guía con destreza y pasión en el arte del Ballroom."
-    }
-  ],
-  "PRODUCTS": [
-    {
-      "id": 1,
-      "title": "Baile Latino con Lentejuelas",
-      "info": "Material exterior: hecho de cuero sintético y lentejuelas de alta calidad. Los zapatos brillarán con pasos elegantes y serás el Centro de atención de todos. La plantilla cómoda tiene una excelente resistencia a la compresión, Anti - deformación y anti - distorsión, puede soportar la fuerza de larga duración, alta frecuencia pisotear sin deformación, especialmente diseñado para bailar.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61pHz1ri7fL._AC_SY625_.jpg",
-      "link": "https://amzn.to/3WQ56mH"
-    },
-    {
-      "id": 2,
-      "title": "diamantes de Imitación para Salón de Baile",
-      "info": "Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg",
-      "link": "https://amzn.to/3UTSOXO"
-    },
-    {
-      "id": 3,
-      "title": "Moderno Tango Tap",
-      "info": "Este zapato de baile está hecho de satén y caucho de alta calidad,tiene cuatro correas en la parte superior para la mayoría de los trajes de baile e incluso para los zapatos de todos los días,adecuados para usar al aire libre.Nota:El tamaño de los zapatos es el código de la etiqueta, consulte la tabla de tallas y el número de código real correspondiente.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/51HMobCtcML._AC_SX679_.jpg",
-      "link": "https://amzn.to/3KaPoe9"
-    },
-    {
-      "id": 4,
-      "title": "Puntera Cerrada, Tango cha-cha",
-      "info": "Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg",
-      "link": "https://amzn.to/3WTqvv4"
-    },
-    {
-      "id": 5,
-      "title": "Latín, Sandalia con talón Mujer",
-      "info": "Nuestro tamaño de zapatos es todo en tamaño estándar europeo, el ancho de los zapatos es medio (b o m), si sus zapatos diarios ancho de tamaño ancho (D, W o ee), por favor compre un tamaño más grande. Consulte la tabla de tallas para comparar cuidadosamente los datos de longitud del pie antes de realizar el pedido.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
-      "link": "https://amzn.to/3V76TT0"
-    },
-    {
-      "id": 6,
-      "title": "Bachata Brillantes",
-      "info": "Material externo: hecho de cuero sintético / satinado de alta calidad, la suela es de gamuza, suave, cómoda y antideslizante, la mejor opción para el entrenamiento y el rendimiento en la danza.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61mGdsYBBcL._AC_SY625_.jpg",
-      "link": "https://amzn.to/3wATMjF"
-    },
-    {
-      "id": 7,
-      "title": "Zapatos de Baile Suave y cómodo",
-      "info": "Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar. Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg",
-      "link": "https://amzn.to/4bxexf9"
-    },
-    {
-      "id": 8,
-      "title": "Cuero con Punta Redonda",
-      "info": "Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/41tUOBDkVXL._AC_SY625_.jpg",
-      "link": "https://amzn.to/44T5RgH"
-    },
-    {
-      "id": 9,
-      "title": "Baile Latino",
-      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
-      "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
-      "link": "https://amzn.to/3UPwaQ7"
-    }
-  ],
+
+  
   "TEXTS": [
     {
       "id": 1,
@@ -352,7 +369,7 @@
     },
     {
       "id": 15,
-      "title": "Nuestro equipo de instructores",
+      "title": "Nuestro equipo de trabajo",
       "info": "En BASC contamos con un equipo de instructores altamente calificados y apasionados por el baile.",
       "info2": "Nuestros maestros tienen años de experiencia en enseñanza y competición. Se mantienen actualizados con las últimas tendencias y técnicas del ballroom, asegurando que recibas la mejor formación posible."
     },

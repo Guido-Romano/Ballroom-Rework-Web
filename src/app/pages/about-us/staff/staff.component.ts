@@ -33,7 +33,7 @@ export class StaffComponent implements OnInit, OnDestroy {
       this.staff = data;
     });
 
-    this.translate.get('QUESTIONS.9').subscribe((data: any) => {
+    this.translate.get('TEXTS.14').subscribe((data: any) => {
       this.question = data; 
     });
   }
