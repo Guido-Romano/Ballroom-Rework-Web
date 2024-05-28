@@ -3,8 +3,7 @@ import { TextService } from '../services/text.service';
 
 @Component({
   selector: 'app-text',
-  templateUrl: './text.component.html',
-  styleUrls: ['./text.component.css']
+  templateUrl: './text.component.html'
 })
 export class TextComponent implements OnInit {
   @Input() articleId!: number;

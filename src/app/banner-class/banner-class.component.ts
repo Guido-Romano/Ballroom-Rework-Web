@@ -2,25 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 
 @Component({
-  selector: 'app-questions',
-  templateUrl: './questions.component.html'
+  selector: 'app-banner-class',
+  templateUrl: './banner-class.component.html'
 })
-export class QuestionsComponent implements OnInit {
+export class BannerClassComponent implements OnInit{
+  clases: any[] = [];
   preguntas: any[] = [];
 
   constructor(private textService: TextService) { }
 
   ngOnInit(): void {
+    this.clases = this.textService.getClases();
     this.preguntas = this.textService.getPreguntas();
   }
 }
-
-
-
-
-
-
-
-
-
-

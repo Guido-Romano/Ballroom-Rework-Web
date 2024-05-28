@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-form',
-  templateUrl: './form.component.html',
-  styleUrls: ['./form.component.css']
+  templateUrl: './form.component.html'
 })
 export class FormComponent {
   form: FormGroup;
@@ -16,14 +15,13 @@ export class FormComponent {
       message: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(255), Validators.pattern('[a-zA-Z0-9._]+')]],
     });
   }
-  
 
   onSubmit() {
     if (this.form.valid) {
       console.log('Formulario válido:', this.form.value);
     } else {
       console.log('Formulario inválido');
-      this.form.markAllAsTouched(); 
+      this.form.markAllAsTouched();
+    }
   }
-}
 }

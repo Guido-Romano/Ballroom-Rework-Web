@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { TextService } from '../services/text.service';
 
 @Component({
-  selector: 'app-pricing',
-  templateUrl: './pricing.component.html'
+  selector: 'app-vertical-card',
+  templateUrl: './vertical-card.component.html'
 })
-export class PricingComponent implements OnInit {
+export class VerticalCardComponent implements OnInit {
   clases: any[] = [];
 
   constructor(private textService: TextService) { }

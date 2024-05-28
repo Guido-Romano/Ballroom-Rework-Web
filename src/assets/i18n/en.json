@@ -1,17 +1,332 @@
+
 {
   "NAV": {
-    "HOME": "Inicio",
-    "ABOUT": "Nosotros",
-    "CLASSES": "Clases",
-    "APPAREL": "Indumentaria",
-    "CONTACT": "Contacto",
-    "LANGUAGE" : "Cambiar Idioma"
-  }
-
-}
-
-
-
-
-
+  "home": "Home",
+  "about": "About Us",
+  "classes": "Classes",
+  "apparel": "Apparel",
+  "contact": "Contact",
+  "language": "Change Language"
+  },
   
+  "CLASSES": [
+  {
+  "id": 1,
+  "title": "Title 1",
+  "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed sus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+  "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+  "day": "Saturdays",
+  "price": "$20,000",
+  "schedule": "09:00 - 10:00 am",
+  "level": "Advanced",
+  "address": "Av. Corrientes 4534 (El Juvenil)",
+  "img": "../../assets/img09.jpeg"
+  },
+  {
+  "id": 2,
+  "title": "Title 2",
+  "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+  "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+  "day": "Saturdays",
+  "price": "$20,000",
+  "schedule": "07:00 - 08:00 pm",
+  "level": "Intermediate / Advanced",
+  "address": "Av. Corrientes 4534 (El Juvenil)",
+  "img": "../../assets/img10.jpeg"
+  },
+  {
+  "id": 3,
+  "title": "Title 3",
+  "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+  "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+  "day": "Sundays",
+  "price": "$20,000",
+  "schedule": "07:00 - 08:00 pm",
+  "level": "Beginner",
+  "address": "Lambaré 990 (Sendas del Sol)",
+  "img": "../../assets/img11.jpeg"
+  }
+  ],
+  "QUESTIONS": [
+  {
+  "id": 1,
+  "title": "What is ballroom?",
+  "info": "'Ballroom' is the term used to designate a set of 10 rhythms. They belong to the so-called 'Standard' rhythms. These are: English Waltz, Viennese Waltz, Tango, Foxtrot, Quickstep. They correspond to the 'Latin' rhythms Samba, Cha Cha Cha, Rumba, Paso Doble, Jive."
+  },
+  {
+  "id": 2,
+  "title": "Do you offer free classes?",
+  "info": "The first class is free."
+  },
+  {
+  "id": 3,
+  "title": "What days are the Ballroom classes?",
+  "info": "Saturdays, Saturdays, Sundays"
+  },
+  {
+  "id": 4,
+  "title": "What are the class schedules?",
+  "info": "Saturdays, 09:00 - 10:00 am / Saturdays, 07:00 - 08:00 pm / Sundays, 07:00 - 08:00 pm"
+  },
+  {
+  "id": 5,
+  "title": "Where are the classes held?",
+  "info": "Av. Corrientes 4534 (El Juvenil) / Av. Corrientes 4534 (El Juvenil) / Lambaré 990 (Sendas del Sol)"
+  },
+  {
+  "id": 6,
+  "title": "What is the price of the classes?",
+  "info": "$20,000 / $20,000 / $20,000 per month."
+  },
+  {
+  "id": 7,
+  "title": "Are there classes for beginners?",
+  "info": "For beginners, intermediates, and advanced levels"
+  },
+  {
+  "id": 8,
+  "title": "How should I dress for classes?",
+  "info": "It is recommended to wear comfortable pants or jogging pants, a comfortable shirt or t-shirt, and flexible shoes or sneakers."
+  },
+  {
+  "id": 9,
+  "title": "Should I bring a partner to the classes?",
+  "info": "It is not necessary, but for a better experience, we recommend it."
+  }
+  ],
+  "STAFF": [
+  {
+  "id": 1,
+  "title": "Cecilia Bulgarelli",
+  "role": "Community Manager",
+  "info": "I work in the administration of our networks and creative ideas both in design and for the model of our business."
+  },
+  {
+  "id": 2,
+  "title": "Juan Manuel Almirón",
+  "role": "CEO",
+  "info": "Creator of BASC Argentina. I share my great passion for dance with those who are eager to learn."
+  },
+  {
+    "id": 3,
+    "title": "Guido Romano",
+    "rol": "Developer",
+    "info": "I work in digital marketing and in applications to achieve more efficient contact with our community."
+    },
+    {
+    "id": 4,
+    "title": "Cami",
+    "rol": "Teacher and Dance Partner",
+    "info": "Expert in teaching ballroom dances; skillfully guides and passionately teaches the art of Ballroom."
+    }
+    ],
+    "PRODUCTS": [
+    {
+    "id": 1,
+    "title": "Latin Dance Sequin Shoes",
+    "info": "Outer material: made of high-quality synthetic leather and sequins. The shoes will shine with elegant steps and you'll be the center of attention. The comfortable insole has excellent compression resistance, anti-deformation, and anti-distortion, can withstand long-lasting force, high-frequency trampling without deformation, specially designed for dancing.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61pHz1ri7fL.AC_SY625.jpg",
+    "link": "https://amzn.to/3WQ56mH"
+    },
+    {
+    "id": 2,
+    "title": "Imitation Diamonds for Ballroom",
+    "info": "Material: Satin and rain stones. The suede soles are soft, flexible, quiet, and non-slip, allowing dancers to dance freely without getting tired.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/71YHcP5IJ6L.AC_SY625.jpg",
+    "link": "https://amzn.to/3UTSOXO"
+    },
+    {
+    "id": 3,
+    "title": "Modern Tango Tap",
+    "info": "This dance shoe is made of high-quality satin and rubber, has four straps on the top for most dance outfits and even for everyday shoes, suitable for outdoor wear. Note: The shoe size is the label code, please refer to the size chart and the corresponding actual code number.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/51HMobCtcML.AC_SX679.jpg",
+    "link": "https://amzn.to/3KaPoe9"
+    },
+    {
+    "id": 4,
+    "title": "Closed Toe, Tango Cha-Cha",
+    "info": "Design: Classic closed toe design, breathable and comfortable. Ballroom dance shoes are durable, lightweight, and comfortable. The shoe buckle and clip can achieve instant slipping and releasing. Good slip resistance and balance.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61AwjA4O70L.AC_SY625.jpg",
+    "link": "https://amzn.to/3WTqvv4"
+    },
+    {
+    "id": 5,
+    "title": "Latin, Women's Heeled Sandal",
+    "info": "Our shoe size is all in standard European size, shoe width is medium (b or m), if your daily shoes size wide width (D, W or ee), please buy a bigger size. Please refer to the size chart to carefully compare foot length data before ordering.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL.AC_SY625.jpg",
+    "link": "https://amzn.to/3V76TT0"
+    },
+    {
+    "id": 6,
+    "title": "Bachata Sparkles",
+    "info": "Outer material: made of high-quality synthetic/satin leather, the sole is suede, soft, comfortable, and non-slip, the best choice for dance training and performance.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61mGdsYBBcL.AC_SY625.jpg",
+    "link": "https://amzn.to/3wATMjF"
+    },
+    {
+    "id": 7,
+    "title": "Soft and Comfortable Dance Shoes",
+    "info": "Ballroom shoes have a suitable heel height, very comfortable to wear. Fashionable and classic, make dancing more attractive. Dressing up and matching is easier than before with it.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61Mg50sYnnL.AC_SY625.jpg",
+    "link": "https://amzn.to/4bxexf9"
+    },
+    {
+    "id": 8,
+    "title": "Leather Round Toe",
+    "info": "Heel height: 3 cm/4.5 cm. 360º round head. Moisture-proof and breathable",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/41tUOBDkVXL.AC_SY625.jpg",
+    "link": "https://amzn.to/44T5RgH"
+    },
+    {
+    "id": 9,
+    "title": "Latin Dance",
+    "info": "Shoes are suitable for Latin dance, suede sole suitable for indoor, non-slip, strong grip. Closure: buckle, heel height: 2.7 centimeters, shoe width: normal.",
+    "info2": "",
+    "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L.AC_SY625.jpg",
+    "link": "https://amzn.to/3UPwaQ7"
+    }
+    ],
+  
+    "TEXTS": [
+      {
+      "id": 1,
+      "title": "Juan Manuel Almirón, creator of BASC.",
+      "info": "My journey in the world of dance began with a spark of inspiration upon witnessing the grace and skill of the dancer Oleksandr Honcharov; it was he who led me to want to learn this dance.",
+      "info2": "My quest for knowledge led me to discover DSC, a dance school that would become the starting point of my journey in this thrilling universe. I remember the day I first walked through the doors of the branch on Avenida Corrientes and met the two teachers who left an indelible mark on my formation: Mery Lenz and Eugenio Dmytrenko. From that moment on, I knew I wanted to absorb every teaching these dance virtuosos had to offer.\n\nOver the years, I have participated in ballroom competitions, excelling in letter and Open categories, achieving first places, and becoming a finalist on multiple occasions. I have shared my knowledge through group and private classes in various provinces of Argentina, from Buenos Aires to Santa Fe, from beginner to advanced levels.\n\nHowever, the year 2024 marks a new chapter in my journey, as I have decided to embark on my own personal project: BASC. My goal with BASC is clear: to spread ballroom dances, to transmit my love for this dance, and to support, train, and accompany all those who wish to delve into this exciting world.\n\nTherefore, I invite everyone to join me on this journey of learning and discovery. I await you with open arms to learn to dance and to share this thrilling path together!"
+      },
+      {
+      "id": 2,
+      "title": "Welcome to BASC (Ballroom Argentina Sport Club)!",
+      "info": "Our mission is to spread the passion for dance in Argentina and Latin America. We offer classes for all levels: beginners, intermediates, and advanced. Whether you dance for hobby, recreation, or competitively, we have something for you!",
+      "info2": "We care about your progress, which is why our instructors receive ongoing training in ballroom dance, physical preparation, and sports psychology. At BASC, we create a comfortable environment where mistakes are part of learning, and above all, where you have fun while learning!\n\nQuestions? Want more information? Feel free to contact us via DM, and we will respond as soon as possible!"
+      },
+      {
+      "id": 3,
+      "title": "What is Ballroom?",
+      "info": "'Ballroom' is the term used to designate a set of 10 rhythms. They belong to the so-called 'Standard' rhythms: English Waltz, Viennese Waltz, Tango, Foxtrot, Quickstep.\n\nThey correspond to the 'Latin' rhythms: Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. In a competition, you can compete in all 10 rhythms covering Standard and Latin, or in the 5 rhythms of Standard, or in the 5 rhythms of Latin. But never in just one rhythm selected from any category.",
+      "info2": ""
+      },
+      {
+      "id": 4,
+      "title": "Behind every good dancer is always a great dance teacher.",
+      "info": "Because they inspire with their passion for dancing. They are a source of motivation, and the bond between a dancer and their coach can be as strong as that between a parent and their child...",
+      "info2": "Because there are coaches who become parents and parents who become coaches."
+      },
+      {
+      "id": 5,
+      "title": "3 Key Points for Every Beginner Ballroom Practitioner",
+      "info": "In the early stages of Ballroom Latin, where a dancer begins their literacy in terms of figure names, rhythm timings, and ballroom fundamentals, it is advisable to consider the following concepts:",
+      "info2": "1. Clear figures: The distinction between a figure, the transition, and the figure that follows should be clear.\n\n2. Precise timing: Fundamental and critical criteria both for evaluating a couple and for demonstrating an understanding of the language by which the music is composed.\n\n3. Correct posture: Fundamental both for the presentation of the dancer, both individually and as a couple, as it conveys, among other things, presence to the audience, clarity of movements, and the distinction and characterization of each rhythm."
+      },
+      {
+      "id": 6,
+      "title": "They are not just people, but interpreters of dance.",
+      "info": "And yes, when you step onto the dance floor, you have to force your posture, not look at the floor, make an effort, try to stand out...",
+      "info2": "As my coach says when preparing us to dance in tournaments: 'You on the dance floor are not people, you are dancers.'"
+      },
+      {
+      "id": 7,
+      "title": "Showmatch Dancers vs Ballroom Dancers",
+      "info": "As a result of the appearance of ballroom dancing on television through programs like 'Showmatch'' 'Strictly Come Dancing' or 'Dancing with the Stars' ballroom dancing has managed to reach a certain audience. However, it is important to distinguish the differences between original ballroom dancing and the fusion of elements seen in television shows.",
+      "info2": "1) CHOREOGRAPHY: Choreography is undoubtedly the main distinctive element between televised contests and original ballroom dancing.\n\nChoreographies made for TV shows are primarily intended for show and spectacle. Ballroom choreographies are guided by the underlying concept of 'elegance' which often leads to dispensing with tricks and acrobatics.\n\nCONTEXT/SETTING: In televised contests, an entire show can be prepared around a choreography. It is allowed to choose both the theme and the comfort of dancing with only one couple on the dance floor, in addition to not meeting the evaluation parameters by which couples in competition are judged.\n\nIn ballroom tournaments, it is common to dance with several couples at the same time; you cannot choose the song or music. Although there is a predetermined order of rhythms (Samba, Cha Cha Cha, Rumba, Paso Doble, Jive), you cannot choose the theme to dance. Simply put, the music plays, the dancers demonstrate their ability to interpret, listen to beats, and dance.\n\nIt is much less controlled; couples have choreographies according to this factor and also taking into account that they are evaluated for: physical connection, choreography, posture and balance, quality of movements, musicality, precision, fluidity in transitions. But they do not seek pure show or attention-seeking, in fact, they often dispense with those factors because it disrupts the aesthetics of tournaments, in other words, it 'dirties' the expression of the music."
+      },
+      {
+        "id": 8,
+        "title": "Who wins a ballroom tournament?",
+        "info": "The fastest?\n\nThe most technical?\n\nThe most precise?\n\nThe most complicated choreography?\n\nThe best connection?",
+        "info2": "🟡Perhaps a balanced sum of all these factors is an answer, or maybe they're balanced in all these and excel in one of these qualities, which is good as it gives personal branding. And we all know how important it is to be unique and original in art.\n\nBryan Watson says the best dancer is the one who best expresses the music. Technique, tools, and skills are tools for this, but constantly replicating the choreography over and over again, executing the mechanics of the movements perfectly, countless times in all themes of all rhythms in the same way, that won't make you a great dancer. You must adapt your tools to express the music in the best possible way.\n\nTherefore, the choreography with different songs should look different (musically at least). If they all look the same, you're like a 100-meter sprinter, who barely hears the bell and starts running, giving his body the maximum physically possible. Perfect, you're a great athlete, but you're not really dancing. And I say you're not really dancing because there's no listening, interpretation, and expression of what the music generates in you. And here in dance, it must also be taken into account that it is largely art, and as Bruce said, art is not only embellishment or ornament, it is also expression.\n\nAnd what couple do you think should win a competition?"
+    },
+    {
+        "id": 9,
+        "title": "Why choose BASC?",
+        "info": "Ballroom dance classes.",
+        "info2": "Personalized classes adapted to the needs of each student.\n\nOngoing training for our instructors in technique, pedagogy, and sports psychology.\n\nFriendly and motivating environment.\n\nParticipation in national and international events and competitions."
+    },
+    {
+        "id": 10,
+        "title": "FAQs - Frequently Asked Questions",
+        "info": "Do I need previous experience to start taking classes?\n\nNo, at BASC we offer classes for all levels, including beginners with no previous experience.",
+        "info2": "Is it necessary to have a partner to take classes?\n\nNo, you can enroll without a partner. In our classes, we will assign you a partner to practice with.\n\nWhat clothing and footwear should I wear for classes?\n\nIt is recommended to wear comfortable clothing that allows freedom of movement and suitable footwear for dancing, preferably with leather or similar soles.\n\nHow often should I take classes to improve?\n\nThe ideal frequency varies depending on your goals and availability. However, we recommend at least twice a week for steady progress."
+    },
+    {
+        "id": 11,
+        "title": "The importance of connection in ballroom",
+        "info": "Connection in ballroom dancing is not just about physical contact, but also about mutual understanding and synchronization between dancers.",
+        "info2": "Proper connection allows the couple to move as one unit, interpret the music more effectively, and present a harmonious and coherent performance. It is essential to work on communication and empathy with your dance partner."
+    },
+    {
+        "id": 12,
+        "title": "Physical and mental benefits of ballroom dancing",
+        "info": "Ballroom dancing is not only a recreational activity but also an excellent form of physical and mental exercise.",
+        "info2": "By practicing ballroom dancing, you improve your cardiovascular health, coordination, balance, and flexibility. Additionally, it reduces stress, improves mood, and encourages socialization. It is a discipline that combines health, art, and entertainment."
+    },
+    {
+        "id": 13,
+        "title": "Events and competitions",
+        "info": "At BASC, we actively participate in national and international events and competitions.",
+        "info2": "Our students have the opportunity to showcase their progress and skills in different settings, competing with other dancers and gaining experience. Participating in competitions is an excellent way to stay motivated and continuously improve."
+    },
+    {
+        "id": 14,
+        "title": "Testimonials from our students",
+        "info": "Our students are our best reference. Here are some testimonials:",
+        "info2": "\"Thanks to BASC, I have discovered a passion for dance that I never imagined. The instructors are amazing and always there to support you.\" - Ana M.\n\n\"BASC is more than a school, it's a family. I have learned a lot and made friends for life.\" - Carlos R."
+    },
+    {
+        "id": 15,
+        "title": "Our team of instructors",
+        "info": "At BASC, we have a team of highly qualified instructors who are passionate about dance.",
+        "info2": "Our teachers have years of experience in teaching and competition. They stay updated with the latest trends and techniques in ballroom dancing, ensuring that you receive the best possible training."
+    },
+    {
+        "id": 16,
+        "title": "Group and individual classes",
+        "info": "We offer both group and individual classes to accommodate your needs and preferences.",
+        "info2": "Group classes are ideal for socializing and learning in a dynamic environment, while individual classes allow for personalized attention and faster progress."
+    },
+    {
+        "id": 17,
+        "title": "Preparation for competitions",
+        "info": "At BASC, we prepare our students to compete at the highest level.",
+        "info2": "We offer specialized training that includes technique, choreography, and physical and mental preparation. Our goal is for each couple to be ready to excel in any competition."
+    },
+    {
+        "id": 18,
+        "title": "History of ballroom dancing",
+        "info": "Ballroom dancing has a rich history that dates back several centuries.",
+        "info2": "From its origins in the salons of European nobility to its popularization in international competitions, ballroom dancing has constantly evolved, adapting to new trends and styles, while always maintaining its essence of elegance and precision."
+    },
+    {
+        "id": 19,
+        "title": "Open registrations",
+        "info": "Don't miss the opportunity to join BASC! Registrations are open for all levels.",
+        "info2": "Visit our website or contact us directly for more information about schedules, fees, and requirements. We are here to help you start your journey in the world of ballroom dancing."
+    },
+    {
+        "id": 20,
+        "title": "Tips to improve your dancing",
+        "info": "Continuous practice and attention to detail are key to improving in ballroom dancing.",
+        "info2": "Listen to the music, work on your posture and connection, and don't hesitate to ask for feedback from your instructors. Remember that every mistake is an opportunity to learn and grow."
+    },
+    {
+      "id": 21,
+      "title": "Code of Conduct in BASC",
+      "info": "To ensure a respectful and safe environment for everyone, we have established some rules of conduct.",
+      "info2": "All students are expected to arrive on time to classes, respect their peers and instructors, and maintain a positive and open attitude towards learning. Any inappropriate behavior will result in disciplinary measures."
+      },
+      {
+      "id": 22,
+      "title": "Contact Us",
+      "info": "Do you have any questions or need more information?",
+      "info2": "Feel free to contact us through our social media, email, or phone. We are here to assist you and address any inquiries you may have regarding our classes and services."
+      }
+    ]
+  }

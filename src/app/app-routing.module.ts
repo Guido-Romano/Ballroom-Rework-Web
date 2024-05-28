@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { InicioComponent } from './inicio/inicio.component';
-import { NosotrosComponent } from './nosotros/nosotros.component';
-import { ClasesComponent } from './clases/clases.component';
-import {IndumentariaComponent } from './indumentaria/indumentaria.component';
-import { ContactoComponent } from './contacto/contacto.component';
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ClassesComponent } from './classes/classes.component';
+import { ApparelComponent } from './apparel/apparel.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: InicioComponent },
-  { path: 'nosotros', component: NosotrosComponent },
-  { path: 'clases', component: ClasesComponent },
-  { path: 'indumentaria', component: IndumentariaComponent },
-  { path: 'contacto', component: ContactoComponent },
+  { path: '', component: HomeComponent },
+  { path: 'about', component: AboutUsComponent },
+  { path: 'classes', component: ClassesComponent },
+  { path: 'apparel', component: ApparelComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '', pathMatch: 'full'} 
 ];
 
