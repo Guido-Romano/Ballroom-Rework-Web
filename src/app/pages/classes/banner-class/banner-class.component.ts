@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TextService } from '../services/text.service';
+import { TextService } from '../../../services/text.service';
 
 @Component({
   selector: 'app-banner-class',

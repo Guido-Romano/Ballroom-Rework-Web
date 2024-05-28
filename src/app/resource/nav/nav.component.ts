@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-navegador',
+  selector: 'app-nav',
   templateUrl: './nav.component.html'
 })
 export class NavComponent implements OnInit {
