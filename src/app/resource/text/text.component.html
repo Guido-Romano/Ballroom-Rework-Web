@@ -1,13 +1,15 @@
-<div class="max-w-6xl mx-auto mt-20 text-white">
-  <h2 class="px-5 sm:px-0 py-5 font-bold text-center text-xl sm:text-2xl">{{ article?.articleHeading }}</h2>
+<div class="max-w-6xl mx-auto mt-20 text-white" *ngIf="article">
+  <h2 class="px-5 sm:px-0 py-5 font-bold text-center text-xl sm:text-2xl">{{ article.title }}</h2>
   <p class="px-5 sm:px-0 leading-relaxed text-lg">
-    {{ article?.articleIntro }}
-    <span class="text-lg" *ngIf="article?.showMore">{{ article?.articleMoreText }}</span>
+    {{ article.info }}
+    <span class="text-lg" *ngIf="article.showMore">{{ article.info2 }}</span>
   </p>
   <button (click)="toggleText()" class="mt-4 text-blue-500 focus:outline-none px-5 sm:px-0">
-    {{ article?.showMore ? 'Ocultar' : 'Leer Más' }}
+    {{ article.showMore ? 'Ocultar' : 'Leer Más' }}
   </button>
 </div>
+
+
 
   
   

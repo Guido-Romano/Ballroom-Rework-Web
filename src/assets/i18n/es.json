@@ -8,6 +8,12 @@
     "language": "Cambiar Idioma"
   },
 
+  "BANNER": {
+    "title": "Ballroom Argentina Sport Club",
+    "subtitle": "Turn your emotions into movements.",
+    "button": "Enjoy this experience completely free"
+  },
+
   "FORM": {
     "title": "Eventos privados",
     "info": "Actualmente, también estamos ofreciendo un servicio personalizado para distintos tipos de eventos.",
