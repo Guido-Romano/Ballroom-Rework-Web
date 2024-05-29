@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "traduciendo dinamic" 
+git commit -m "preparando formulario" 
 git push origin main
 
 
