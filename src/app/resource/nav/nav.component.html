@@ -1,22 +1,55 @@
-<nav class="border-gray-200 bg-color2">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="bg-color2">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-3">
     <div class="flex items-center space-x-3 rtl:space-x-reverse">
-      <a href="#">
-        <img src="../../assets/logo.svg" class="h-8" alt="BASC logo" />
-      </a>
-      
+      <div class="flex items-center space-x-3 rtl:space-x-reverse relative inline-block text-left mr-2">
+
+        <div class=" text-gray-400 group">
+          <button type="button" (click)="toggleDropdown()" class="flex items-center hover:text-white">
+              <i class="fas fa-globe mx-1"></i>
+              <span>{{ 'NAV.language' | translate }}</span>
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+              </svg>
+          </button>
+          <div *ngIf="dropdownOpen" class="absolute left-0 origin-top-left bg-color3 rounded-lg border border-color4">
+              <div class="py-1 w-28">
+                  <a (click)="changeLanguage('es')" class="flex items-center px-4 py-2 text-sm cursor-pointer hover:text-white">
+                      <img src="../../assets/icons/es.svg" alt="Español" class="w-6 h-6 inline-block mr-2">
+                      <span>Español</span>
+                  </a>
+                  <a (click)="changeLanguage('en')" class="flex items-center px-4 py-2 text-sm cursor-pointer hover:text-white">
+                      <img src="../../assets/icons/gb.svg" alt="English" class="w-6 h-6 inline-block mr-2">
+                      <span>English</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+      </div>
+
+        <div class="flex space-x-3"> 
+            <button>
+                <i class="fab fa-whatsapp hover:text-white text-gray-400 text-xl"></i>
+            </button>
+            <button>
+                <i class="fab fa-instagram hover:text-white text-gray-400 text-xl"></i>
+            </button>
+            <button>
+                <i class="fab fa-facebook hover:text-white text-gray-400 text-xl"></i>
+            </button>
+        </div>
+      </div>
+
       <div>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-color5 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-color4 focus:outline-none focus:ring-2 focus:ring-gray-400" aria-controls="navbar-default" aria-expanded="false">
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
       </div>
-    </div>
-    
+  
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-color2 dark:border-gray-700 text-gray-400">
+      <ul class="font-medium flex flex-col p-4 mt-4 border border-color4 rounded-lg rtl:space-x-reverse bg-color3 text-gray-400
+      md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-color2">
         <li>
           <a routerLink="/" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/')">{{ 'NAV.home' | translate }}</a>
         </li>
@@ -34,27 +67,5 @@
         </li>
       </ul>
     </div>
-    
-    <div>
-      <div>
-       <button (click)="toggleDropdown()" class="block py-1 px-2 hover:text-white rounded bg-transparent font-medium border border-gray-700 text-gray-400 rounded-md ">
-    {{ 'NAV.language' | translate }}
-</button>
-
-      
-        
-        <div *ngIf="dropdownOpen" class="absolute right-4 xl:right-8 2xl:right-60 top-10 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg z-20">
-
-          <a (click)="changeLanguage('es')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer">
-            <img src="../../assets/icons/es.svg" alt="Español" class="w-6 h-6 inline-block mr-2">Español
-          </a>
-          <a (click)="changeLanguage('en')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 cursor-pointer">
-            <img src="../../assets/icons/gb.svg" alt="English" class="w-6 h-6 inline-block mr-2">English
-          </a>
-        </div>
-      </div>
-    </div>
-    
   </div>
 </nav>
-
