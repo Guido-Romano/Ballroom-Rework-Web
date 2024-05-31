@@ -15,7 +15,21 @@ module.exports = {
       screens: {
         'mini': '390px', 
       },
+      fontFamily: {
+        'cinzel': ['Cinzel', 'VariableFont_wght'], // Nombre de la fuente Cinzel
+        'cinzel-decorative': ['CinzelDecorative', 'regular'], // Nombre de la fuente CinzelDecorative
+        'playfair-display-sc': ['PlayfairDisplaySC', 'regular'], // Nombre de la fuente PlayfairDisplaySC
+      },
     },
   },
   plugins: [],
+  corePlugins: {
+    fontFamily: false, // Deshabilita la configuración de fontFamily por defecto
+  },
+  variants: {
+    extend: {
+      fontFamily: ['hover', 'focus'], // Extiende las variantes de fontFamily para incluir hover y focus
+    },
+  }
 }
+
