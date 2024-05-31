@@ -1,9 +1,9 @@
 <nav class="bg-color2">
-  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-3">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-1 md:p-3">
     <div class="flex items-center space-x-3 rtl:space-x-reverse">
       <div class="flex items-center space-x-3 rtl:space-x-reverse relative inline-block text-left mr-2">
 
-        <div class=" text-gray-400 group">
+        <div class=" text-gray-400 group ml-2">
           <button type="button" (click)="toggleDropdown()" class="flex items-center hover:text-white">
               <i class="fas fa-globe mx-1"></i>
               <span>{{ 'NAV.language' | translate }}</span>
@@ -51,19 +51,19 @@
       <ul class="font-medium flex flex-col p-4 mt-4 border border-color4 rounded-lg rtl:space-x-reverse bg-color3 text-gray-400
       md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-color2">
         <li>
-          <a routerLink="/" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/')">{{ 'NAV.home' | translate }}</a>
+          <a routerLink="/" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/')">{{ 'NAV.home' | translate }}</a>
         </li>
         <li>
-          <a routerLink="/about" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/about')">{{ 'NAV.about' | translate }}</a>
+          <a routerLink="/about" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/about')">{{ 'NAV.about' | translate }}</a>
         </li>
         <li>
-          <a routerLink="/classes" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/classes')">{{ 'NAV.classes' | translate }}</a>
+          <a routerLink="/classes" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/classes')">{{ 'NAV.classes' | translate }}</a>
         </li>
         <li>
-          <a routerLink="/apparel" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/apparel')">{{ 'NAV.apparel' | translate }}</a>
+          <a routerLink="/apparel" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/apparel')">{{ 'NAV.apparel' | translate }}</a>
         </li>
         <li>
-          <a routerLink="/contact" routerLinkActive="active" class="block py-2 px-3 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/contact')">{{ 'NAV.contact' | translate }}</a>
+          <a routerLink="/contact" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/contact')">{{ 'NAV.contact' | translate }}</a>
         </li>
       </ul>
     </div>
