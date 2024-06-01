@@ -1,58 +1,13 @@
 <div class="relative overflow-hidden w-full h-96 text-center text-white text-2xl md:text-3xl">
-  <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
+  <video #video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
       <source src="./../../../../assets/Video.mp4" type="video/mp4">
   </video>
-  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center py-28 px-1 md:px-8">
+  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center py-28 px-1 md:px-8">
       <h2 class="font-bold text-2xl lg:text-4xl">{{ 'BANNER.title' | translate }}</h2>
       <p class="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-8 text-slate-400">
         {{ 'BANNER.subtitle' | translate }} 
       </p>
       <a class="mt-8 rounded-md bg-white px-5 py-2.5 text-base leading-7 text-black hover:bg-gray-200 transition focus:outline-none focus:ring focus:border-blue-300"
       href="#">{{ 'BANNER.button' | translate }}</a>
-      </div>
-  </div>
-
-
-
-
-
-
-
-
-  <!--   
-
-AVANCE
-
-    <div class="relative overflow-hidden w-full h-screen text-center text-white font-bold text-2xl md:text-3xl">
-  <video autoplay muted loop class="absolute top-0 left-0 w-full h-2/5 object-cover">
-      <source src="./../../../../assets/Video.mp4" type="video/mp4">
-  </video>
-  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center py-28 px-1 md:px-8">
-      <h2 class="font-bold text-2xl lg:text-4xl">{{ 'BANNER.title' | translate }}</h2>
-      <p class="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-8 text-slate-400">
-        {{ 'BANNER.subtitle' | translate }} 
-      </p>
-      <a class="mt-8 rounded-md bg-white px-5 py-2.5 text-base  leading-7 text-black hover:bg-gray-200 transition focus:outline-none focus:ring focus:border-blue-300"
-      href="#">{{ 'BANNER.button' | translate }}</a>
-      <div class="w-11/12 md:w-3/4 lg:max-w-3xl m-auto">
-          <div class="relative z-30 text-base text-black">
-              <div class="text-left absolute top-10 rounded-t-none rounded-b-2xl shadow bg-white divide-y w-full max-h-40 overflow-auto">
-              </div>
-          </div>
-      </div>
   </div>
 </div>
-
-
-VIEJO
-    <section class="bg-black overflow-visible my-0 py-24">
-    <div class="text-white items-center text-center flex flex-col">
-      <h2 class="font-bold text-2xl lg:text-4xl">{{ 'BANNER.title' | translate }}</h2>
-      <p class="mx-auto mt-6 max-w-xl text-lg md:text-xl leading-8 text-slate-400">
-        {{ 'BANNER.subtitle' | translate }} 
-      </p>
-      <a class="mt-8 rounded-md bg-white px-5 py-2.5 text-base  leading-7 text-black hover:bg-gray-200 transition focus:outline-none focus:ring focus:border-blue-300"
-        href="#">{{ 'BANNER.button' | translate }}</a>
-    </div>
-  </section>
-  -->

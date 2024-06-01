@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         gold: '#E6C068',
         color1: '#030303',
-        color2: '#101010',
+        color2: '#161616',
         color3: '#2c2c2c',
         color4: '#3a3a3a',
         color5: '#474747',
@@ -16,9 +16,7 @@ module.exports = {
         'mini': '390px', 
       },
       fontFamily: {
-        'cinzel': ['Cinzel', 'VariableFont_wght'], // Nombre de la fuente Cinzel
-        'cinzel-decorative': ['CinzelDecorative', 'regular'], // Nombre de la fuente CinzelDecorative
-        'playfair-display-sc': ['PlayfairDisplaySC', 'regular'], // Nombre de la fuente PlayfairDisplaySC
+        'Cinzel': ['Cinzel'], 
       },
     },
   },

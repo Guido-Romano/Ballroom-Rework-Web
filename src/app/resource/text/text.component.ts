@@ -7,9 +7,11 @@ import { Subscription } from 'rxjs';
   templateUrl: './text.component.html'
 })
 export class TextComponent implements OnInit, OnDestroy {
-  @Input() articleId: number | null = null;  // Añadir Input para especificar el ID del artículo
-  articles: any[] = []; 
-  article: any | null = null;  // Variable para almacenar el artículo específico
+  @Input() articleId: number | null = null;
+  articles: any[] = [];
+  article: any | null = null;
+  formattedInfo: string = '';
+  formattedInfo2: string = '';
   private langChangeSubscription: Subscription | undefined;
 
   constructor(private translate: TranslateService) {
@@ -45,7 +47,15 @@ export class TextComponent implements OnInit, OnDestroy {
   findArticleById(): void {
     if (this.articleId !== null) {
       this.article = this.articles.find(article => article.id === this.articleId) || null;
+      if (this.article) {
+        this.formattedInfo = this.formatText(this.article.info);
+        this.formattedInfo2 = this.formatText(this.article.info2);
+      }
     }
+  }
+
+  formatText(text: string): string {
+    return text.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br/>');
   }
 }
 
