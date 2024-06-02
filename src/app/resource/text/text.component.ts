@@ -10,6 +10,7 @@ export class TextComponent implements OnInit, OnDestroy {
   @Input() articleId: number | null = null;
   articles: any[] = [];
   article: any | null = null;
+  formattedtitle: string = '';
   formattedInfo: string = '';
   formattedInfo2: string = '';
   private langChangeSubscription: Subscription | undefined;
@@ -48,6 +49,7 @@ export class TextComponent implements OnInit, OnDestroy {
     if (this.articleId !== null) {
       this.article = this.articles.find(article => article.id === this.articleId) || null;
       if (this.article) {
+        this.formattedtitle = this.formatText(this.article.title);
         this.formattedInfo = this.formatText(this.article.info);
         this.formattedInfo2 = this.formatText(this.article.info2);
       }

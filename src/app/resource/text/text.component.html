@@ -1,8 +1,8 @@
-<div class="max-w-6xl mx-auto my-8 text-white font-Cinzel" *ngIf="article">
-  <h2 class="px-5 sm:px-12 py-8 font-bold text-center text-2xl sm:text-3xl font-Cinzel">{{ article.title }}</h2>
-  <p class="px-5 sm:px-12 leading-relaxed text-base sm:text-lg font-Cinzel" [innerHTML]="formattedInfo">
+<div class="max-w-6xl mx-auto my-8 text-white" *ngIf="article">
+  <h2 class="px-5 sm:px-12 py-8 text-center text-2xl sm:text-3xl" [innerHTML]="formattedtitle">{{ article.title }} </h2>
+  <p class="px-5 sm:px-12 leading-relaxed text-base sm:text-lg" [innerHTML]="formattedInfo">
   </p>
-  <p class="px-5 sm:px-12 leading-relaxed text-base sm:text-lg font-Cinzel" *ngIf="article.showMore" [innerHTML]="formattedInfo2">
+  <p class="px-5 sm:px-12 leading-relaxed text-base sm:text-lg" *ngIf="article.showMore" [innerHTML]="formattedInfo2">
   </p>
   <button *ngIf="article.info2" (click)="toggleText()" class="mt-4 text-gray-400 focus:outline-none px-5 sm:px-12 font-semibold hover:text-white">
     {{ article.showMore ? '<< Ocultar' : 'Leer más >>' }}

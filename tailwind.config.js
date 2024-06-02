@@ -15,9 +15,6 @@ module.exports = {
       screens: {
         'mini': '390px', 
       },
-      fontFamily: {
-        'Cinzel': ['Cinzel'], 
-      },
     },
   },
   plugins: [],
