@@ -130,25 +130,25 @@
       "id": 1,
       "title": "Juan Manuel Almirón",
       "rol": "CEO y Fundador",
-      "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con todas aquellas personas que demuestren ganas de aprender."
+      "info": "Creador de BASC Argentina. Comparto mi pasión por el baile con aquellas personas que quieran aprender."
     },
     {
       "id": 2,
       "title": "Cecilia Bulgarelli",
       "rol": "Community Manager",
-      "info": "Trabajo en la Administración de nuestras redes e ideas creativas tanto en diseño como para el modelo de nuestro negocio."
+      "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio."
     },
     {
       "id": 3,
       "title": "Guido Romano",
       "rol": "Desarrollador",
-      "info": "Trabajo en marketing digital y me especializo en el desarrollo de aplicaciones para fortalecer el vínculo con nuestra comunidad."
+      "info": "Trabajo en marketing digital, tanto en el desarrollo de aplicaciones web como para nuestras redes."
     },
     {
       "id": 4,
       "title": "Camille Vindal",
       "rol": "Profesora y Pareja de Baile",
-      "info": "Soy experta en enseñanza y apasionada de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom."
+      "info": "Soy experta en de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom."
     }
   ],
 
