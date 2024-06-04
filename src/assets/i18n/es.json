@@ -9,7 +9,7 @@
       "price": "$20.000",
       "schedule": "09:00 - 10:00 am",
       "level": "principiante / intermedio",
-      "address": "Av. Corrientes 4534 (El Juvenil)",
+      "address": "Av. Corrientes 4534",
       "img": "../../assets/img09.jpeg",
       "more": "Más info."
     },
@@ -22,7 +22,7 @@
       "price": "$20.000",
       "schedule": "19:00 - 20:00 hs",
       "level": "principiante / intermedio",
-      "address": "Av. Corrientes 4534 (El Juvenil)",
+      "address": "Av. Corrientes 4534",
       "img": "../../assets/img10.jpeg",
       "more": "Más info."
     },
@@ -35,7 +35,7 @@
       "price": "$20.000",
       "schedule": "19:00 - 20:00 hs",
       "level": "principiante / intermedio",
-      "address": "Lambaré 990 (Sendas del Sol)",
+      "address": "Lambaré 990",
       "img": "../../assets/img11.jpeg",
       "more": "Más info."
     }
@@ -50,7 +50,7 @@
     {
       "id": 2,
       "title": "¿Ofrecen clases gratis?",
-      "info": "¡Primera Clase es Completamente gratis!"
+      "info": "¡La Primera Clase es gratis!"
     },
     {
       "id": 3,
@@ -130,7 +130,7 @@
       "id": 1,
       "title": "Juan Manuel Almirón",
       "rol": "CEO y Fundador",
-      "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con aquellas personas que tengan ganas de aprender."
+      "info": "Creador de BASC Argentina. Comparto mi gran pasión por el baile con todas aquellas personas que demuestren ganas de aprender."
     },
     {
       "id": 2,
@@ -146,9 +146,9 @@
     },
     {
       "id": 4,
-      "title": "Cami",
+      "title": "Camille Vindal",
       "rol": "Profesora y Pareja de Baile",
-      "info": "Soy experta en enseñanza y apasionada de bailes de salón; guío con destreza a mis alumnos en el arte del Ballroom."
+      "info": "Soy experta en enseñanza y apasionada de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom."
     }
   ],
 

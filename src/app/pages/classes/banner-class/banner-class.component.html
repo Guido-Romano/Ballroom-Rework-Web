@@ -1,32 +1,29 @@
-<div class="bg-gray-300">
-    <div class="container mx-auto px-4 py-8">
-        <div class="flex flex-wrap mx-4">
-            <div class="w-full sm:w-auto lg:w-2/3 sm:px-4 mb-8 lg:mb-0">
-                <img class="w-full rounded-lg shadow-lg" src="../../assets/img03.jpeg" alt="Imagen del concierto">
+
+    <div class="container py-8 justify-center mx-auto">
+        <div class="flex flex-wrap gap-x-16 justify-center mx-auto">
+
+
+
+
+            <div class="w-full xl:w-1/3 mb-8">
+                <img class="w-full rounded-lg shadow-lg" src="../../assets/img03.jpeg">
             </div>
             
-            <div class="w-full lg:w-1/3 px-4">
-                <h1 class="font-bold"> {{ level.title | translate }}</h1>
-
-                    <p class="mb-6 text-lg"> {{ level.info | translate }}</p>
-
-                
+            <div class="w-full xl:w-1/3 2xl:mt-8 text-gray-400">
+                <h1 class="font-semibold text-lg sm:text-xl  text-white"> {{ level.title | translate }}</h1>
+                    <p class="mb-6 sm:mt-2 leading-relaxed text-base sm:text-lg"> {{ level.info | translate }}</p>
                 <div class="mb-6">
-                    <p class="font-bold mb-2 text-lg">{{ when.title | translate }}</p>
+                    <p class="font-bold mb-2 text-lg sm:text-xl  text-white">{{ when.title | translate }}</p>
                     <ng-container *ngFor="let clase of classes">
-                        <p class="text-lg">{{clase.day}}, {{clase.schedule}}, {{clase.address}}</p>
+                        <p class="leading-relaxed text-base sm:text-lg">{{clase.day}}, {{clase.schedule}}, {{clase.address}}</p>
                     </ng-container>
                 </div>
-                
-
-                
-                <div class="mb-6">
-                    <p class="font-bold mb-2 text-lg">{{ free.info | translate }}</p>
+                <div class="mb-6 text-center sm:text-left">
+                    <p class="font-semibold mb-2 text-lg sm:text-xl  text-white">{{ free.info | translate }}</p>
 
                 </div>
-                
-                <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">{{ promo.join | translate }}</button>
+                <div class="flex justify-center sm:justify-start">
+                <button class="bg-gold bg-opacity-90 hover:bg-opacity-100 text-slate-800 font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">{{ promo.join | translate }}</button></div>
             </div>
         </div>
     </div>
-</div>

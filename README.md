@@ -67,3 +67,18 @@ h-full: 100%
 h-screen: 100vh
 Alturas automáticas
 h-auto: altura automática según el contenido
+
+
+text-xs - Extra pequeño: 0.75rem (12px)
+text-sm - Pequeño: 0.875rem (14px)
+text-base - Base (predeterminado): 1rem (16px)
+text-lg - Grande: 1.125rem (18px)
+text-xl - Extra grande: 1.25rem (20px)
+text-2xl - 2 veces extra grande: 1.5rem (24px)
+text-3xl - 3 veces extra grande: 1.875rem (30px)
+text-4xl - 4 veces extra grande: 2.25rem (36px)
+text-5xl - 5 veces extra grande: 3rem (48px)
+text-6xl - 6 veces extra grande: 3.75rem (60px)
+text-7xl - 7 veces extra grande: 4.5rem (72px)
+text-8xl - 8 veces extra grande: 6rem (96px)
+text-9xl - 9 veces extra grande: 8rem (128px)
