@@ -34,7 +34,7 @@ export class NavComponent implements OnInit {
 
   changeLanguage(lang: string) {
     this.translate.use(lang);
-    this.dropdownOpen = false; // Cierra el dropdown después de seleccionar un idioma
+    this.dropdownOpen = false; 
   }
 
   toggleDropdown() {

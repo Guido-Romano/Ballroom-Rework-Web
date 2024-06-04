@@ -5,14 +5,14 @@
 
         <div class=" text-gray-400 group ml-2">
           <button type="button" (click)="toggleDropdown()" class="flex items-center hover:text-white">
-              <i class="fas fa-globe mx-1 text-lg"></i>
+              <i class="fas fa-globe mx-1  text-base sm:text-lg"></i>
               <span>{{ 'NAV.language' | translate }}</span>
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
               </svg>
           </button>
           <div *ngIf="dropdownOpen" class="absolute left-0 origin-top-left bg-color3 rounded-lg border border-color4">
-              <div class="py-1 w-28">
+              <div class="py-1 w-32">
                   <a (click)="changeLanguage('es')" class="flex items-center px-4 py-2 text-sm cursor-pointer hover:text-white">
                       <img src="../../assets/icons/es.svg" alt="Español" class="w-6 h-6 inline-block mr-2">
                       <span>Español</span>
@@ -26,15 +26,18 @@
       </div>
       </div>
 
-        <div class="flex space-x-3"> 
+        <div class="flex space-x-3 "> 
             <button>
-                <i class="fab fa-whatsapp hover:text-white text-gray-400 text-xl"></i>
+              <a href="https://wa.me/541159157116" target="_blank">
+                <i class="fab fa-whatsapp hover:text-white text-gray-400  text-base sm:text-lg" href="https://wa.me/541159157116" target="_blank"></i></a>
             </button>
             <button>
-                <i class="fab fa-instagram hover:text-white text-gray-400 text-xl"></i>
+              <a href="https://www.instagram.com/basc_argentina" target="_blank">
+                <i class="fab fa-instagram hover:text-white text-gray-400 text-base sm:text-lg"  href="https://www.instagram.com/basc_argentina" target="_blank"></i></a>
             </button>
             <button>
-                <i class="fab fa-facebook hover:text-white text-gray-400 text-xl"></i>
+              <a href="https://www.facebook.com/groups/bascargentina" target="_blank">
+                <i class="fab fa-facebook hover:text-white text-gray-400 text-base sm:text-lg"></i></a>
             </button>
         </div>
       </div>

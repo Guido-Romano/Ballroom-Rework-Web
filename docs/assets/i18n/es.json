@@ -255,12 +255,12 @@
 "BANNER": {
   "title": "Ballroom Argentina Sport Club",
   "subtitle": "Transforma tus emociones en movimientos.",
-  "button": "Disfruta de esta experiencia de forma gratuita"
+  "button": "Participa de forma gratuita"
 },
 
 "FORM": {
   "title": "Eventos privados",
-  "info": "Actualmente, también estamos ofreciendo un servicio personalizado para distintos tipos de eventos.",
+  "info": "También ofrecemos servicios para distintos tipos de eventos.",
   "name": "Nombre",
   "email": "Email",
   "message": "Mensaje",
@@ -268,7 +268,7 @@
   "nameminlength" : "El nombre debe tener al menos 4 caracteres.",
   "namemaxlength" : "El nombre debe tener máximo 30 caracteres.",
   "emailrequired" : "El correo electrónico es requerido.",
-  "emailpattern" : "El correo electrónico es inválido.",
+  "emailpattern": "El correo electrónico es inválido.",
   "messagerequired" : "El mensaje es requerido.",
   "messageminlength" : "El mensaje debe tener al menos 8 caracteres.",
   "messagemaxlength" : "El mensaje debe tener máximo 255 caracteres.",
@@ -278,15 +278,15 @@
   "TEXTS": [
     {
       "id": 1,
-      "title": "Juan Almirón, C.E.O Fundador de BASC",
-      "info": "Mi historia en el mundo del baile comenzó con una chispa de inspiración al presenciar la gracia y la destreza del bailarín Oleksandr Honcharov, fue él lo que me llevó a querer aprender esta danza. Mi búsqueda de conocimiento me hizo descubrir DSC, una escuela de baile que se convertiría en el punto de partida de mi viaje en este apasionante universo.\n\n\n Recuerdo el día que crucé por primera vez las puertas de la sucursal en Avenida Corrientes y conocí a los dos maestros que dejaron una huella indeleble en mi formación: Mery Lenz y Eugenio Dmytrenko. Desde ese momento, supe que quería absorber cada enseñanza que estos virtuosos de la danza tenían para ofrecerme.",
-      "info2": "\n\n\nA lo largo de los años, he participado en competiciones de ballroom, destacándome en categorías de letras y Open, obteniendo primeros puestos y llegando a ser finalista en múltiples ocasiones. He compartido mis conocimientos a través de clases grupales y particulares en diversas provincias de Argentina, desde Buenos Aires hasta Santa Fe, desde niveles iniciales hasta avanzados.\n\n\nSin embargo, el año 2024 marca un nuevo capítulo en mi trayectoria, ya que he decidido emprender mi propio proyecto personal: BASC. Mi objetivo con BASC es claro: difundir los bailes de salón, transmitir mi amor por esta danza y apoyar, formar y acompañar a todos aquellos que deseen adentrarse en este apasionante mundo.\n\n\nPor lo tanto, los invito a todos a unirse a mí en este viaje de aprendizaje y descubrimiento. ¡Los espero con los brazos abiertos para aprender a bailar y compartir juntos este emocionante camino!"
+      "title": "Juan Almirón, C.E.O Fundador",
+      "info": "Mi historia en el mundo del baile comenzó con una chispa de inspiración al presenciar la gracia y la destreza del bailarín Oleksandr Honcharov, fue él lo que me llevó a querer aprender esta danza. Mi búsqueda de conocimiento me hizo descubrir DSC, una escuela de baile que se convertiría en el punto de partida de mi viaje en este apasionante universo.",
+      "info2": "\n\n\n Recuerdo el día que crucé por primera vez las puertas de la sucursal en Avenida Corrientes y conocí a los dos maestros que dejaron una huella indeleble en mi formación: Mery Lenz y Eugenio Dmytrenko. Desde ese momento, supe que quería absorber cada enseñanza que estos virtuosos de la danza tenían para ofrecerme.\n\n\nA lo largo de los años, he participado en competiciones de ballroom, destacándome en categorías de letras y Open, obteniendo primeros puestos y llegando a ser finalista en múltiples ocasiones. He compartido mis conocimientos a través de clases grupales y particulares en diversas provincias de Argentina, desde Buenos Aires hasta Santa Fe, desde niveles iniciales hasta avanzados.\n\n\nSin embargo, el año 2024 marca un nuevo capítulo en mi trayectoria, ya que he decidido emprender mi propio proyecto personal: BASC. Mi objetivo con BASC es claro: difundir los bailes de salón, transmitir mi amor por esta danza y apoyar, formar y acompañar a todos aquellos que deseen adentrarse en este apasionante mundo.\n\n\nPor lo tanto, los invito a todos a unirse a mí en este viaje de aprendizaje y descubrimiento. ¡Los espero con los brazos abiertos para aprender a bailar y compartir juntos este emocionante camino!"
     },
     {
       "id": 2,
-      "title": "¡Bienvenido a BASC (Ballroom Argentina Sport Club)!",
+      "title": "Ballroom Argentina Sport Club",
       "info": "Nuestra misión es difundir la pasión por el baile en Argentina y Latinoamérica. Ofrecemos clases para todos los niveles: principiantes, intermedios y avanzados. Ya sea que bailes por hobby, recreación o competitivamente, ¡tenemos algo para ti!. Nos preocupamos por tu progreso, por eso nuestros instructores reciben formación continua en ballroom dance, preparación física y psicología deportiva. En BASC, creamos un ambiente cómodo donde el error es parte del aprendizaje y, sobre todo, ¡donde te diviertes mientras aprendes!\n\n\n¿Preguntas? ¿Quieres más información? ¡No dudes en contactarnos a través de MD y te responderemos lo antes posible!",
-      "info2": "\n\n\nLee más acerca de nosotros."
+      "info2": "\n\n\nLeer más"
     },
     {
       "id": 3,
