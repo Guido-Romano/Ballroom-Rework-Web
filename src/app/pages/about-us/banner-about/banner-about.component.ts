@@ -29,9 +29,16 @@ export class BannerAboutComponent implements OnInit, OnDestroy {
 
   loadText(): void {
     this.translate.get('TEXTS.1').subscribe((data: any) => {
+      data.info = this.formatText(data.info);
+      data.info2 = this.formatText(data.info2);
       this.text = data;
     });
   }
+
+  formatText(text: string): string {
+    return text.replace(/\n\n\n/g, '</p><p>').replace(/\n/g, '<br/>');
+  }
+  
 }
 
 

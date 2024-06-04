@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "banner ready" 
+git commit -m "arreglando los primeros detalles" 
 git push origin main
 
 
