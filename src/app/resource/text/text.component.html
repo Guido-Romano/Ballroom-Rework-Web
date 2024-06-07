@@ -1,10 +1,10 @@
-<div class="px-5 sm:px-12 max-w-6xl mx-auto my-1 sm:my-8 text-white" *ngIf="article">
+<div class="px-5 sm:px-12 max-w-6xl mx-auto my-1 sm:my-8" *ngIf="article">
   <h2 class="py-8 text-center text-2xl sm:text-3xl" [innerHTML]="formattedtitle">{{ article.title }} </h2>
   <p class="leading-relaxed text-base sm:text-lg" [innerHTML]="formattedInfo">
   </p>
   <p class="leading-relaxed text-base sm:text-lg" *ngIf="article.showMore" [innerHTML]="formattedInfo2">
   </p>
-  <button *ngIf="article.info2" (click)="toggleText()" class="mt-4 text-gray-400 focus:outline-none font-semibold hover:text-white">
+  <button *ngIf="article.info2" (click)="toggleText()" class="mt-4 text-neutral-400 focus:outline-none font-semibold hover:text-white">
     {{ article.showMore ? '&#8592; Ocultar' : 'Leer más&nbsp;&#8594;' }}
   </button>
 </div>

@@ -1,9 +1,9 @@
-<nav class="bg-color2 z-50 relative">
+<nav class="bg-neutral-900 z-50 relative">
   <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-1 md:p-3">
     <div class="flex items-center space-x-3 rtl:space-x-reverse">
       <div class="flex items-center space-x-3 rtl:space-x-reverse relative inline-block text-left mr-2">
 
-        <div class=" text-gray-400 group ml-2">
+        <div class="text-neutral-400 group ml-2">
           <button type="button" (click)="toggleDropdown()" class="flex items-center hover:text-white">
               <i class="fas fa-globe mx-1  text-base sm:text-lg"></i>
               <span>{{ 'NAV.language' | translate }}</span>
@@ -11,7 +11,7 @@
                   <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
               </svg>
           </button>
-          <div *ngIf="dropdownOpen" class="absolute left-0 origin-top-left bg-color3 rounded-lg border border-color4">
+          <div *ngIf="dropdownOpen" class="absolute left-0 origin-top-left bg-neutral-900 rounded-lg border border-neutral-600">
               <div class="py-1 w-32">
                   <a (click)="changeLanguage('es')" class="flex items-center px-4 py-2 text-sm cursor-pointer hover:text-white">
                       <img src="../../assets/icons/es.svg" alt="Español" class="w-6 h-6 inline-block mr-2">
@@ -29,21 +29,21 @@
         <div class="flex space-x-3 "> 
             <button>
               <a href="https://wa.me/541159157116" target="_blank">
-                <i class="fab fa-whatsapp hover:text-white text-gray-400  text-base sm:text-lg" href="https://wa.me/541159157116" target="_blank"></i></a>
+                <i class="fab fa-whatsapp hover:text-white text-neutral-400  text-base sm:text-lg" href="https://wa.me/541159157116" target="_blank"></i></a>
             </button>
             <button>
               <a href="https://www.instagram.com/basc_argentina" target="_blank">
-                <i class="fab fa-instagram hover:text-white text-gray-400 text-base sm:text-lg"  href="https://www.instagram.com/basc_argentina" target="_blank"></i></a>
+                <i class="fab fa-instagram hover:text-white text-neutral-400 text-base sm:text-lg"  href="https://www.instagram.com/basc_argentina" target="_blank"></i></a>
             </button>
             <button>
               <a href="https://www.facebook.com/groups/bascargentina" target="_blank">
-                <i class="fab fa-facebook hover:text-white text-gray-400 text-base sm:text-lg"></i></a>
+                <i class="fab fa-facebook hover:text-white text-neutral-400 text-base sm:text-lg"></i></a>
             </button>
         </div>
       </div>
 
       <div>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-color4 focus:outline-none focus:ring-2 focus:ring-gray-400" aria-controls="navbar-default" aria-expanded="false">
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-neutral-400 rounded-lg md:hidden hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-300" aria-controls="navbar-default" aria-expanded="false">
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
@@ -51,8 +51,8 @@
       </div>
   
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 mt-4 border border-color4 rounded-lg rtl:space-x-reverse bg-color3 text-gray-400
-      md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-color2">
+      <ul class="font-medium flex flex-col p-4 mt-4 border border-neutral-600 rounded-lg rtl:space-x-reverse bg-neutral-900 text-neutral-400
+      md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0">
         <li>
           <a routerLink="/" routerLinkActive="active" class="block py-2 px-2 hover:text-white rounded md:bg-transparent md:p-0" [class.text-white]="isActive('/')">{{ 'NAV.home' | translate }}</a>
         </li>

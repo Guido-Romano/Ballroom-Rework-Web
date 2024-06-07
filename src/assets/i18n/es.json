@@ -9,7 +9,7 @@
       "price": "$20.000",
       "schedule": "09:00 - 10:00 am",
       "level": "principiante / intermedio",
-      "address": "Av. Corrientes 4534",
+      "address": "Corrientes 4534",
       "img": "../../assets/img09.jpeg",
       "more": "Más info."
     },
@@ -22,7 +22,7 @@
       "price": "$20.000",
       "schedule": "19:00 - 20:00 hs",
       "level": "principiante / intermedio",
-      "address": "Av. Corrientes 4534",
+      "address": "Corrientes 4534",
       "img": "../../assets/img10.jpeg",
       "more": "Más info."
     },

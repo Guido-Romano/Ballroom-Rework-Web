@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "arreglando los primeros detalles" 
+git commit -m "arreglando clases" 
 git push origin main
 
 
