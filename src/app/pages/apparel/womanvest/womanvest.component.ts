@@ -2,12 +2,13 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
+
 @Component({
-  selector: 'app-vertical-card',
-  templateUrl: './vertical-card.component.html'
+  selector: 'app-womanvest',
+  templateUrl: './womanvest.component.html'
 })
-export class VerticalCardComponent implements OnInit, OnDestroy {
-  classes: any[] = [];
+export class WomanvestComponent  implements OnInit, OnDestroy {
+  womanvests: any[] = [];
   private langChangeSubscription: Subscription | undefined;
 
   constructor(private translate: TranslateService) {
@@ -28,10 +29,9 @@ export class VerticalCardComponent implements OnInit, OnDestroy {
   }
 
   loadText(): void {
-    this.translate.get('CLASSES').subscribe((data: any[]) => {
-      this.classes = data;
+    this.translate.get('WOMANVEST').subscribe((data: any[]) => {
+      this.womanvests = data;
     });
-
- 
   }
 }
+

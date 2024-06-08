@@ -1,17 +1,23 @@
-<div class="flex justify-center items-center py-[10vh]">
-  <div class="gap-2 grid grid-cols-1 mini:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-    <div class="container p-5 mini:p-0" *ngFor="let producto of products">
-      <div class="p-8 max-w-lg rounded-2xl hover:shadow-2xl hover:shadow-grey flex flex-col items-center">
-        <div class="relative flex flex-col justify-end min-w-[75vw] min-h-[30vh] mini:min-w-[45vw] mini:min-h-[15vh] sm:min-w-[32vw] sm:min-h-[15vh] md:min-w-[25vw] md:min-h-[21vh] lg:min-w-[25vw] lg:min-h-[23vh] xl:min-w-[18vw] xl:min-h-[17vh] 2xl:min-w-[14vw] 2xl:min-h-[23vh]">
-          <img [src]="producto.img" alt="article image" class="rounded-lg overflow-hidden object-contain absolute inset-x-0 bottom-0 w-full h-full">
+<div class="flex justify-center">
+  <div class="grid grid-cols-1 mini:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
+
+    <div  *ngFor="let producto of products">
+      <div class="my-2 p-8 max-w-lg h-[460px] mini:h-[390px] sm:h-[460px] rounded-2xl hover:shadow-2xl hover:shadow-grey flex flex-col items-center">
+        <div class="relative flex flex-col justify-end w-full h-[54%]">
+
+          <img [src]="producto.img" alt="article image">
         </div>
-        <div class="mt-8 text-neutral-800">
-          <h4 class="font-bold text-sm md:text-base">{{ producto.title }}</h4>
-          <p class="mt-2 text-neutral-500 text-xs md:text-sm">{{ producto.info }}</p>
-          <div class="mt-5 flex justify-between w-full">
-            <a [href]="producto.link" target="_blank" class="mr-2">
-              <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-neutral-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-neutral-900">
-                Amazon
+
+          <div class="mt-2 mb-0 md:mt-6 md:mb-2">
+            <h4 class="font-bold text-base text-neutral-950 text-center h-[24px] overflow-hidden">{{ producto.title }}</h4>
+          </div>
+          <div class="h-[80px] overflow-hidden mb-4">
+            <p class="text-neutral-500 text-sm">{{ producto.info }}</p>
+          </div>
+          <div class="flex justify-center">
+            <a [href]="producto.link" target="_blank">
+              <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-700 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">
+                Ver en Amazon
               </button>
             </a>
           </div>
@@ -19,5 +25,8 @@
       </div>
     </div>
   </div>
-</div>
+
+
+
+
 

@@ -2,7 +2,7 @@
   "CLASSES": [
     {
       "id": 1,
-      "title": "titulo 1",
+      "title": "Ballroom Dance",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
       "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
       "day": "Sábados",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "title": "title 2",
+      "title": "Ballroom Dance",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
       "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
       "day": "Sábados",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "title": "title 3",
+      "title": "Ballroom Dance",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
       "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
       "day": "Domingos",
@@ -163,7 +163,7 @@
     },
     {
       "id": 2,
-      "title": "diamantes de Imitación para Salón de Baile",
+      "title": "Diamantes de Imitación",
       "info": "Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.",
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg",
@@ -179,7 +179,7 @@
     },
     {
       "id": 4,
-      "title": "Puntera Cerrada, Tango cha-cha",
+      "title": "Punta Cerrada, Tango/cha-cha",
       "info": "Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio",
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg",
@@ -192,25 +192,109 @@
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
       "link": "https://amzn.to/3V76TT0"
-    },
+    }
+ 
+  ],
+
+  "WOMANVEST": [
     {
-      "id": 6,
-      "title": "Bachata Brillantes",
-      "info": "Material externo: hecho de cuero sintético / satinado de alta calidad, la suela es de gamuza, suave, cómoda y antideslizante, la mejor opción para el entrenamiento y el rendimiento en la danza.",
+    "id": 1,
+      "title": "Baile Latino con Lentejuelas",
+      "info": "Material exterior: hecho de cuero sintético y lentejuelas de alta calidad. Los zapatos brillarán con pasos elegantes y serás el Centro de atención de todos. La plantilla cómoda tiene una excelente resistencia a la compresión, Anti - deformación y anti - distorsión, puede soportar la fuerza de larga duración, alta frecuencia pisotear sin deformación, especialmente diseñado para bailar.",
       "info2": "",
-      "img": "https://m.media-amazon.com/images/I/61mGdsYBBcL._AC_SY625_.jpg",
-      "link": "https://amzn.to/3wATMjF"
+      "img": "https://m.media-amazon.com/images/I/61pHz1ri7fL._AC_SY625_.jpg",
+      "link": "https://amzn.to/3WQ56mH"
     },
     {
-      "id": 7,
-      "title": "Zapatos de Baile Suave y cómodo",
+      "id": 2,
+      "title": "Diamantes de Imitación",
+      "info": "Material: piedras satinadas y de lluvia. Las suelas de gamuza son suaves y flexibles, silenciosas y antideslizantes, lo que puede hacer que los bailarines bailen libremente sin cansarse.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/71YHcP5IJ6L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UTSOXO"
+    },
+    {
+      "id": 3,
+      "title": "Moderno Tango Tap",
+      "info": "Este zapato de baile está hecho de satén y caucho de alta calidad,tiene cuatro correas en la parte superior para la mayoría de los trajes de baile e incluso para los zapatos de todos los días,adecuados para usar al aire libre.Nota:El tamaño de los zapatos es el código de la etiqueta, consulte la tabla de tallas y el número de código real correspondiente.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/51HMobCtcML._AC_SX679_.jpg",
+      "link": "https://amzn.to/3KaPoe9"
+    },
+    {
+      "id": 4,
+      "title": "Punta Cerrada, Tango/cha-cha",
+      "info": "Diseño: diseño clásico de puntera cerrada, transpirable y cómodo. Los zapatos de baile de salón son duraderos, ligeros y cómodos. La hebilla y el clip del zapato pueden lograr un deslizamiento y liberación instantáneos. Buena resistencia al deslizamiento y equilibrio",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61AwjA4O70L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3WTqvv4"
+    },
+    {
+      "id": 5,
+      "title": "Latín, Sandalia con talón Mujer",
+      "info": "Nuestro tamaño de zapatos es todo en tamaño estándar europeo, el ancho de los zapatos es medio (b o m), si sus zapatos diarios ancho de tamaño ancho (D, W o ee), por favor compre un tamaño más grande. Consulte la tabla de tallas para comparar cuidadosamente los datos de longitud del pie antes de realizar el pedido.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
+      "link": "https://amzn.to/3V76TT0"
+    }
+  ],
+
+
+  "MENSHOES": [
+    {
+      "id": 1,
+      "title": "Vestido 1",
       "info": "Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar. Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.",
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg",
       "link": "https://amzn.to/4bxexf9"
     },
     {
-      "id": 8,
+      "id": 2,
+      "title": "Vestido 2",
+      "info": "Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/41tUOBDkVXL._AC_SY625_.jpg",
+      "link": "https://amzn.to/44T5RgH"
+    },
+    {
+      "id": 3,
+      "title": "Vestido 3 ",
+      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UPwaQ7"
+    },
+    {
+      "id": 4,
+      "title": "Vestido 4",
+      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UPwaQ7"
+    },
+    {
+      "id": 5,
+      "title": "Vestido 5",
+      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UPwaQ7"
+    }
+
+  ],
+
+  "MENVEST": [
+    {
+      "id": 1,
+      "title": "Para Baile Suaves y cómodo",
+      "info": "Los zapatos de salón tienen una altura adecuada para el talón, es muy cómodo de llevar. Moda y clásico, hacen que el baile sea más atractivo. Vestirse y combinar es más fácil que antes con él.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Mg50sYnnL._AC_SY625_.jpg",
+      "link": "https://amzn.to/4bxexf9"
+    },
+    {
+      "id": 2,
       "title": "Cuero con Punta Redonda",
       "info": "Altura del tacón: 3 cm/4,5 cm. Cabeza redonda de 360º. Antihumedad y transpirable",
       "info2": "",
@@ -218,7 +302,23 @@
       "link": "https://amzn.to/44T5RgH"
     },
     {
-      "id": 9,
+      "id": 3,
+      "title": "Baile Latino",
+      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UPwaQ7"
+    },
+    {
+      "id": 4,
+      "title": "Baile Latino",
+      "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61Nq8n6uy+L._AC_SY625_.jpg",
+      "link": "https://amzn.to/3UPwaQ7"
+    },
+    {
+      "id": 5,
       "title": "Baile Latino",
       "info": "Los zapatos son adecuados para la danza latina, suela de gamuza adecuada para el interior, antideslizante, fuerte agarre. Cierre: hebilla, altura del tacón: 2.7 centímetros, ancho del zapato: normal.",
       "info2": "",
@@ -226,11 +326,6 @@
       "link": "https://amzn.to/3UPwaQ7"
     }
   ],
-
-
-
-
-
 
 
 
@@ -408,7 +503,41 @@
       "title": "Contacta con nosotros",
       "info": "¿Tienes alguna pregunta o necesitas más información?",
       "info2": "\n\n\nNo dudes en ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o teléfono. Estamos aquí para ayudarte y responder cualquier duda que puedas tener sobre nuestras clases y servicios."
+    },
+    {
+      "id": 23,
+      "title": "La Importancia de una Buena Vestimenta en el Baile de Salón",
+      "info": "En el mundo del baile de salón, la vestimenta no es simplemente un detalle superficial, sino una parte integral de la experiencia. Una buena vestimenta no solo realza nuestra apariencia, sino que también influye en nuestra confianza y comodidad mientras nos movemos por la pista. Cada atuendo contribuye a la atmósfera de gracia y sofisticación que caracteriza al baile de salón. \n\n\nAsí que la próxima vez que te prepares, recuerda: tu vestimenta no solo habla de tu estilo, sino también de tu compromiso con la excelencia en el baile. ¡Vístete con elegancia y deja que tu pasión por el baile brille en cada movimiento!",
+      "info2": ""
+    },
+    {
+      "id": 24,
+      "title": "Calzado femenino",
+      "info": "En Ballroom Argentina, te recomendamos los siguientes:",
+      "info2": ""
+    },
+  
+    {
+      "id": 25,
+      "title": "Atuendos femeninos",
+      "info": "En Ballroom Argentina, te recomendamos los siguientes:",
+      "info2": ""
+    },
+    {
+      "id": 26,
+      "title": "Zapatos masculinos",
+      "info": "En Ballroom Argentina, te recomendamos los siguientes:",
+      "info2": ""
+    },
+    {
+      "id": 27,
+      "title": "Atuendos masculinos",
+      "info": "En Ballroom Argentina, te recomendamos los siguientes:",
+      "info2": ""
     }
+ 
+
+ 
   ]
 }
 

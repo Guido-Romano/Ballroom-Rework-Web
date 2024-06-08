@@ -26,6 +26,9 @@ import { QuestionsComponent } from './pages/home/questions/questions.component';
 import { StaffComponent } from './pages/about-us/staff/staff.component';
 import { TextComponent } from './resource/text/text.component';
 import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-card.component';
+import { WomanvestComponent } from './pages/apparel/womanvest/womanvest.component';
+import { MenshoesComponent } from './pages/apparel/menshoes/menshoes.component';
+import { MenvestComponent } from './pages/apparel/menvest/menvest.component';
 
 
 // AoT requires an exported function for factories
@@ -53,6 +56,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     StaffComponent,
     TextComponent,
     VerticalCardComponent,
+    WomanvestComponent,
+    MenshoesComponent,
+    MenvestComponent,
+
   ],
   imports: [
     AppRoutingModule,
