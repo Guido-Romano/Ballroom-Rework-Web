@@ -2,42 +2,94 @@
   "CLASSES": [
     {
       "id": 1,
-      "title": "Ballroom Dance",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-      "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
-      "day": "Sábados",
-      "price": "$20.000",
-      "schedule": "09:00 - 10:00 am",
-      "level": "principiante / intermedio",
-      "address": "Corrientes 4534",
+      "title": "Instructor Juan Almirón",
+      "info": "Ballroom Dance",
+      "info2": "(International Latin)",
+      "price": "5000",
+      "day": "Martes",
+      "schedule": "de 8:00 pm - 9:00 pm",
+      "level": "(Sala 6)",
+      "address": "Avenida Corrientes 4534 (El Juvenil)",
       "img": "../../assets/img09.jpeg",
-      "more": "Más info."
+      "more": "Anotáte"
     },
     {
       "id": 2,
-      "title": "Ballroom Dance",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-      "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
-      "day": "Sábados",
-      "price": "$20.000",
-      "schedule": "19:00 - 20:00 hs",
-      "level": "principiante / intermedio",
-      "address": "Corrientes 4534",
+      "title": "Instructor Juan Almirón",
+      "info": "Ballroom Dance",
+      "info2": "(International Latin)",
+      "price": "5000",
+      "day": "Jueves",
+      "schedule": "de 8:00 pm - 9:00 pm",
+      "level": "(Sala 1)",
+      "address": "Avenida Corrientes 4534 (El Juvenil)",
       "img": "../../assets/img10.jpeg",
-      "more": "Más info."
+      "more": "Anotáte" 
     },
     {
       "id": 3,
-      "title": "Ballroom Dance",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-      "info2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
-      "day": "Domingos",
-      "price": "$20.000",
-      "schedule": "19:00 - 20:00 hs",
-      "level": "principiante / intermedio",
-      "address": "Lambaré 990",
+      "title": "Instructor Juan Almirón",
+      "info": "Ballroom Dance",
+      "info2": "(International Latin)",
+      "price": "5000",
+      "day": "Sábado",
+      "schedule": "de 10:00 am - 11:00 am",
+      "level": "(Sala 5)",
+      "address": "Avenida corrientes 4534 (El Juvenil)",
       "img": "../../assets/img11.jpeg",
-      "more": "Más info."
+      "more": "Anotáte"
+    },
+    {
+      "id": 4,
+      "title": "Instructor Juan Almirón",
+      "info": "clases particulares",
+      "info2": "(International Latin)",
+      "price": "costo 8000 +coste de salon",
+      "day": "",
+      "schedule": "",
+      "level": "Todos los niveles",
+      "address": "Avenida corrientes 4534 (El Juvenil)",
+      "img": "../../assets/img07.jpeg",
+      "more": "Anotáte" 
+    },
+    {
+      "id": 5,
+      "title": "Instructor Juan Almirón",
+      "info": "clases particulares",
+      "info2": "(International Latin)",
+      "price": "clases para parejas 12000+ costo de salon",
+      "day": "",
+      "schedule": "",
+      "level": "Todos los niveles",
+      "address": "Avenida corrientes 4534 (El Juvenil)",
+      "img": "../../assets/img01.jpeg",
+      "more": "Anotáte"
+    },
+    {
+      "id": 6,
+      "title": "Instructor Camille Vindal",
+      "info": "Ballroom Dance",
+      "info2": "(European style)",
+      "price": "tecnica",
+      "day": "Miercoles",
+      "schedule": "de 19:30hs- 20:30hs",
+      "level": "principiante /intermedio",
+      "address": "Av. Belgrano 1612",
+      "img": "../../assets/img16.jpeg",
+      "more": "Anotáte"
+    },
+    {
+      "id": 7,
+      "title": "Instructor Camille Vindal",
+      "info": "Ballroom Dance",
+      "info2": "(European style)",
+      "price": "coreografia",
+      "day": "Miercoles",
+      "schedule": "de 20:30hs a 21:30hs",
+      "level": "principiante /intermedio",
+      "address": "Av. Belgrano 1612",
+      "img": "../../assets/img15.jpeg",
+      "more": "Anotáte"
     }
   ],
 
@@ -55,22 +107,22 @@
     {
       "id": 3,
       "title": "¿Qué días son las clases?",
-      "info": "Sábados, y Domingos"
+      "info": "Martes, Jueves, Sábados y Miércoles"
     },
     {
       "id": 4,
       "title": "¿Cuáles son los horarios?",
-      "info": "Sábados, 09:00 - 10:00 am / Sábados, 19:00 - 20:00 hs / Domingos, 19:00 - 20:00 hs"
+      "info": "Martes, 20:00 - 21:00 hs\nJueves, 20:00 - 21:00 hs\nSábado, 10:00 - 11:00 hs\nMiércoles, 19:30 - 21:30 hs"
     },
     {
       "id": 5,
       "title": "¿Dónde se realizan las clases?",
-      "info": "Av. Corrientes 4534 (El Juvenil) y Lambaré 990 (Sendas del Sol)"
+      "info": "Avenida Corrientes 4534 (El Juvenil) y Av. Belgrano 1612 (zona Congreso)"
     },
     {
       "id": 6,
       "title": "¿Cuál es el precio de las clases?",
-      "info": "$20.000 al Mes."
+      "info": "$5.000 por clase, $15.000 por pack de 4 clases, $20.000 por pack de 6 clases, $8.000 por clases particulares + costo de salón, $12.000 por clases para parejas + costo de salón"
     },
     {
       "id": 7,
@@ -92,38 +144,39 @@
   "PROMOTION": [
     {
       "id": 1,
-      "title": "Ven con tu pareja!",
-      "save": "ahorras un 15%",
-      "newprice": "25.500",
-      "oldprice": "30.000",
-      "info": "mas info",
-      "info2": "mucha mas info",
-      "time": "por Mes",
+      "title": "pack de 4 clases ",
+      "save": "ahorras $5.000",
+      "newprice": "$15.000",
+      "oldprice": "precio anterior $20.000",
+      "info": "clases grupales",
+      "info2": "Instructor Juan Almirón", 
+      "time": "por mes",
       "join": "Anotáte"
     },
     {
       "id": 2,
-      "title": "Unete a nuestras clases!",
-      "save": "congela el precio ahora",
-      "newprice": "30.000",
-      "oldprice": "",
-      "info": "disfruta de buena compania y pasalo genial!",
-      "info2": "mucha mas info",
-      "time": "por Mes",
+      "title": "pack de 6 clases",
+      "save": "ahorras $10.000",
+      "newprice": "$20.000",
+      "oldprice": "precio anterior $30.000",
+      "info": "clases grupales",
+      "info2": "Instructor Juan Almirón",
+      "time": "por mes",
       "join": "Anotáte"
     },
     {
       "id": 3,
-      "title": "Abonando 3 meses",
-      "save": "ahorras un 20%",
-      "newprice": "72.000",
-      "oldprice": "90.000",
-      "info": "mas info",
-      "info2": "mucha mas info",
-      "time": "por Mes",
+      "title": "pack de 10 clases",
+      "save": "ahorras $15.000",
+      "newprice": "$35.000",
+      "oldprice": "precio anterior $50.000",
+      "info": "clases grupales",
+      "info2": "Instructor Juan Almirón",
+      "time": "por mes",
       "join": "Anotáte"
     }
   ],
+
 
   "STAFF": [
     {
