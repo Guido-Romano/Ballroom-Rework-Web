@@ -29,6 +29,7 @@ import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-ca
 import { WomanvestComponent } from './pages/apparel/womanvest/womanvest.component';
 import { MenshoesComponent } from './pages/apparel/menshoes/menshoes.component';
 import { MenvestComponent } from './pages/apparel/menvest/menvest.component';
+import { TitlesComponent } from './pages/apparel/titles/titles.component';
 
 
 // AoT requires an exported function for factories
@@ -59,6 +60,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     WomanvestComponent,
     MenshoesComponent,
     MenvestComponent,
+    TitlesComponent,
 
   ],
   imports: [

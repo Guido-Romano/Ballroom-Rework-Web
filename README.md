@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "productos avanzado" 
+git commit -m "tarjetas avanzado" 
 git push origin main
 
 

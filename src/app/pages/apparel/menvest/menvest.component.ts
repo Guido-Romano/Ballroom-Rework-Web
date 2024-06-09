@@ -5,7 +5,6 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-menvest',
   templateUrl: './menvest.component.html',
-  styleUrls: ['./menvest.component.css']
 })
 export class MenvestComponent  implements OnInit, OnDestroy {
   menvest: any[] = [];
