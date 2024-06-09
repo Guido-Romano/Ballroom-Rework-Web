@@ -4,10 +4,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-
-      screens: {
-        'mini': '390px', 
-      },
     },
   },
   plugins: [],
