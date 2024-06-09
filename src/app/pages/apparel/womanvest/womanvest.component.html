@@ -1,27 +1,28 @@
-<div class="flex justify-center">
-    <div class="grid grid-cols-1 mini:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5">
-  
-      <div  *ngFor="let producto of womanvests">
-        <div class="my-2 p-8 max-w-lg h-[720px] mini:h-[390px] sm:h-[720px] rounded-2xl hover:shadow-2xl hover:shadow-grey flex flex-col items-center">
-          <div class="relative flex flex-col justify-end w-full h-[75%] overflow-hidden">
-  
-            <img [src]="producto.img" alt="article image">
-          </div>
-  
-            <div class="mt-2 mb-0 md:mt-6 md:mb-2">
-              <h4 class="font-bold text-base text-neutral-950 text-center h-[24px] overflow-hidden">{{ producto.title }}</h4>
+    
+    <div class="flex justify-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 mx-4">
+    
+        <div  *ngFor="let producto of womanvests">
+          <div class="my-2 p-4 h-[670px] rounded-2xl hover:shadow-xl hover:shadow-grey flex flex-col items-center">
+            <div class="relative flex flex-col w-full h-[450px] items-center justify-center">
+    
+              <img [src]="producto.img" alt="article image" class="h-full object-cover">
             </div>
-            <div class="h-[80px] overflow-hidden mb-4">
-              <p class="text-neutral-500 text-sm">{{ producto.info }}</p>
-            </div>
-            <div class="flex justify-center">
-              <a [href]="producto.link" target="_blank">
-                <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-700 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">
-                  Ver en Amazon
-                </button>
-              </a>
+    
+              <div class="pt-5 pb-2">
+                <h4 class="font-bold text-lg text-neutral-950 text-center h-[28px] overflow-hidden">{{ producto.title }}</h4>
+              </div>
+              <div class="h-[80px] overflow-hidden">
+                <p class="text-neutral-500 text-sm">{{ producto.info }}</p>
+              </div>
+              <div class="justify-center pt-5">
+                <a [href]="producto.link" target="_blank">
+                  <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-700 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">
+                    Ver en Amazon
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
