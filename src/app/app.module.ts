@@ -5,10 +5,10 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ApparelComponent } from './pages/apparel/apparel.component';
 import { BannerAboutComponent } from './pages/about-us/banner-about/banner-about.component';
 import { BannerClassComponent } from './pages/classes/banner-class/banner-class.component';
@@ -30,7 +30,7 @@ import { WomanvestComponent } from './pages/apparel/womanvest/womanvest.componen
 import { MenshoesComponent } from './pages/apparel/menshoes/menshoes.component';
 import { MenvestComponent } from './pages/apparel/menvest/menvest.component';
 import { TitlesComponent } from './pages/apparel/titles/titles.component';
-
+import { ProductCardComponent } from './pages/apparel/productcard/productcard.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -39,9 +39,9 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 @NgModule({
   declarations: [
+    AppComponent,
     AboutUsComponent,
     ApparelComponent,
-    AppComponent,
     BannerAboutComponent,
     BannerClassComponent,
     BannerHomeComponent,
@@ -61,7 +61,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MenshoesComponent,
     MenvestComponent,
     TitlesComponent,
-
+    ProductCardComponent,
   ],
   imports: [
     AppRoutingModule,

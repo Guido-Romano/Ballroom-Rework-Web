@@ -205,7 +205,7 @@
     }
   ],
 
-  "PRODUCTS": [
+  "WOMANSHOES": [
     {
       "id": 1,
       "title": "Baile Latino con Lentejuelas",
@@ -245,6 +245,14 @@
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/71uwrXQj7ZL._AC_SY625_.jpg",
       "link": "https://amzn.to/3V76TT0"
+    },
+    {
+      "id": 6,
+      "title": "HIPPOSEUS Zapatos de Baile",
+      "info": "Diseño de calzado: el diseño ergonómico se adapta a las curvas de sus pies para garantizar que los zapatos de baile tengan una forma hermosa y un ajuste cómodo.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/51ZrLdBj4eL._AC_SY625_.jpg",
+      "link": "https://amzn.to/4b1lMeh"
     }
  
   ],
@@ -289,6 +297,14 @@
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/611+Qa+dh8L._AC_SX679_.jpg",
       "link": "https://amzn.to/3XiMEmL"
+    },
+    {
+      "id": 6,
+      "title": "YOOJIA Vestido Brillante",
+      "info": "Hecho de tela de alta calidad, suave, transpirable, agradable para la piel, cómodo al tacto, el vestido de baile te brindará una experiencia de uso cómoda",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/71Efu8s7UaL._AC_SY741_.jpg",
+      "link": "https://amzn.to/3KFZOTg"
     }
   ],
 
@@ -333,6 +349,14 @@
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/71v9N8ZyBkS._AC_SX625_.jpg",
       "link": "https://amzn.to/3x5oS35"
+    },
+    {
+      "id": 6,
+      "title": "Werner Kern",
+      "info": "Zapatos de baile Werner Kern suaves para hombre, con un diseño de 5 agujeros con cordones. Toda la zona del talón, está rodeada por un excepcionalmente suave acolchado cubierto de cuero, que proporciona un ligero aumento de tamaño del mismo, además de un cómodo agarre. ",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61k9hS5AzCL._AC_SY625_.jpg",
+      "link": "https://amzn.to/3RmRtaW"
     }
 
   ],
@@ -377,6 +401,14 @@
       "info2": "",
       "img": "https://m.media-amazon.com/images/I/61+zhFFyBvL._AC_SX679_.jpg",
       "link": "https://amzn.to/4ccjXfv"
+    },
+    {
+      "id": 6,
+      "title": "Allthemen Blazer",
+      "info": "Allthemen significa: ¡todos los hombres! Durante 20 años, Allthemen se ha centrado en la ropa de hombre. Allthemen siempre apuesta por llevar a los clientes la sensación de comodidad y naturalidad.",
+      "info2": "",
+      "img": "https://m.media-amazon.com/images/I/61VhZ96JS3L._AC_SX679_.jpg",
+      "link": "https://amzn.to/4ckazGR"
     }
   ],
 

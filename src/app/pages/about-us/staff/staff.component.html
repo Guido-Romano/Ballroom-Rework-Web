@@ -1,11 +1,11 @@
-<section class="text-neutral-950 py-16 font-medium">
+<section class="py-16 font-medium">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-4xl font-extrabold mb-8 text-neutral-50">{{ question.title | translate }}</h2>
+    <h2 class="text-4xl font-extrabold mb-8">{{ question.title | translate }}</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div *ngFor="let member of staff" class="bg-neutral-50 rounded-lg p-8">
+      <div *ngFor="let member of staff" class="bg-neutral-600 rounded-lg p-8">
         <p class=" mb-4">{{member.info | translate }}</p>
-        <p class="font-extrabold">{{member.title | translate }}</p>
-        <p class=" font-extrabold">{{member.rol | translate }}</p>
+        <p class="font-semibold">{{member.title | translate }}</p>
+        <p class=" font-semibold">{{member.rol | translate }}</p>
       </div>
     </div>
   </div>

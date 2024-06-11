@@ -6,7 +6,8 @@ module.exports = {
     extend: {
     },
   },
-  plugins: [],
+  plugins: [
+  ],
   corePlugins: {
     fontFamily: false, // Deshabilita la configuración de fontFamily por defecto
   },
