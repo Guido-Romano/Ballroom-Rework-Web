@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "tarjetas avanzado" 
+git commit -m "mas componentes" 
 git push origin main
 
 

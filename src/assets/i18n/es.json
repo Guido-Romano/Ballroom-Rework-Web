@@ -205,6 +205,7 @@
     }
   ],
 
+
   "WOMANSHOES": [
     {
       "id": 1,
@@ -440,7 +441,7 @@
 
 "FORM": {
   "title": "Eventos privados",
-  "info": "También ofrecemos servicios para distintos tipos de eventos.",
+  "info": "Ofrecemos servicios para distintos eventos.",
   "name": "Nombre",
   "email": "Email",
   "message": "Mensaje",

@@ -21,16 +21,13 @@ import { FormComponent } from './pages/contact/form/form.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavComponent } from './resource/nav/nav.component';
 import { PricingComponent } from './pages/classes/pricing/pricing.component';
-import { ProductsComponent } from './pages/apparel/products/products.component';
 import { QuestionsComponent } from './pages/home/questions/questions.component';
 import { StaffComponent } from './pages/about-us/staff/staff.component';
 import { TextComponent } from './resource/text/text.component';
 import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-card.component';
-import { WomanvestComponent } from './pages/apparel/womanvest/womanvest.component';
-import { MenshoesComponent } from './pages/apparel/menshoes/menshoes.component';
-import { MenvestComponent } from './pages/apparel/menvest/menvest.component';
-import { TitlesComponent } from './pages/apparel/titles/titles.component';
 import { ProductCardComponent } from './pages/apparel/productcard/productcard.component';
+import { CookieComponent } from './pages/home/cookie/cookie.component';
+import { BannerApparelComponent } from './apparel/banner-apparel/banner-apparel.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -52,16 +49,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     NavComponent,
     PricingComponent,
-    ProductsComponent,
     QuestionsComponent,
     StaffComponent,
     TextComponent,
     VerticalCardComponent,
-    WomanvestComponent,
-    MenshoesComponent,
-    MenvestComponent,
-    TitlesComponent,
     ProductCardComponent,
+    CookieComponent,
+    BannerApparelComponent,
   ],
   imports: [
     AppRoutingModule,
