@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "mas componentes" 
+git commit -m "fixing design" 
 git push origin main
 
 

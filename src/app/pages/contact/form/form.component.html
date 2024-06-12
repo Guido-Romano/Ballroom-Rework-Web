@@ -1,7 +1,7 @@
 <section class="body-font relative text-neutral-400">
   <div class="container mx-auto px-5 pt-10 pb-4 sm:py-20">
     <div class="mb-6 sm:mb-12 flex w-full flex-col text-center">
-      <h1 class="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">{{ 'FORM.title' | translate }}</h1>
+      <h1 class="title-font mb-4 text-2xl font-semibold text-white sm:text-3xl">{{ 'FORM.title' | translate }}</h1>
       <p class="mx-auto  text-sm sm:text-base leading-relaxed lg:w-2/3">{{ 'FORM.info' | translate }}</p>
     </div>
 
@@ -11,7 +11,7 @@
           <div class="w-1/2 p-2">
             <div class="relative">
               <input type="text" id="name" formControlName="from_name" autocomplete="name" class="peer w-full rounded border border-neutral-700 bg-neutral-800 bg-opacity-40 py-1 px-3 leading-8 text-neutral-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-neutral-400 focus:bg-neutral-900 focus:ring-2 focus:ring-neutral-700" placeholder="Name" />
-              <label for="name" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-neutral-900 peer-placeholder-shown:text-neutral-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.name' | translate }}</label>
+              <label for="name" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-amber-500 italic peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.name' | translate }}</label>
               <div *ngIf="form.get('from_name')?.touched && form.get('from_name')?.invalid">
                 <small *ngIf="form.get('from_name')?.errors?.['required']" class="text-red-400">{{ 'FORM.namerequired' | translate }}</small>
                 <small *ngIf="form.get('from_name')?.errors?.['minlength']" class="text-red-400">{{ 'FORM.nameminlength' | translate }}</small>
@@ -24,7 +24,7 @@
 <div class="w-1/2 p-2">
   <div class="relative">
     <input type="email" id="email" formControlName="from_mail" autocomplete="email" class="peer w-full rounded border border-neutral-700 bg-neutral-800 bg-opacity-40 py-1 px-3 leading-8 text-neutral-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-neutral-400 focus:bg-neutral-900 focus:ring-2 focus:ring-neutral-700" placeholder="Email" />
-    <label for="email" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-neutral-900 peer-placeholder-shown:text-neutral-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.email' | translate }}</label>
+    <label for="email" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-amber-500 italic peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.email' | translate }}</label>
     <div *ngIf="form.get('from_mail')?.touched && form.get('from_mail')?.invalid">
       <small *ngIf="form.get('from_mail')?.errors?.['required']" class="text-red-400">{{ 'FORM.emailrequired' | translate }}</small>
       <small *ngIf="form.get('from_mail')?.errors?.['email']" class="text-red-400">{{ 'FORM.emailpattern' | translate }}</small>
@@ -36,7 +36,7 @@
           <div class="mt-4 w-full p-2">
             <div class="relative">
               <textarea id="message" formControlName="message" autocomplete="off" class="peer h-32 w-full resize-none rounded border border-neutral-700 bg-neutral-800 bg-opacity-40 py-1 px-3 leading-6 text-neutral-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-neutral-400 focus:bg-neutral-900 focus:ring-2 focus:ring-neutral-700" placeholder="Message"></textarea>
-              <label for="message" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-neutral-900 peer-placeholder-shown:text-neutral-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.message' | translate }}</label>
+              <label for="message" class="absolute left-3 -top-6 bg-transparent leading-7 text-neutral-400 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-amber-500 italic peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-neutral-400">{{ 'FORM.message' | translate }}</label>
               <div *ngIf="form.get('message')?.touched && form.get('message')?.invalid">
                 <small *ngIf="form.get('message')?.errors?.['required']" class="text-red-400">{{ 'FORM.messagerequired' | translate }}</small>
                 <small *ngIf="form.get('message')?.errors?.['minlength']" class="text-red-400">{{ 'FORM.messageminlength' | translate }}</small>
@@ -46,7 +46,7 @@
           </div>
 
           <div class="w-full p-2 sm:mt-4">
-            <button type="submit" class="mx-auto flex rounded border-0  hover:bg-opacity-100 bg-indigo-800 bg-opacity-80 py-2 px-8 text-white focus:outline-none">{{ 'FORM.send' | translate }}</button>
+            <button type="submit" class="mx-auto flex rounded border-0 bg-amber-500 py-2 px-8  focus:outline-none text-gray-800  hover:bg-amber-600 font-semibold hover:text-neutral-200">{{ 'FORM.send' | translate }}</button>
           </div>
         </div>
       </form>
