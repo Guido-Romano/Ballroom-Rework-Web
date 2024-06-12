@@ -49,7 +49,7 @@
       "schedule": "",
       "level": "Todos los niveles",
       "address": "Avenida corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img07.jpeg",
+      "img": "../../assets/img05.jpeg",
       "more": "Anotáte" 
     },
     {
@@ -62,7 +62,7 @@
       "schedule": "",
       "level": "Todos los niveles",
       "address": "Avenida corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img01.jpeg",
+      "img": "../../assets/img06.jpeg",
       "more": "Anotáte"
     },
     {
@@ -75,7 +75,7 @@
       "schedule": "de 19:30hs- 20:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612",
-      "img": "../../assets/img16.jpeg",
+      "img": "../../assets/img15.jpg",
       "more": "Anotáte"
     },
     {
@@ -88,7 +88,7 @@
       "schedule": "de 20:30hs a 21:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612",
-      "img": "../../assets/img15.jpeg",
+      "img": "../../assets/img16.jpg",
       "more": "Anotáte"
     }
   ],
