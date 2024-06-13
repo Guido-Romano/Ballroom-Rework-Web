@@ -29,6 +29,9 @@ import { ProductCardComponent } from './pages/apparel/productcard/productcard.co
 import { CookieComponent } from './pages/home/cookie/cookie.component';
 import { BannerApparelComponent } from './apparel/banner-apparel/banner-apparel.component';
 import { StatsComponent } from './pages/home/stats/stats.component';
+import { GalleryComponent } from './pages/home/gallery/gallery.component';
+import { BannerPromotionsComponent } from './pages/home/banner-promotions/banner-promotions.component';
+import { BannerStaffComponent } from './pages/home/banner-staff/banner-staff.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -58,6 +61,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     CookieComponent,
     BannerApparelComponent,
     StatsComponent,
+    GalleryComponent,
+    BannerPromotionsComponent,
+    BannerStaffComponent,
   ],
   imports: [
     AppRoutingModule,
