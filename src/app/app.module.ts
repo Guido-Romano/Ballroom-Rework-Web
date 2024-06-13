@@ -28,6 +28,7 @@ import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-ca
 import { ProductCardComponent } from './pages/apparel/productcard/productcard.component';
 import { CookieComponent } from './pages/home/cookie/cookie.component';
 import { BannerApparelComponent } from './apparel/banner-apparel/banner-apparel.component';
+import { StatsComponent } from './pages/home/stats/stats.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -56,6 +57,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProductCardComponent,
     CookieComponent,
     BannerApparelComponent,
+    StatsComponent,
   ],
   imports: [
     AppRoutingModule,

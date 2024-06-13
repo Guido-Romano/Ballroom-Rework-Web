@@ -44,7 +44,7 @@
       "title": "Instructor Juan Almirón",
       "info": "clases particulares",
       "info2": "(International Latin)",
-      "price": "costo 8000 +coste de salon",
+      "price": "individual 8000 / parejas 12000+coste de salon",
       "day": "",
       "schedule": "",
       "level": "Todos los niveles",
@@ -52,21 +52,9 @@
       "img": "../../assets/img05.jpeg",
       "more": "Anotáte" 
     },
+ 
     {
       "id": 5,
-      "title": "Instructor Juan Almirón",
-      "info": "clases particulares",
-      "info2": "(International Latin)",
-      "price": "clases para parejas 12000+ costo de salon",
-      "day": "",
-      "schedule": "",
-      "level": "Todos los niveles",
-      "address": "Avenida corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img06.jpeg",
-      "more": "Anotáte"
-    },
-    {
-      "id": 6,
       "title": "Instructor Camille Vindal",
       "info": "Ballroom Dance",
       "info2": "(European style)",
@@ -79,7 +67,7 @@
       "more": "Anotáte"
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Instructor Camille Vindal",
       "info": "Ballroom Dance",
       "info2": "(European style)",
