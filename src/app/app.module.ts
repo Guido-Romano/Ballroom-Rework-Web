@@ -32,6 +32,10 @@ import { StatsComponent } from './pages/home/stats/stats.component';
 import { GalleryComponent } from './pages/home/gallery/gallery.component';
 import { BannerPromotionsComponent } from './pages/home/banner-promotions/banner-promotions.component';
 import { BannerStaffComponent } from './pages/home/banner-staff/banner-staff.component';
+import { BlocksComponent } from './pages/contact/blocks/blocks.component';
+import { MisionComponent } from './pages/about-us/mision/mision.component';
+import { BannerMisionComponent } from './pages/about-us/banner-mision/banner-mision.component';
+import { TitlesComponent } from './pages/apparel/titles/titles.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -64,6 +68,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     GalleryComponent,
     BannerPromotionsComponent,
     BannerStaffComponent,
+    BlocksComponent,
+    MisionComponent,
+    BannerMisionComponent,
+    TitlesComponent,
   ],
   imports: [
     AppRoutingModule,
