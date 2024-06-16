@@ -4,9 +4,9 @@
 
     <div>
 
-<button class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 justify-center mx-auto">
+<button class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 justify-center mx-auto px-4">
   <div *ngFor="let product of productos"
-       class="bg-white overflow-hidden border border-neutral-50 xl:border-transparent text-slate-700 "
+       class="bg-white overflow-hidden border border-neutral-50 xl:border-transparent"
        style="max-width: 196px; max-height: 326px;"
        (mouseover)="hoveredProduct = product"
        (mouseout)="hoveredProduct = null">
@@ -22,12 +22,12 @@
           style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
         {{ product.title }}
       </h3>
-      <p class="text-gray-500 text-sm"
+      <p class="text-slate-500 text-sm text-left"
          style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
         {{ product.info }}
       </p>
     </div>
-    <div class="flex justify-center my-2 xl:my-4">
+    <div class="flex justify-center  pt-4 pb-1">
       <a [href]="product.link" target="_blank">
         <button class="text-sm bg-slate-700 text-white px-2 py-1 rounded-md hover:bg-slate-900 font-semibold text-white">Amazon</button>
       </a>
