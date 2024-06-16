@@ -36,6 +36,7 @@ import { BlocksComponent } from './pages/contact/blocks/blocks.component';
 import { MisionComponent } from './pages/about-us/mision/mision.component';
 import { BannerMisionComponent } from './pages/about-us/banner-mision/banner-mision.component';
 import { TitlesComponent } from './pages/apparel/titles/titles.component';
+import { DoubleImgComponent } from './pages/about-us/double-img/double-img.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -72,6 +73,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MisionComponent,
     BannerMisionComponent,
     TitlesComponent,
+    DoubleImgComponent,
   ],
   imports: [
     AppRoutingModule,
