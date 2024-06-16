@@ -1,29 +1,28 @@
 
-    <div class="container py-8 justify-center mx-auto">
+ 
+    <div class="container py-8 justify-center mx-auto ">
         <div class="flex flex-wrap gap-x-16 justify-center mx-auto px-5 sm:px-0">
-
-
-
 
             <div class="w-full xl:w-1/3 mb-8">
                 <img class="w-full rounded-lg shadow-lg" src="../../assets/img03.jpeg">
             </div>
             
-            <div class="w-full xl:w-1/3 2xl:mt-8 text-neutral-400">
-                <h1 class="font-semibold text-base sm:text-xl  text-white"> {{ level.title | translate }}</h1>
+            <div class="w-full xl:w-1/3 2xl:mt-8">
+                <h2 class="font-semibold text-base sm:text-xl text-gray-900 "> {{ level.title | translate }}</h2>
                     <p class="mb-6 sm:mt-2 leading-relaxed text-sm sm:text-lg"> {{ level.info | translate }}</p>
                 <div class="mb-6">
-                    <p class="font-semibold mb-2 text-base sm:text-xl  text-white">{{ when.title | translate }}</p>
+                    <h2 class="font-semibold mb-2 text-base sm:text-xl   text-gray-900">{{ when.title | translate }}</h2>
                     <ng-container *ngFor="let clase of classes">
                         <p class="leading-relaxed text-sm sm:text-lg">{{clase.day}}, {{clase.schedule}}, {{clase.address}}</p>
                     </ng-container>
                 </div>
                 <div class=" mb-2 sm:mb-6 text-center sm:text-left">
-                    <p class="font-semibold mb-2 text-base sm:text-xl text-white">{{ free.info | translate }}</p>
+                    <h2 class="font-semibold mb-2 text-base sm:text-xl  text-gray-900">{{ free.info | translate }}</h2>
 
                 </div>
                 <div class="flex justify-center sm:justify-start">
-                <button class="font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:text-neutral-200 text-gray-800 bg-amber-500  hover:bg-amber-600 font-semibold" type="button">{{ promo.join | translate }}</button></div>
+                <button class=" flex rounded border-0 bg-amber-500 py-2 px-4  focus:outline-none   hover:bg-amber-600 font-semibold text-gray-800 rounded-xl" type="button">{{ promo.join | translate }}</button></div>
             </div>
         </div>
     </div>
+

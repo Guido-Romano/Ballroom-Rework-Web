@@ -4,13 +4,13 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
         <ng-container *ngFor="let cards of classes">
           <div class="p-8 max-w-sm border border-neutral-500 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-            <img [src]="cards.img" alt="article image" class="shadow rounded-lg overflow-hidden border object-cover" *ngIf="cards.img">
+            <img [src]="cards.img" alt="article image" class="shadow rounded-2xl overflow-hidden border object-cover" *ngIf="cards.img">
             <div class="mt-8">
               <h4 class="font-bold text-lg sm:text-xl">{{ cards.title }}</h4>
               <p class="mt-2 text-neutral-400 text-base sm:text-lg">{{ cards.info }}</p>
               <p class="mt-2 text-neutral-400 text-sm sm:text-base">{{ cards.info2 }}</p>
               <div class="mt-5 flex justify-center items-center">
-                <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-700">
+                <button type="button" class="inline-flex items-center rounded-xl border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-700">
                   {{ cards.more }}
                 </button>
               </div>
@@ -21,4 +21,5 @@
     </div>
   </div>
 </div>
+
 
