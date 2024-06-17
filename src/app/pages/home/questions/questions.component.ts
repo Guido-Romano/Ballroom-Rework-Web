@@ -31,11 +31,12 @@ export class QuestionsComponent implements OnInit, OnDestroy {
     this.translate.get('QUESTIONS').subscribe((data: any[]) => {
       this.questions = data;
     });
+  }
 
- 
+  formatText(text: string): string {
+    return text.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br/>');
   }
 }
-
 
 
 

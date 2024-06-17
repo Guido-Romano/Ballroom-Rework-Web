@@ -1,11 +1,11 @@
-<div class="pb-12 bg-gray-900 text-gray-50">
+<div class="pb-10 bg-gray-900 text-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-extrabold  sm:text-4xl text-white pt-12">
-                El por qué somos la mejor elección
+                {{ 'STATS.title' | translate }}
             </h2>
-            <p class="mt-3 text-xl  sm:mt-4 opacity-60">
-                Descubre la pasión, el talento y la dedicación que nos distinguen.
+            <p class="mt-3 text-xl  sm:mt-4 opacity-60 italic">
+                {{ 'STATS.subtitle' | translate }}
             </p>
         </div>
     </div>
@@ -13,24 +13,24 @@
         <div class="relative">
             <div class="absolute inset-0 h-1/2"></div>
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-4xl mx-auto">
+                <div class="lg:max-w-4xl mx-auto">
                     <dl class="rounded-lg bg-gray-800 shadow-lg sm:grid sm:grid-cols-3">
-                        <div class="flex flex-col border-b border-amber-500 p-6 text-center sm:border-0 sm:border-r">
+                        <div class="flex flex-col border-b border-amber-500 p-3 text-center sm:border-0 sm:border-r">
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium ">
-                                Años de experiencia
+                                {{ 'STATS.button1' | translate }}
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold text-amber-500">+10</dd>
                         </div>
                         <div
-                            class="flex flex-col  p-6 text-center sm:border-0 sm:border-l sm:border-r border-t border-b border-amber-500">
+                            class="flex flex-col  p-3 text-center sm:border-0 sm:border-l sm:border-r border-t border-b border-amber-500">
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium ">
-                                Seguidores
+                                {{ 'STATS.button2' | translate }}
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold text-amber-500">+55 mil</dd>
                         </div>
-                        <div class="flex flex-col border-t border-amber-500 p-6 text-center sm:border-0 sm:border-l">
+                        <div class="flex flex-col border-t border-amber-500 p-3 text-center sm:border-0 sm:border-l">
                             <dt class="order-2 mt-2 text-lg leading-6 font-medium ">
-                                Contactos por mes
+                                {{ 'STATS.button3' | translate }}
                             </dt>
                             <dd class="order-1 text-5xl font-extrabold text-amber-500">+50</dd>
                         </div>

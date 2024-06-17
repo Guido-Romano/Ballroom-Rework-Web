@@ -3,82 +3,85 @@
     {
       "id": 1,
       "title": "Instructor Juan Almirón",
-      "info": "Ballroom Dance",
+      "info": "¿Te apasiona la música y la elegancia?  Aprende a deslizarte por la pista con estilo y gracia en nuestras clases para principiantes.",
       "info2": "(International Latin)",
       "price": "5000",
       "day": "Martes",
       "schedule": "de 8:00 pm - 9:00 pm",
       "level": "(Sala 6)",
-      "address": "Avenida Corrientes 4534 (El Juvenil)",
+      "address": "Av. Corrientes 4534.",
       "img": "../../assets/img09.jpeg",
       "more": "Anotáte"
     },
+
     {
       "id": 2,
-      "title": "Instructor Juan Almirón",
-      "info": "Ballroom Dance",
-      "info2": "(International Latin)",
-      "price": "5000",
-      "day": "Jueves",
-      "schedule": "de 8:00 pm - 9:00 pm",
-      "level": "(Sala 1)",
-      "address": "Avenida Corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img10.jpeg",
-      "more": "Anotáte" 
-    },
-    {
-      "id": 3,
-      "title": "Instructor Juan Almirón",
-      "info": "Ballroom Dance",
-      "info2": "(International Latin)",
-      "price": "5000",
-      "day": "Sábado",
-      "schedule": "de 10:00 am - 11:00 am",
-      "level": "(Sala 5)",
-      "address": "Avenida corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img11.jpeg",
-      "more": "Anotáte"
-    },
-    {
-      "id": 4,
-      "title": "Instructor Juan Almirón",
-      "info": "clases particulares",
-      "info2": "(International Latin)",
-      "price": "individual 8000 / parejas 12000+coste de salon",
-      "day": "",
-      "schedule": "",
-      "level": "Todos los niveles",
-      "address": "Avenida corrientes 4534 (El Juvenil)",
-      "img": "../../assets/img05.jpeg",
-      "more": "Anotáte" 
-    },
- 
-    {
-      "id": 5,
       "title": "Instructor Camille Vindal",
-      "info": "Ballroom Dance",
+      "info": "En nuestras clases aprenderás las técnicas y pasos para convertirte en un verdadero bailarín. Además podrás mejorar tu coordinación y estado físico.",
       "info2": "(European style)",
       "price": "tecnica",
       "day": "Miercoles",
       "schedule": "de 19:30hs- 20:30hs",
       "level": "principiante /intermedio",
-      "address": "Av. Belgrano 1612",
+      "address": "Av. Belgrano 1612.",
       "img": "../../assets/img15.jpg",
       "more": "Anotáte"
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Instructor Camille Vindal",
-      "info": "Ballroom Dance",
+      "info": "Los bailes de salón también son una excelente manera de hacer ejercicio, mejorar la coordinación y la memoria, y aumentar la confianza en uno mismo.",
       "info2": "(European style)",
       "price": "coreografia",
       "day": "Miercoles",
       "schedule": "de 20:30hs a 21:30hs",
       "level": "principiante /intermedio",
-      "address": "Av. Belgrano 1612",
+      "address": "Av. Belgrano 1612.",
       "img": "../../assets/img16.jpg",
       "more": "Anotáte"
+    },
+
+    {
+      "id": 4,
+      "title": "Instructor Juan Almirón",
+      "info": "Sumérgete en el ritmo de los bailes de salón. Nuestras clases son perfectas para desestresarse, hacer ejercicio y conocer gente nueva.",
+      "info2": "(International Latin)",
+      "price": "5000",
+      "day": "Jueves",
+      "schedule": "de 8:00 pm - 9:00 pm",
+      "level": "(Sala 1)",
+      "address": "Av. Corrientes 4534.",
+      "img": "../../assets/img10.jpeg",
+      "more": "Anotáte" 
+    },
+    {
+      "id": 5,
+      "title": "Instructor Juan Almirón",
+      "info": "¿Buscas un plan para el fin de semana? ¡Ven a nuestras clases de baile de salón! Aprende pasos básicos y figuras en un ambiente divertido.",
+      "info2": "(International Latin)",
+      "price": "5000",
+      "day": "Sábado",
+      "schedule": "de 10:00 am - 11:00 am",
+      "level": "(Sala 5)",
+      "address": "Av. Corrientes 4534.",
+      "img": "../../assets/img11.jpeg",
+      "more": "Anotáte"
+    },
+    {
+      "id": 6,
+      "title": "Instructor Juan Almirón",
+      "info": "Las clases individuales o en pareja son perfectas si deseas aprender a bailar desde cero o perfeccionar tus pasos a un alto nivel.",
+      "info2": "(International Latin)",
+      "price": "individual 8000 / parejas 12000 + costo del salon",
+      "day": "Clases Particulares",
+      "schedule": " (flexibles)",
+      "level": "Todos los niveles",
+      "address": "",
+      "img": "../../assets/img05.jpeg",
+      "more": "Anotáte" 
     }
+ 
+  
   ],
 
   "QUESTIONS": [
@@ -95,26 +98,26 @@
     {
       "id": 3,
       "title": "¿Qué días son las clases?",
-      "info": "Martes, Jueves, Sábados y Miércoles"
+      "info": "Martes,  Miércoles, Jueves y Sábados."
     },
     {
       "id": 4,
       "title": "¿Cuáles son los horarios?",
-      "info": "Martes, 20:00 - 21:00 hs\nJueves, 20:00 - 21:00 hs\nSábado, 10:00 - 11:00 hs\nMiércoles, 19:30 - 21:30 hs"
+      "info": "Martes, 20:00 - 21:00 hs\n\n\n\nJueves, 20:00 - 21:00 hs\n\n\nSábado, 10:00 - 11:00 hs\nMiércoles, 19:30 - 21:30 hs"
     },
     {
       "id": 5,
       "title": "¿Dónde se realizan las clases?",
-      "info": "Avenida Corrientes 4534 (El Juvenil) y Av. Belgrano 1612 (zona Congreso)"
+      "info": "Avenida Corrientes 4534 (El Juvenil) y Avenida Belgrano 1612 (zona de Congreso)"
     },
     {
       "id": 6,
       "title": "¿Cuál es el precio de las clases?",
-      "info": "$5.000 por clase, $15.000 por pack de 4 clases, $20.000 por pack de 6 clases, $8.000 por clases particulares + costo de salón, $12.000 por clases para parejas + costo de salón"
+      "info": "$5.000 por clase\n $15.000 por pack de 4 clases\n $20.000 por pack de 6 clases\n $8.000 por clases particulares + costo de salón\n $12.000 por clases para parejas + costo de salón"
     },
     {
       "id": 7,
-      "title": "¿Hay clases para principiantes?",
+      "title": "¿Hay clases de Ballroom para principiantes?",
       "info": "Para principiantes, intermedios y avanzados"
     },
     {
@@ -131,37 +134,40 @@
   
   "PROMOTION": [
     {
+      "promotion" : "Promociones"
+    },
+    {
       "id": 1,
-      "title": "pack de 4 clases ",
-      "save": "ahorras $5.000",
+      "title": "'Plan Gold'",
+      "save": "ahorras 25%",
       "newprice": "$15.000",
-      "oldprice": "precio anterior $20.000",
-      "info": "clases grupales",
+      "oldprice": "$20.000",
+      "info": " El plan incluye 4 clases de Ballroom",
       "info2": "Instructor Juan Almirón", 
       "time": "por mes",
-      "join": "Anotáte"
+      "join": "Inscribirse"
     },
     {
       "id": 2,
-      "title": "pack de 6 clases",
-      "save": "ahorras $10.000",
+      "title": "'Plan Platinum' ",
+      "save": "ahorras 33%",
       "newprice": "$20.000",
-      "oldprice": "precio anterior $30.000",
-      "info": "clases grupales",
+      "oldprice": "$30.000",
+      "info": "El plan incluye 6 clases de Ballroom",
       "info2": "Instructor Juan Almirón",
       "time": "por mes",
-      "join": "Anotáte"
+      "join": "Inscribirse"
     },
     {
       "id": 3,
-      "title": "pack de 10 clases",
-      "save": "ahorras $15.000",
-      "newprice": "$35.000",
-      "oldprice": "precio anterior $50.000",
-      "info": "clases grupales",
+      "title": "'Plan Diamond' ",
+      "save": "ahorras 40%",
+      "newprice": "$40.000",
+      "oldprice": "$60.000",
+      "info": "El plan incluye 12 clases de Ballroom",
       "info2": "Instructor Juan Almirón",
       "time": "por mes",
-      "join": "Anotáte"
+      "join": "Inscribirse"
     }
   ],
 
@@ -427,6 +433,26 @@
   "button": "Participa de forma gratuita"
 },
 
+"STATS": {
+  "title": "El por qué somos la mejor elección ",
+  "subtitle": "Descubre la pasión, el talento y la dedicación que nos distinguen. ",
+  "button1": "Años de experiencia ",
+  "button2": "Seguidores ",
+  "button3": "Contactos por mes"
+},
+
+"GALLERY": {
+  "title": "Galería",
+  "info": "La escuela de baile ha dejado una huella vibrante en diversos escenarios, desde la televisión hasta prestigiosos torneos internacionales. Con su destreza y pasión por el arte del baile, ha iluminado pantallas en programas emblemáticos. A través de cada paso y cada coreografía, la escuela de baile continúa inspirando y elevando el estándar de la danza, demostrando que el arte es universal y atemporal.",
+"info2": "Contáctanos",
+"info3": "Exhibiciones",
+"info4": "Competencias",
+"info5": "Televisión",
+"info6": "Otros eventos"
+
+
+},
+
 "FORM": {
   "title": "Eventos privados",
   "info": "Ofrecemos servicios para distintos eventos.",
@@ -455,12 +481,12 @@
       "id": 2,
       "title": "Ballroom Argentina Sport Club",
       "info": "Nuestra misión es difundir la pasión por el baile en toda la República Argentina y Latinoamérica.\nPor eso Ofrecemos clases para todos los niveles, ya sea que bailes por recreación o competitivamente.\nNuestros instructores reciben formación continua en ballroom dance, también para preparación física y psicología deportiva. \n\n\n ¿Quieres más información? ¡No dudes en contactarnos y te responderemos lo antes posible!",
-      "info2": "Leer más &#8594;"
+      "info2": ""
     },
     {
       "id": 3,
       "title": "¿Qué es Ballroom?",
-      "info": "\"Ballroom\" es la denominación que se usa para designar un conjunto de 10 ritmos. Pertenecen a los llamados ritmos \"Standard\": Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep.\n\n\nCorresponden a los ritmos \"Latin\": Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. En una competencia se puede competir en los 10 ritmos abarcando Standard y Latin, o en los 5 ritmos de Standard, o en los 5 ritmos de Latin. Pero nunca en 1 solo ritmo a selección de alguna modalidad.",
+      "info": "\"Ballroom\" es la denominación que se usa para designar un conjunto de 10 ritmos.  Pertenecen a los llamados ritmos \"Standard\": Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos \"Latin\": Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. \n\n\n\nEn una competencia se puede competir en los 10 ritmos abarcando Standard y Latin, o en los 5 ritmos de Standard, o en los 5 ritmos de Latin.",
       "info2": ""
     },
     {

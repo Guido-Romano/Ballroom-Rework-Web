@@ -1,19 +1,13 @@
-
-
-<section class="text-center py-16 px-4 w-full xl:w-3/5 mx-auto ">
-    <h2 class="text-2xl font-extrabold mb-8 text-slate-900">OFERTAS ESPECIALES</h2>
+<section class="text-center py-16 px-4 w-full xl:w-3/5 mx-auto">
+    <h2 class="text-2xl font-extrabold mb-8 text-slate-900">{{ 'PROMOTION.0.promotion' | translate }}</h2>
     <div class="mt-8">
-        <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90 border-gray-300 bg-white">
-            <h3 class="text-xl font-bold"> Promocion 1</h3>
-            <p class="mt-2 opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet tristique mi.</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90 mt-4 border-gray-300 bg-white">
-            <h3 class="text-xl font-bold"> Promocion 2</h3>
-            <p class="mt-2 opacity-80">Nullam ac augue eget diam posuere vehicula. Vivamus quis nulla ac justo euismod posuere.</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-100 scale-90 mt-4 border-gray-300 bg-white">
-            <h3 class="text-xl font-bold"> Promocion 2</h3>
-            <p class="mt-2 opacity-80">Fusce tincidunt, arcu nec vestibulum tincidunt, eros massa ullamcorper urna.</p>
-        </div>
+        <ng-container *ngFor="let promo of promotions">
+            <div class="p-4 border rounded-lg shadow-md transition transform hover:scale-105 border-gray-300 bg-white">
+                <h3 class="text-xl font-bold">{{ promo.title | translate }}</h3>
+                <p class="mt-2 opacity-80">{{ promo.info | translate }}, {{ promo.save | translate }}</p>
+            </div>
+        </ng-container>
     </div>
 </section>
+
+
