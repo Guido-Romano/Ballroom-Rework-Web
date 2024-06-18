@@ -439,7 +439,15 @@
   "subtitle": "Descubre la pasión, el talento y la dedicación que nos distinguen. ",
   "button1": "Años de experiencia ",
   "button2": "Seguidores ",
-  "button3": "Contactos por mes"
+  "button3": "Contactos por mes",
+
+  "number1": "+10 ",
+  "number2": "+55 mil ",
+  "number3": "+50 ",
+
+  "subtitle2": "Trayectoria",
+  "subtitle3": "Nuestra misión es proporcionar un servicio excepcionale con un enfoque en disponibilidad, confiabilidad y apoyo. "
+
 },
 
 "GALLERY": {
@@ -484,8 +492,8 @@
     {
       "id": 1,
       "title": "Juan Almirón, C.E.O Fundador",
-      "info": "Mi historia en este mundo comenzó con una chispa de inspiración al presenciar la gracia y la destreza del bailarín Oleksandr Honcharov, fue él lo que me llevó a querer aprender esta danza. Mi búsqueda de conocimiento me hizo descubrir DSC, una escuela de baile que se convertiría en el punto de partida de mi viaje en este apasionante universo.\n\n\n Recuerdo el día que crucé por primera vez las puertas de la sucursal en Avenida Corrientes y conocí a los dos maestros que dejaron una huella indeleble en mi formación: Mery Lenz y Eugenio Dmytrenko. Desde ese momento, supe que quería absorber cada enseñanza que estos virtuosos de la danza tenían para ofrecerme.",
-      "info2": "\n\n\nA lo largo de los años, he participado en competiciones de ballroom, destacándome en categorías de letras y Open, obteniendo primeros puestos y llegando a ser finalista en múltiples ocasiones. He compartido mis conocimientos a través de clases grupales y particulares en diversas provincias de Argentina, desde Buenos Aires hasta Santa Fe, desde niveles iniciales hasta avanzados.\n\n\nSin embargo, el año 2024 marca un nuevo capítulo en mi trayectoria, ya que he decidido emprender mi propio proyecto personal: BASC. Mi objetivo con BASC es claro: difundir los bailes de salón, transmitir mi amor por esta danza y apoyar, formar y acompañar a todos aquellos que deseen adentrarse en este apasionante mundo.\n\n\nPor lo tanto, los invito a todos a unirse a mí en este viaje de aprendizaje y descubrimiento. ¡Los espero con los brazos abiertos para aprender a bailar y compartir juntos este emocionante camino!"
+      "info":"Mi pasión por la danza comenzó al ver al bailarín Oleksandr Honcharov. Esto me llevó a descubrir DSC, una escuela de baile que inició mi viaje. En DSC, conocí a mis maestros Mery Lenz y Eugenio Dmytrenko, quienes impactaron profundamente en mi formación.",
+      "info2":"\n\n\nDurante años, competí, destacándome y obteniendo primeros puestos. He impartido clases en diversas provincias de Argentina. En 2024, inicio mi proyecto BASC para difundir los bailes de salón, compartir mi amor por la danza y apoyar a nuevos bailarines. ¡Únanse a mí en este emocionante viaje!"
     },
     {
       "id": 2,
@@ -505,12 +513,15 @@
       "info": "Porque inspiran con su pasión por bailar. Son fuente de motivación y el vínculo que realiza un bailarín con su entrenador puede ser tan fuerte como el de un padre con su hijo...",
       "info2": "\n\n\nPorque hay entrenadores que se convierten en padres y padres que se vuelven entrenadores."
     },
-    {
-      "id": 5,
-      "title": "3 Puntos claves para todo practicante inicial de ballroom",
-      "info": "En las etapas iniciales de Ballroom Latin, donde un bailarín/na empieza con su alfabetización en cuanto al nombre de las figuras, los tiempos de cada ritmo, los fundamentos del ballroom, conviene tener en cuenta los siguientes conceptos:",
-      "info2": "1. Figuras claras: Debe quedar clara la distinción entre una figura, la transición y la figura que le continúa.\n\n\n2. Tiempos precisos: Criterio fundamental y crítico tanto a la hora de evaluar una pareja, como también para demostrar que se entiende el lenguaje por el que está compuesta la música.\n\n\n3. Postura correcta: Fundamental tanto a la hora de la presentación del bailarín, tanto individual como en pareja, ya que transmite entre otras cosas, la presencia hacia el público, la claridad de los movimientos, la distinción y caracterización de cada ritmo."
-    },
+    
+      {
+        "id": 5,
+        "title": "¿Por qué elegir BASC?",
+        "info": "Nuestras clases siempre son personalizadas y adaptadas a las necesidades de cada alumno.\n\n\nFormación continua de nuestros instructores en técnica, pedagogía y psicología deportiva.",
+        "info2": "\n\n\nAmbiente amigable y motivador.\n\n\nParticipación en eventos y competencias nacionales e internacionales."
+      },
+
+  
     {
       "id": 6,
       "title": "No son simples personas, sino intérpretes de la danza.",
@@ -529,11 +540,12 @@
       "info": "¿Los más rápidos?\n\n\n¿Los más técnicos?\n\n\n¿Los más precisos?\n\n\n¿La coreografía más complicada?\n\n\n¿La mejor conexión?",
       "info2": "\n\n\n🟡Puede que una suma balanceada de todos estos factores sea una respuesta, incluso puede que estén balanceados en todo esto y sobresalgan en una de estas cualidades, lo que es bueno ya que da la marca personal. Y todos sabemos lo importante que es ser único y original en el arte.\n\n\nBryan Watson dice que el mejor bailarín es quien mejor expresa la música. La técnica, las herramientas y habilidades son herramientas para ello, pero no replicar constantemente la coreografía una y otra vez, ejecutando la mecánica de los movimientos a la perfección, infinitas veces en todos los temas de todos los ritmos de la misma manera, eso no te hará un gran bailarín. Debes adecuar tus herramientas para expresar de la mejor forma posible la música.\n\n\nPor lo tanto, la coreografía con distintas canciones debe verse diferente (musicalmente por lo menos). Si se ven todas iguales, eres como un atleta de 100 metros llanos, que apenas suena la campana sale corriendo y dando lo máximo físicamente que puede entregar su cuerpo. Perfecto, eres un gran atleta, pero no estás realmente bailando. Y digo que no estás realmente bailando porque no hay una escucha, una interpretación y una expresión de lo que la música te genera. Y aquí en danza hay que tener en cuenta que también y en gran parte es arte, y como dijo Bruce, el arte no solo es embellecimiento u ornamento, también es expresión.\n\n\n¿Y tú qué pareja crees que debe ganar una competencia?"
     },
+  
     {
       "id": 9,
-      "title": "¿Por qué elegir BASC?",
-      "info": "Clases de ballroom dance.",
-      "info2": "\n\n\nClases personalizadas y adaptadas a las necesidades de cada alumno.\n\n\nFormación continua de nuestros instructores en técnica, pedagogía y psicología deportiva.\n\n\nAmbiente amigable y motivador.\n\n\nParticipación en eventos y competencias nacionales e internacionales."
+      "title": "3 Puntos claves para todo practicante inicial de ballroom",
+      "info": "En las etapas iniciales de Ballroom Latin, donde un bailarín/na empieza con su alfabetización en cuanto al nombre de las figuras, los tiempos de cada ritmo, los fundamentos del ballroom, conviene tener en cuenta los siguientes conceptos:",
+      "info2": "1. Figuras claras: Debe quedar clara la distinción entre una figura, la transición y la figura que le continúa.\n\n\n2. Tiempos precisos: Criterio fundamental y crítico tanto a la hora de evaluar una pareja, como también para demostrar que se entiende el lenguaje por el que está compuesta la música.\n\n\n3. Postura correcta: Fundamental tanto a la hora de la presentación del bailarín, tanto individual como en pareja, ya que transmite entre otras cosas, la presencia hacia el público, la claridad de los movimientos, la distinción y caracterización de cada ritmo."
     },
     {
       "id": 10,
