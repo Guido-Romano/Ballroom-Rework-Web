@@ -29,8 +29,10 @@ export class BannerPromotionsComponent implements OnInit, OnDestroy {
 
   loadText(): void {
     this.translate.get('PROMOTION').subscribe((data: any[]) => {
-      this.promotions = data.slice(1); // Skip the first element
+      this.promotions = data;
     });
+
+ 
   }
 }
 
