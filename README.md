@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "design  work 11" 
+git commit -m "russian translate" 
 git push origin main
 
 
