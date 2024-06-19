@@ -1,13 +1,13 @@
 import { Component, Input, OnInit, OnDestroy } from '@angular/core';
-import { DataService } from './../../services/data.service';
+import { DataService } from '../../services/data.service';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-banner-apparel',
-  templateUrl: './banner-apparel.component.html',
+  selector: 'app-banner-primary',
+  templateUrl: './banner-primary.component.html',
 })
-export class BannerApparelComponent implements OnInit, OnDestroy {
+export class BannerPrimaryComponent implements OnInit, OnDestroy {
   @Input() mostrar: number = 0; // Inicializa la propiedad mostrar
   title: any;
 

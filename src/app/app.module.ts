@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ApparelComponent } from './pages/apparel/apparel.component';
-import { BannerAboutComponent } from './pages/about-us/banner-about/banner-about.component';
+import { PresentationComponent } from './pages/home/presentation/presentation.component';
 import { BannerClassComponent } from './pages/classes/banner-class/banner-class.component';
 import { BannerHomeComponent } from './pages/home/banner-home/banner-home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -27,13 +27,11 @@ import { TextComponent } from './resource/text/text.component';
 import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-card.component';
 import { ProductCardComponent } from './pages/apparel/productcard/productcard.component';
 import { CookieComponent } from './pages/home/cookie/cookie.component';
-import { BannerApparelComponent } from './apparel/banner-apparel/banner-apparel.component';
+import { BannerPrimaryComponent } from './resource/banner-primary/banner-primary.component';
 import { StatsComponent } from './pages/home/stats/stats.component';
 import { GalleryComponent } from './pages/home/gallery/gallery.component';
 import { BannerPromotionsComponent } from './pages/home/banner-promotions/banner-promotions.component';
-import { BannerStaffComponent } from './pages/home/banner-staff/banner-staff.component';
-import { BlocksComponent } from './pages/contact/blocks/blocks.component';
-import { MisionComponent } from './pages/about-us/mision/mision.component';
+import { BannerStaffComponent } from './pages/contact/banner-staff/banner-staff.component';
 import { BannerMisionComponent } from './pages/about-us/banner-mision/banner-mision.component';
 import { TitlesComponent } from './pages/apparel/titles/titles.component';
 import { DoubleImgComponent } from './pages/about-us/double-img/double-img.component';
@@ -48,7 +46,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     AboutUsComponent,
     ApparelComponent,
-    BannerAboutComponent,
+    PresentationComponent,
     BannerClassComponent,
     BannerHomeComponent,
     ClassesComponent,
@@ -64,16 +62,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     VerticalCardComponent,
     ProductCardComponent,
     CookieComponent,
-    BannerApparelComponent,
+    BannerPrimaryComponent,
     StatsComponent,
     GalleryComponent,
     BannerPromotionsComponent,
     BannerStaffComponent,
-    BlocksComponent,
-    MisionComponent,
     BannerMisionComponent,
     TitlesComponent,
     DoubleImgComponent,
+    PresentationComponent,
   ],
   imports: [
     AppRoutingModule,

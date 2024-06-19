@@ -3,11 +3,13 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-banner-about',
-  templateUrl: './banner-about.component.html'
+  selector: 'app-banner-staff',
+  templateUrl: './banner-staff.component.html'
 })
-export class BannerAboutComponent implements OnInit, OnDestroy {
-  text: any = {};
+export class BannerStaffComponent implements OnInit, OnDestroy {
+  staff: any[] = [];
+  question: any; 
+  contact: any; 
   private langChangeSubscription: Subscription | undefined;
 
   constructor(private translate: TranslateService) {
@@ -28,17 +30,17 @@ export class BannerAboutComponent implements OnInit, OnDestroy {
   }
 
   loadText(): void {
-    this.translate.get('TEXTS.2').subscribe((data: any) => {
-      data.info = this.formatText(data.info);
-      data.info2 = this.formatText(data.info2);
-      this.text = data;
+    this.translate.get('STAFF').subscribe((data: any[]) => {
+      this.staff = data;
+    });
+
+    this.translate.get('TEXTS.14').subscribe((data: any) => {
+      this.question = data; 
+    });
+
+    this.translate.get('NAV').subscribe((data: any) => {
+      this.contact = data.contact; 
     });
   }
-
-  formatText(text: string): string {
-    return text.replace(/\n\n\n/g, '</p><p>').replace(/\n/g, '<br/>');
-  }
-  
 }
-
 
