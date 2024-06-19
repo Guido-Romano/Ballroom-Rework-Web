@@ -1,5 +1,4 @@
 import { Component, Input, OnInit, OnDestroy } from '@angular/core';
-import { DataService } from '../../services/data.service';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
@@ -8,38 +7,62 @@ import { Subscription } from 'rxjs';
   templateUrl: './banner-primary.component.html',
 })
 export class BannerPrimaryComponent implements OnInit, OnDestroy {
-  @Input() mostrar: number = 0; // Inicializa la propiedad mostrar
-  title: any;
+ @Input() articleId: number | null = null;
+ articles: any[] = [];
+ article: any | null = null;
+ formattedtitle: string = '';
+ formattedInfo: string = '';
+ formattedInfo2: string = '';
+ private langChangeSubscription: Subscription | undefined;
 
-  private langChangeSubscription: Subscription | undefined;
+ constructor(private translate: TranslateService) {
+   this.translate.setDefaultLang('es');
+ }
 
-  constructor(
-    private translate: TranslateService,
-    private dataService: DataService
-  ) {
-    this.translate.setDefaultLang('es');
-  }
+ ngOnInit(): void {
+   this.loadText();
+   this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
+     this.loadText();
+   });
+ }
 
-  ngOnInit(): void {
-    this.loadText();
-    this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
-      this.loadText();
-    });
+ ngOnDestroy(): void {
+   if (this.langChangeSubscription) {
+     this.langChangeSubscription.unsubscribe();
+   }
+ }
 
-    this.dataService.getTitles().subscribe(data => {
-      this.title = data.TITLES.find((title: any) => title.id === this.mostrar); // Especificar el tipo de title
-    });
-  }
+ loadText(): void {
+   this.translate.get('TITLES').subscribe((data: any) => {
+     this.articles = data.map((article: any) => ({ ...article, showMore: false }));
+     this.findArticleById();
+   });
+ }
 
-  ngOnDestroy(): void {
-    if (this.langChangeSubscription) {
-      this.langChangeSubscription.unsubscribe();
-    }
-  }
+ toggleText(): void {
+   if (this.article) {
+     this.article.showMore = !this.article.showMore;
+   }
+ }
 
-  private loadText(): void {
-    // Implementa el método loadText aquí
+ findArticleById(): void {
+  if (this.articleId !== null) {
+      this.article = this.articles.find(article => article.id === this.articleId) || null;
+      if (this.article) {
+          this.formattedtitle = this.formatText(this.article.title);
+          this.formattedInfo = this.formatText(this.article.info);
+          this.formattedInfo2 = this.formatText(this.article.info2);
+      }
   }
 }
+
+
+ formatText(text: string): string {
+   return text.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br/>');
+ }
+}
+
+
+
 
 

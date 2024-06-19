@@ -469,70 +469,72 @@
 },
 
 "TEXTS": [
+  {
+    "id": 1,
+    "title": "Juan Almirón, CEO Founder",
+    "info":"My passion for dance began when I saw dancer Oleksandr Honcharov. This led me to discover DSC, a dance school that started my journey. At DSC, I met my teachers Mery Lenz and Eugenio Dmytrenko, who deeply influenced my formation.",
+    "info2":"\n\n\nFor years, I competed, standing out and achieving top positions. I have taught classes in various provinces of Argentina. In 2024, I started my BASC project to spread ballroom dancing, share my love for dance, and support new dancers. Join me in this exciting journey!"
+  },
+  {
+    "id": 2,
+    "title": "Ballroom Argentina Sport Club",
+    "info": "Our mission is to spread the passion for dance throughout Argentina and Latin America.\nThat's why we offer classes for all levels, whether you dance recreationally or competitively.\nOur instructors receive continuous training in ballroom dance, as well as physical preparation and sports psychology. \n\n\nWant more information? Feel free to contact us and we will respond as soon as possible!",
+    "info2": ""
+  },
+  {
+    "id": 3,
+    "title": "What is Ballroom?",
+    "info": "\"Ballroom\" is the term used to designate a set of 10 rhythms. They belong to the so-called \"Standard\" rhythms: English Waltz, Viennese Waltz, Tango, Foxtrot, Quickstep. They correspond to the \"Latin\" rhythms: Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. \n\n\n\nIn a competition, you can compete in all 10 rhythms covering Standard and Latin, or in the 5 Standard rhythms, or in the 5 Latin rhythms.",
+    "info2": ""
+  },
+  {
+    "id": 4,
+    "title": "Behind every good dancer there is always a great dance teacher.",
+    "info": "Because they inspire with their passion for dancing. They are a source of motivation, and the bond between a dancer and their coach can be as strong as that between a parent and child...",
+    "info2": "\n\n\nBecause there are coaches who become like parents and parents who become coaches."
+  },
+  
     {
-      "id": 1,
-      "title": "Juan Almirón, C.E.O Fundador",
-      "info":"Mi pasión por la danza comenzó al ver al bailarín Oleksandr Honcharov. Esto me llevó a descubrir DSC, una escuela de baile que inició mi viaje. En DSC, conocí a mis maestros Mery Lenz y Eugenio Dmytrenko, quienes impactaron profundamente en mi formación.",
-      "info2":"\n\n\nDurante años, competí, destacándome y obteniendo primeros puestos. He impartido clases en diversas provincias de Argentina. En 2024, inicio mi proyecto BASC para difundir los bailes de salón, compartir mi amor por la danza y apoyar a nuevos bailarines. ¡Únanse a mí en este emocionante viaje!"
+      "id": 5,
+      "title": "Why choose BASC?",
+      "info": "Our classes are always personalized and tailored to the needs of each student.\n\n\nContinuous training of our instructors in technique, pedagogy, and sports psychology.",
+      "info2": "\n\n\nFriendly and motivating atmosphere.\n\n\nParticipation in national and international events and competitions."
     },
-    {
-      "id": 2,
-      "title": "Ballroom Argentina Sport Club",
-      "info": "Nuestra misión es difundir la pasión por el baile en toda la República Argentina y Latinoamérica.\nPor eso Ofrecemos clases para todos los niveles, ya sea que bailes por recreación o competitivamente.\nNuestros instructores reciben formación continua en ballroom dance, también para preparación física y psicología deportiva. \n\n\n ¿Quieres más información? ¡No dudes en contactarnos y te responderemos lo antes posible!",
-      "info2": ""
-    },
-    {
-      "id": 3,
-      "title": "¿Qué es Ballroom?",
-      "info": "\"Ballroom\" es la denominación que se usa para designar un conjunto de 10 ritmos.  Pertenecen a los llamados ritmos \"Standard\": Vals Inglés, Vals Vienés, Tango, Foxtrot, Quickstep. Corresponden a los ritmos \"Latin\": Samba, Cha Cha Cha, Rumba, Paso Doble, Jive. \n\n\n\nEn una competencia se puede competir en los 10 ritmos abarcando Standard y Latin, o en los 5 ritmos de Standard, o en los 5 ritmos de Latin.",
-      "info2": ""
-    },
-    {
-      "id": 4,
-      "title": "Detrás de un buen bailarín SIEMPRE hay un gran maestro de danza.",
-      "info": "Porque inspiran con su pasión por bailar. Son fuente de motivación y el vínculo que realiza un bailarín con su entrenador puede ser tan fuerte como el de un padre con su hijo...",
-      "info2": "\n\n\nPorque hay entrenadores que se convierten en padres y padres que se vuelven entrenadores."
-    },
-    
-      {
-        "id": 5,
-        "title": "¿Por qué elegir BASC?",
-        "info": "Nuestras clases siempre son personalizadas y adaptadas a las necesidades de cada alumno.\n\n\nFormación continua de nuestros instructores en técnica, pedagogía y psicología deportiva.",
-        "info2": "\n\n\nAmbiente amigable y motivador.\n\n\nParticipación en eventos y competencias nacionales e internacionales."
-      },
 
-  
-    {
-      "id": 6,
-      "title": "No son simples personas, sino intérpretes de la danza.",
-      "info": "Y sí, cuando pisas la pista de baile tenés que forzar la postura, no mirar el piso, esforzarte, tratar de sobresalir...",
-      "info2": "\n\n\nComo dice mi entrenador cuando nos prepara para bailar en los torneos: \"Ustedes en la pista no son personas, son bailarines\""
-    },
-    {
-      "id": 7,
-      "title": "Bailarines de Showmatch vs Bailarines de Ballroom",
-      "info": "A raíz de la aparición del ballroom en televisión de la mano de programas como \"Showmatch\", \"Strictly Come Dancing\" o \"Dancing with the Stars\", el ballroom ha logrado tener cierta llegada al público. Sin embargo, es importante distinguir las diferencias entre el ballroom original y la fusión de elementos que se ven en los shows televisivos.",
-      "info2": "\n\n\n1) COREOGRAFÍAS: Las coreografías son sin duda el principal elemento distintivo entre los concursos televisivos y el ballroom original.\n\n\nLas coreografías hechas para los programas, tienen como finalidad principal el show y el espectáculo. Las coreografías de ballroom tienen como directriz subyacente el concepto de \"elegancia\", lo que suele derivar en prescindir de trucos y acrobacias.\n\n\nCONTEXTO / AMBIENTE: En los concursos televisivos se puede preparar todo un show alrededor de una coreografía. Se permite tanto elegir el tema y la comodidad de bailar una sola pareja en la pista, sumado a que no se encuentran los parámetros de evaluación por los cuales son evaluadas las parejas en competición.\n\n\nEn los torneos de ballroom, se suele bailar con varias parejas al mismo tiempo, no se puede elegir la canción o música. Si bien hay un orden de ritmos predeterminados (Samba, Cha Cha Cha, Rumba, Paso Doble, Jive) no se puede elegir el tema a bailar. Simplemente la música suena, los bailarines demuestran su capacidad de interpretación, escucha de tiempos y bailan.\n\n\nEs mucho menos controlado, las parejas tienen coreografías acordes a este factor y también teniendo en cuenta que son evaluadas por: conexión física, coreografía, postura y balance, calidad de los movimientos, musicalidad, precisión, fluidez en las transiciones. Pero no buscan el puro show o llamar la atención, de hecho, muchas veces se prescinden de esos factores porque rompe con la estética de los torneos, en otras palabras, \"ensucian\" la expresión de la música."
-    },
-    {
-      "id": 8,
-      "title": "¿Quién gana un torneo de ballroom?",
-      "info": "¿Los más rápidos?\n\n\n¿Los más técnicos?\n\n\n¿Los más precisos?\n\n\n¿La coreografía más complicada?\n\n\n¿La mejor conexión?",
-      "info2": "\n\n\n🟡Puede que una suma balanceada de todos estos factores sea una respuesta, incluso puede que estén balanceados en todo esto y sobresalgan en una de estas cualidades, lo que es bueno ya que da la marca personal. Y todos sabemos lo importante que es ser único y original en el arte.\n\n\nBryan Watson dice que el mejor bailarín es quien mejor expresa la música. La técnica, las herramientas y habilidades son herramientas para ello, pero no replicar constantemente la coreografía una y otra vez, ejecutando la mecánica de los movimientos a la perfección, infinitas veces en todos los temas de todos los ritmos de la misma manera, eso no te hará un gran bailarín. Debes adecuar tus herramientas para expresar de la mejor forma posible la música.\n\n\nPor lo tanto, la coreografía con distintas canciones debe verse diferente (musicalmente por lo menos). Si se ven todas iguales, eres como un atleta de 100 metros llanos, que apenas suena la campana sale corriendo y dando lo máximo físicamente que puede entregar su cuerpo. Perfecto, eres un gran atleta, pero no estás realmente bailando. Y digo que no estás realmente bailando porque no hay una escucha, una interpretación y una expresión de lo que la música te genera. Y aquí en danza hay que tener en cuenta que también y en gran parte es arte, y como dijo Bruce, el arte no solo es embellecimiento u ornamento, también es expresión.\n\n\n¿Y tú qué pareja crees que debe ganar una competencia?"
-    },
-  
-    {
-      "id": 9,
-      "title": "Tres Puntos claves para todo practicante inicial de ballroom",
-      "info": "En las etapas iniciales de Ballroom Latin, donde un bailarín/na empieza con su alfabetización en cuanto al nombre de las figuras, los tiempos de cada ritmo, los fundamentos del ballroom, conviene tener en cuenta los siguientes conceptos:",
-      "info2": "1. Figuras claras: Debe quedar clara la distinción entre una figura, la transición y la figura que le continúa.\n\n\n2. Tiempos precisos: Criterio fundamental y crítico tanto a la hora de evaluar una pareja, como también para demostrar que se entiende el lenguaje por el que está compuesta la música.\n\n\n3. Postura correcta: Fundamental tanto a la hora de la presentación del bailarín, tanto individual como en pareja, ya que transmite entre otras cosas, la presencia hacia el público, la claridad de los movimientos, la distinción y caracterización de cada ritmo."
-    },
-    {
-      "id": 10,
-      "title": "Preguntas frecuentes",
-      "info": "¿Necesito tener experiencia previa para empezar a tomar clases?\n\n\nNo, en BASC ofrecemos clases para todos los niveles, incluyendo principiantes sin experiencia previa.",
-      "info2": "\n\n\n¿Es necesario tener pareja para tomar clases?\n\n\nNo, puedes inscribirte sin pareja. En nuestras clases, te asignaremos un compañero para practicar.\n\n\n¿Qué ropa y calzado debo usar para las clases?\n\n\nSe recomienda usar ropa cómoda que permita libertad de movimiento y calzado adecuado para bailar, preferiblemente con suela de cuero o similar.\n\n\n¿Cuántas veces a la semana debo tomar clases para mejorar?\n\n\nLa frecuencia ideal varía según tus objetivos y disponibilidad. Sin embargo, recomendamos al menos dos veces a la semana para un progreso constante."
-    },
+
+  {
+    "id": 6,
+    "title": "They are not just people, they are dance interpreters.",
+    "info": "And yes, when you step onto the dance floor, you have to force your posture, not look at the floor, exert yourself, try to stand out...",
+    "info2": "\n\n\nAs my coach says when preparing us for tournaments: \"You on the dance floor are not people, you are dancers\""
+  },
+
+   {
+    "id": 7,
+    "title": "Showmatch Dancers vs Ballroom Dancers",
+    "info": "Due to the appearance of ballroom dance on television through shows like 'Showmatch', 'Strictly Come Dancing', or 'Dancing with the Stars', ballroom has gained some popularity. However, it's important to distinguish the differences between original ballroom and the fusion of elements seen in TV shows.",
+    "info2": "\n\n\n1) CHOREOGRAPHIES: Choreographies are undoubtedly the main distinctive element between TV contests and original ballroom.\n\n\nChoreographies for TV shows are primarily aimed at entertainment and spectacle. Ballroom choreographies are guided by the concept of 'elegance', often avoiding tricks and acrobatics.\n\n\nCONTEXT / ENVIRONMENT: TV contests can stage a whole show around a choreography. They can choose the theme and comfortably have one couple dancing on the floor, without the strict evaluation parameters found in competitive ballroom dancing.\n\n\nIn ballroom tournaments, dancing usually involves several couples at the same time, with no choice in music. While there are predetermined rhythms (Samba, Cha Cha Cha, Rumba, Paso Doble, Jive), dancers cannot choose the song. The music simply plays, and dancers demonstrate their interpretation ability, timing, and dance.\n\n\nIt's much less controlled; couples choreograph accordingly, considering factors like physical connection, choreography, posture and balance, movement quality, musicality, precision, and smooth transitions. However, they don't aim solely for show or attention-seeking; in fact, many times they avoid these factors to maintain the tournament's aesthetics, in other words, to preserve the pure expression of music."
+},
+{
+    "id": 8,
+    "title": "Who Wins a Ballroom Tournament?",
+    "info": "The fastest?\n\n\nThe most technical?\n\n\nThe most precise?\n\n\nThe most complicated choreography?\n\n\nThe best connection?",
+    "info2": "\n\n\n🟡Perhaps a balanced sum of all these factors could be an answer, where they are evenly balanced or excel in one of these qualities. This is good as it marks personal style. We all know how important it is to be unique and original in art.\n\n\nBryan Watson says the best dancer is the one who best expresses the music. Technique, tools, and skills are means to that end, but replicating choreography over and over, executing movements mechanically to perfection across all themes and rhythms, won't make you a great dancer. You must adapt your tools to best express the music.\n\n\nTherefore, choreography with different songs should look different (musically at least). If they all look the same, you're like a 100-meter sprinter who just runs flat out as soon as the bell rings, giving everything physically possible. Perfect, you're a great athlete, but you're not really dancing. And I say you're not really dancing because there's no listening, interpretation, or expression of what the music evokes. Here in dance, we must also consider that it's largely art, and as Bruce said, art is not just embellishment or ornamentation; it's also expression.\n\n\nWho do you think should win a competition?"
+},
+
+{
+    "id": 9,
+    "title": "Three Key Points for Every Beginner Ballroom Practitioner",
+    "info": "In the initial stages of Ballroom Latin, where a dancer starts with the basics such as figure names, timing for each rhythm, and ballroom fundamentals, it's important to consider the following concepts:",
+    "info2": "1. Clear Figures: Clear distinction should be made between a figure, its transition, and the subsequent figure.\n\n\n2. Precise Timing: Fundamental and critical criterion for evaluating a couple and demonstrating understanding of the musical composition.\n\n\n3. Correct Posture: Essential for presenting the dancer both individually and as a couple, conveying presence to the audience, clarity in movements, and distinct characterization of each rhythm."
+},
+{
+    "id": 10,
+    "title": "Frequently Asked Questions",
+    "info": "Do I need previous experience to start taking classes?\n\n\nNo, at BASC we offer classes for all levels, including beginners without prior experience.",
+    "info2": "\n\n\nDo I need a partner to take classes?\n\n\nNo, you can enroll without a partner. In our classes, we will assign you a partner to practice with.\n\n\nWhat clothing and footwear should I wear for classes?\n\n\nIt's recommended to wear comfortable clothing that allows freedom of movement and suitable footwear for dancing, preferably with leather or similar soles.\n\n\nHow often should I take classes to improve?\n\n\nThe ideal frequency varies based on your goals and availability. However, we recommend at least twice a week for steady progress."
+},
+
 
     {
         "id": 11,
@@ -642,9 +644,9 @@
       },
       {
         "id": 5,
-        "title": "Our Team",
-        "info": "At BASC, we have a team of highly qualified instructors.",
-        "info2": "\n\n\nOur teachers have years of experience in teaching and competition. They stay updated with the latest trends and techniques in ballroom dancing, ensuring that you receive the best possible training."
+        "title": "Our ",
+        "info": "Team",
+        "info2": "At BASC, we have a team of highly qualified instructors.\n Our teachers have years of experience in teaching and competition. They stay updated with the latest trends and techniques in ballroom dancing, ensuring that you receive the best possible training."
       },
       {
         "id": 6,
@@ -663,6 +665,34 @@
         "title": "Contact",
         "info": "Us",
         "info2": "\n\n\nFeel free to contact us through our social media, email, or phone. We are here to help and answer any questions you may have about our classes and services."
+      }
+    ],
+
+    "SHORTTITLE":
+    [
+      {
+        "id": 1,
+        "title": "Women's Shoes",
+        "info": "Take your best steps with our women's dance shoes  👠",
+        "info2": ""
+      },
+      {
+        "id": 2,
+        "title": "Women's Attire",
+        "info": "Shine in every performance with our elegant women's dancewear ✨",
+        "info2": ""
+      },
+      {
+        "id": 3,
+        "title": "Men's Shoes",
+        "info": "Perfect balance between style and functionality in men's dance shoes 👞",
+        "info2": ""
+      },
+      {
+        "id": 4,
+        "title": "Men's Attire",
+        "info": "Stand out on stage with our men's dancewear that offers unparalleled comfort and style 🎵",
+        "info2": ""
       }
     ]
   } 

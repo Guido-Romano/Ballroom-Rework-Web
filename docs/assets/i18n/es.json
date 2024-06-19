@@ -656,7 +656,7 @@
       "id": 5,
       "title": "Nuestro equipo de ",
       "info": "trabajo",
-      "info2": "En BASC contamos con un equipo de instructores altamente calificados. \n\n\nNuestros maestros tienen años de experiencia en enseñanza y competición. Se mantienen actualizados con las últimas tendencias y técnicas del ballroom, asegurando que recibas la mejor formación posible."
+      "info2": "En BASC contamos con un equipo de instructores altamente calificados. \nNuestros maestros tienen años de experiencia en enseñanza y competición. Se mantienen actualizados con las últimas tendencias y técnicas del ballroom, asegurando que recibas la mejor formación posible."
     },
     {
       "id": 6,
@@ -677,6 +677,35 @@
       "title": "Contacta con",
       "info": "nosotros",
       "info2": "\n\n\nNo dudes en ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o teléfono. Estamos aquí para ayudarte y responder cualquier duda que puedas tener sobre nuestras clases y servicios."
+    }
+  ],
+
+  "SHORTTITLE": [
+ 
+    {
+      "id": 1,
+      "title": "Calzado femenino",
+      "info": "Da tus mejores pasos con nuestros zapatos de baile para mujer  👠",
+      "info2": ""
+    },
+  
+    {
+      "id": 2,
+      "title": "Atuendos femeninos",
+      "info": "Brilla en cada presentación con nuestra elegante vestimenta de baile para mujer ✨",
+      "info2": ""
+    },
+    {
+      "id": 3,
+      "title": "Zapatos masculinos",
+      "info": "Equilibrio perfecto entre estilo y funcionalidad en zapatos de baile masculinos 👞",
+      "info2": ""
+    },
+    {
+      "id": 4,
+      "title": "Atuendos masculinos",
+      "info": "Destaca en el escenario con nuestra ropa de baile para hombre que ofrece confort y estilo sin igual 🎵",
+      "info2": ""
     }
   ]
 }
