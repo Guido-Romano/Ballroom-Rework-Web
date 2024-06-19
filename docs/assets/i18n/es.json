@@ -10,7 +10,7 @@
       "schedule": "de 8:00 pm - 9:00 pm",
       "level": "(Sala 6)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img09.jpeg",
+      "img": "../../assets/img28.jpg",
       "more": "Anotáte"
     },
 
@@ -24,7 +24,7 @@
       "schedule": "de 19:30hs- 20:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612.",
-      "img": "../../assets/img15.jpg",
+      "img": "../../assets/img26.jpg",
       "more": "Anotáte"
     },
     {
@@ -37,7 +37,7 @@
       "schedule": "de 20:30hs a 21:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612.",
-      "img": "../../assets/img16.jpg",
+      "img": "../../assets/img23.png",
       "more": "Anotáte"
     },
 
@@ -51,20 +51,20 @@
       "schedule": "de 8:00 pm - 9:00 pm",
       "level": "(Sala 1)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img10.jpeg",
+      "img": "../../assets/img30.jpg",
       "more": "Anotáte" 
     },
     {
       "id": 5,
       "title": "Instructor Juan Almirón",
-      "info": "¿Buscas un plan para el fin de semana? ¡Ven a nuestras clases de baile de salón! Aprende pasos básicos y figuras en un ambiente divertido.",
+      "info": "¡Baila como si lo hubieses hecho siempre! ¿Buscas un plan para el fin de semana?  Aprende pasos básicos y figuras en un ambiente divertido.",
       "info2": "(International Latin)",
       "price": "5000",
       "day": "Sábado",
       "schedule": "de 10:00 am - 11:00 am",
       "level": "(Sala 5)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img11.jpeg",
+      "img": "../../assets/img27.jpg",
       "more": "Anotáte"
     },
     {
@@ -76,8 +76,8 @@
       "day": "Clases Particulares",
       "schedule": " (flexibles)",
       "level": "Todos los niveles",
-      "address": "",
-      "img": "../../assets/img05.jpeg",
+      "address": "Av. Corrientes 4534.",
+      "img": "../../assets/img29.jpg",
       "more": "Anotáte" 
     }
  
@@ -182,7 +182,7 @@
       "title": "Cecilia Bulgarelli",
       "rol": "Community Manager",
       "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio.",
-      "img" : "../../assets/noprofile.jpg"
+      "img" : "../../assets/ceci.png"
     },
     {
       "id": 3,
@@ -408,17 +408,6 @@
     }
   ],
 
-
-
-
-
-
-
-
-
-
-
-
 "NAV": {
   "home": "Inicio",
   "about": "Nosotros",
@@ -543,7 +532,7 @@
   
     {
       "id": 9,
-      "title": "3 Puntos claves para todo practicante inicial de ballroom",
+      "title": "Tres Puntos claves para todo practicante inicial de ballroom",
       "info": "En las etapas iniciales de Ballroom Latin, donde un bailarín/na empieza con su alfabetización en cuanto al nombre de las figuras, los tiempos de cada ritmo, los fundamentos del ballroom, conviene tener en cuenta los siguientes conceptos:",
       "info2": "1. Figuras claras: Debe quedar clara la distinción entre una figura, la transición y la figura que le continúa.\n\n\n2. Tiempos precisos: Criterio fundamental y crítico tanto a la hora de evaluar una pareja, como también para demostrar que se entiende el lenguaje por el que está compuesta la música.\n\n\n3. Postura correcta: Fundamental tanto a la hora de la presentación del bailarín, tanto individual como en pareja, ya que transmite entre otras cosas, la presencia hacia el público, la claridad de los movimientos, la distinción y caracterización de cada ritmo."
     },
@@ -575,8 +564,8 @@
     {
       "id": 14,
       "title": "Testimonios de nuestros alumnos",
-      "info": "Nuestros alumnos son nuestra mejor referencia. Aquí algunos testimonios:",
-      "info2": "\n\n\nGracias a BASC, he descubierto una pasión por el baile que nunca imaginé. Los instructores son increíbles y siempre están ahí para apoyarte.\" - Ana M.\n\n\n\"BASC es más que una escuela, es una familia. He aprendido mucho y he hecho amigos para toda la vida.\" - Carlos R."
+      "info": "Nuestros alumnos son nuestra mejor referencia. Aquí algunos testimonios:\n\n\nGracias a BASC, he descubierto una pasión por el baile que nunca imaginé. Los instructores son increíbles y siempre están ahí para apoyarte.\" - Ana M.\n\n\n\"BASC es más que una escuela, es una familia. He aprendido mucho y he hecho amigos para toda la vida.\" - Carlos R.",
+      "info2": ""
     },
     {
       "id": 15,
@@ -587,8 +576,8 @@
     {
       "id": 16,
       "title": "Clases grupales e individuales",
-      "info": "Ofrecemos tanto clases grupales como individuales para adaptarnos a tus necesidades y preferencias.",
-      "info2": "\n\n\nLas clases grupales son ideales para socializar y aprender en un ambiente dinámico, mientras que las clases individuales permiten una atención personalizada y un progreso más rápido."
+      "info": "Ofrecemos tanto clases grupales como individuales para adaptarnos a tus necesidades y preferencias.Las clases grupales son ideales para socializar y aprender en un ambiente dinámico, mientras que las clases individuales permiten una atención personalizada y un progreso más rápido.",
+      "info2": ""
     },
     {
       "id": 17,
