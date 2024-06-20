@@ -35,6 +35,10 @@ import { BannerStaffComponent } from './pages/contact/banner-staff/banner-staff.
 import { BannerMisionComponent } from './pages/about-us/banner-mision/banner-mision.component';
 import { TitlesComponent } from './pages/apparel/titles/titles.component';
 import { DoubleImgComponent } from './pages/about-us/double-img/double-img.component';
+import { WshoesComponent } from './pages/apparel/wshoes/wshoes.component';
+import { WdressComponent } from './pages/apparel/wdress/wdress.component';
+import { MshoesComponent } from './pages/apparel/mshoes/mshoes.component';
+import { MdressComponent } from './pages/apparel/mdress/mdress.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -71,6 +75,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     TitlesComponent,
     DoubleImgComponent,
     PresentationComponent,
+    WshoesComponent,
+    WdressComponent,
+    MshoesComponent,
+    MdressComponent,
   ],
   imports: [
     AppRoutingModule,

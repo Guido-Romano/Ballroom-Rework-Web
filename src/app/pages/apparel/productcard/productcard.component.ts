@@ -28,10 +28,7 @@ export class ProductCardComponent implements OnInit, OnDestroy {
   }
 
   loadText(): void {
-    // Definir las claves que quieres traducir
     const keysToTranslate = ['WOMANSHOES', 'WOMANVEST', 'MENSHOES', 'MENVEST'];
-
-    // Obtener las traducciones
     this.translate.get(keysToTranslate).subscribe((translations: any) => {
       // Procesar las traducciones según necesidad
       keysToTranslate.forEach(key => {

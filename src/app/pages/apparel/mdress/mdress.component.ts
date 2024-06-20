@@ -3,13 +3,13 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-pricing',
-  templateUrl: './pricing.component.html'
+  selector: 'app-mdress',
+  templateUrl: './mdress.component.html',
 })
-export class PricingComponent implements OnInit, OnDestroy {
+export class MdressComponent implements OnInit, OnDestroy {
   promotions: any[] = [];
-  hoveredProduct: any = null;
-  private langChangeSubscription: Subscription | undefined;
+  hoveredProduct: any;
+  private langChangeSubscription!: Subscription;
 
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('es');
@@ -29,10 +29,8 @@ export class PricingComponent implements OnInit, OnDestroy {
   }
 
   loadText(): void {
-    this.translate.get('PROMOTION').subscribe((data: any[]) => {
+    this.translate.get('MENVEST').subscribe((data: any[]) => {
       this.promotions = data;
     });
-
- 
   }
 }
