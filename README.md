@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "fixing banner-home" 
+git commit -m "fixing nav-en" 
 git push origin main
 
 
