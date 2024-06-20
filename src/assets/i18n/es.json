@@ -172,31 +172,31 @@
   "STAFF": [
     {
       "id": 1,
-      "title": "Juan Manuel Almirón",
-      "rol": "CEO y Fundador",
-      "info": "Creador de BASC Argentina. Comparto mi pasión por el baile con aquellas personas que quieran aprender.",
-      "img" : "../../assets/chino2.webp"
+      "title": "Camille Vindal",
+      "rol": "Profesora y Pareja de Baile",
+      "info": "Soy experta en de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom.",
+      "img" : "../../assets/cami.webp"
     },
     {
       "id": 2,
-      "title": "Cecilia Bulgarelli",
-      "rol": "Community Manager",
-      "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio.",
-      "img" : "../../assets/ceci2.webp"
+      "title": "Juan Manuel Almirón",
+      "rol": "CEO y Fundador",
+      "info": "Creador de BASC Argentina. Comparto mi pasión por el baile con aquellas personas que quieran aprender.",
+      "img" : "../../assets/chino.webp"
     },
     {
       "id": 3,
       "title": "Guido Romano",
       "rol": "Desarrollador",
       "info": "Trabajo en marketing digital, tanto en el desarrollo de aplicaciones web como para nuestras redes.",
-      "img" : "../../assets/guido2.webp"
+      "img" : "../../assets/guido.webp"
     },
     {
       "id": 4,
-      "title": "Camille Vindal",
-      "rol": "Profesora y Pareja de Baile",
-      "info": "Soy experta en de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom.",
-      "img" : "../../assets/cami2.webp"
+      "title": "Cecilia Bulgarelli",
+      "rol": "Community Manager",
+      "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio.",
+      "img" : "../../assets/ceci.webp"
     }
   ],
 

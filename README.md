@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "translate finished" 
+git commit -m "imgs and videos fixes" 
 git push origin main
 
 
