@@ -175,28 +175,28 @@
       "title": "Juan Manuel Almirón",
       "rol": "CEO y Fundador",
       "info": "Creador de BASC Argentina. Comparto mi pasión por el baile con aquellas personas que quieran aprender.",
-      "img" : "../../assets/chino.png"
+      "img" : "../../assets/chino2.webp"
     },
     {
       "id": 2,
       "title": "Cecilia Bulgarelli",
       "rol": "Community Manager",
       "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio.",
-      "img" : "../../assets/ceci.png"
+      "img" : "../../assets/ceci2.webp"
     },
     {
       "id": 3,
       "title": "Guido Romano",
       "rol": "Desarrollador",
       "info": "Trabajo en marketing digital, tanto en el desarrollo de aplicaciones web como para nuestras redes.",
-      "img" : "../../assets/guido.png"
+      "img" : "../../assets/guido2.webp"
     },
     {
       "id": 4,
       "title": "Camille Vindal",
       "rol": "Profesora y Pareja de Baile",
       "info": "Soy experta en de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom.",
-      "img" : "../../assets/cami.JPG"
+      "img" : "../../assets/cami2.webp"
     }
   ],
 
@@ -425,13 +425,13 @@
 
 "STATS": {
   "title": "El por qué somos la mejor elección ",
-  "subtitle": "Descubre la pasión, el talento y la dedicación que nos distinguen. ",
+  "subtitle": "Es la pasión y la dedicación lo que nos distingue. ",
   "button1": "Años de experiencia ",
-  "button2": "Seguidores ",
+  "button2": "Nuestros Seguidores ",
   "button3": "Contactos por mes",
 
   "number1": "+10 ",
-  "number2": "+55 mil ",
+  "number2": "+55K ",
   "number3": "+50 ",
 
   "subtitle2": "Trayectoria",
@@ -662,7 +662,7 @@
       "id": 6,
       "title": "Inscripciones",
       "info": "abiertas",
-      "info2": "¡No pierdas la oportunidad de unirte a BASC! Las inscripciones están abiertas para todos los niveles.\n\n\nContáctanos directamente para más información sobre horarios, tarifas y requisitos. Estamos aquí para ayudarte a comenzar tu viaje en el mundo del baile de salón."
+      "info2": "¡No pierdas la oportunidad de unirte! Las inscripciones están abiertas para todos los niveles.\nContáctanos directamente para más información sobre horarios, tarifas y requisitos. Estamos aquí para ayudarte a comenzar tu viaje en el mundo del baile de salón."
       
     },
     {
@@ -676,7 +676,7 @@
       "id": 8,
       "title": "Contacta con",
       "info": "nosotros",
-      "info2": "\n\n\nNo dudes en ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o teléfono. Estamos aquí para ayudarte y responder cualquier duda que puedas tener sobre nuestras clases y servicios."
+      "info2": "No dudes en ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o teléfono. Estamos aquí para ayudarte y responder cualquier duda que puedas tener sobre nuestras clases y servicios."
     }
   ],
 

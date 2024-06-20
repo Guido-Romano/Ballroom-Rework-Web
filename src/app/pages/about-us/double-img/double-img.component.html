@@ -1,8 +1,8 @@
 <section class="bg-gray-50 text-slate-800 py-8">
-    <div class="container mx-auto py-8 px-5 sm:px-12 max-w-6xl">
+    <div class="container mx-auto py-0 md:py-8 px-5 sm:px-12 max-w-6xl">
       <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div class="max-w-2xl">
-          <h3 class="py-4 text-center text-xl sm:text-3xl font-bold text-slate-900">{{ firsttext?.title }}</h3>
+          <h3 class="md:mb-4 pt-4 text-center text-xl sm:text-3xl font-bold text-slate-900">{{ firsttext?.title }}</h3>
           <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(firsttext?.info + firsttext?.info2)"></p>
           <div class="mt-4">
             <a href="#" class="leading-relaxed text-amber-600 focus:outline-none font-bold hover:text-white"></a>
@@ -20,7 +20,7 @@
           <img src="../../assets/img08.jpeg" alt="About Us Image" class="object-cover rounded-lg shadow-md">
         </div>
         <div class="max-w-2xl">
-          <h3 class="py-4 text-center text-xl sm:text-3xl font-bold text-slate-900">{{ secondtext?.title }}</h3>
+          <h3 class="md:mb-4 pt-4 text-center text-xl sm:text-3xl font-bold text-slate-900">{{ secondtext?.title }}</h3>
           <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(secondtext?.info + secondtext?.info2)"></p>
           <div class="mt-4">
             <a href="#" class="leading-relaxed text-amber-600 focus:outline-none font-bold hover:text-white"></a>
