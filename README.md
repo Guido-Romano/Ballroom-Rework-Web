@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "imgs and videos fixes" 
+git commit -m "imgs and videos fixes2" 
 git push origin main
 
 

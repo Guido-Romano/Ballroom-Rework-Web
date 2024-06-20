@@ -10,7 +10,7 @@
       "schedule": "de 8:00 pm - 9:00 pm",
       "level": "(Sala 6)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img28.jpg",
+      "img": "../../assets/img28.webp",
       "more": "Anotáte"
     },
 
@@ -24,7 +24,7 @@
       "schedule": "de 19:30hs- 20:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612.",
-      "img": "../../assets/img26.jpg",
+      "img": "../../assets/img26.webp",
       "more": "Anotáte"
     },
     {
@@ -37,7 +37,7 @@
       "schedule": "de 20:30hs a 21:30hs",
       "level": "principiante /intermedio",
       "address": "Av. Belgrano 1612.",
-      "img": "../../assets/img23.png",
+      "img": "../../assets/img23.webp",
       "more": "Anotáte"
     },
 
@@ -51,7 +51,7 @@
       "schedule": "de 8:00 pm - 9:00 pm",
       "level": "(Sala 1)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img30.jpg",
+      "img": "../../assets/img30.webp",
       "more": "Anotáte" 
     },
     {
@@ -64,7 +64,7 @@
       "schedule": "de 10:00 am - 11:00 am",
       "level": "(Sala 5)",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img27.jpg",
+      "img": "../../assets/img27.webp",
       "more": "Anotáte"
     },
     {
@@ -77,7 +77,7 @@
       "schedule": " (flexibles)",
       "level": "Todos los niveles",
       "address": "Av. Corrientes 4534.",
-      "img": "../../assets/img29.jpg",
+      "img": "../../assets/img29.webp",
       "more": "Anotáte" 
     }
  
