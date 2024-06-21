@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -18,7 +18,8 @@ export class BannerStaffComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.loadText();
-    this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
+    this.langChangeSubscription = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      console.log('Language changed to:', event.lang);
       this.loadText();
     });
   }
@@ -31,16 +32,19 @@ export class BannerStaffComponent implements OnInit, OnDestroy {
 
   loadText(): void {
     this.translate.get('STAFF').subscribe((data: any[]) => {
+      console.log('Staff data:', data); // Depuración
       this.staff = data;
     });
 
     this.translate.get('TEXTS.14').subscribe((data: any) => {
+      console.log('Question data:', data); // Depuración
       this.question = data; 
     });
 
     this.translate.get('NAV').subscribe((data: any) => {
+      console.log('Contact data:', data); // Depuración
       this.contact = data.contact; 
     });
   }
-}
 
+}

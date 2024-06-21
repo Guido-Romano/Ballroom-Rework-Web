@@ -26,7 +26,6 @@ import { StaffComponent } from './pages/about-us/staff/staff.component';
 import { TextComponent } from './resource/text/text.component';
 import { VerticalCardComponent } from './pages/classes/vertical-card/vertical-card.component';
 import { ProductCardComponent } from './pages/apparel/productcard/productcard.component';
-import { CookieComponent } from './pages/home/cookie/cookie.component';
 import { BannerPrimaryComponent } from './resource/banner-primary/banner-primary.component';
 import { StatsComponent } from './pages/home/stats/stats.component';
 import { GalleryComponent } from './pages/home/gallery/gallery.component';
@@ -39,6 +38,7 @@ import { WshoesComponent } from './pages/apparel/wshoes/wshoes.component';
 import { WdressComponent } from './pages/apparel/wdress/wdress.component';
 import { MshoesComponent } from './pages/apparel/mshoes/mshoes.component';
 import { MdressComponent } from './pages/apparel/mdress/mdress.component';
+import { FooterPageComponent } from './pages/footer-page/footer-page.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -65,7 +65,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     TextComponent,
     VerticalCardComponent,
     ProductCardComponent,
-    CookieComponent,
     BannerPrimaryComponent,
     StatsComponent,
     GalleryComponent,
@@ -79,6 +78,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     WdressComponent,
     MshoesComponent,
     MdressComponent,
+    FooterPageComponent,
   ],
   imports: [
     AppRoutingModule,

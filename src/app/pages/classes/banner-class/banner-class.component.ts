@@ -57,4 +57,8 @@ export class BannerClassComponent implements OnInit, OnDestroy {
       this.promo = data; 
     });
   }
+
+  openWhatsApp() {
+    window.open('https://wa.me/541159157116', '_blank');
+  }
 }

@@ -2,11 +2,10 @@
   <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-1 md:p-3">
     <div class="flex items-center space-x-3 rtl:space-x-reverse">
       <div class="flex items-center space-x-3 rtl:space-x-reverse relative inline-block text-left mr-2">
-
         <div class="text-neutral-400 group ml-2">
           <button type="button" (click)="toggleDropdown()" class="flex items-center hover:text-white">
               <i class="fas fa-globe mx-1  text-base sm:text-lg"></i>
-              <span>{{ 'NAV.language' | translate }}</span>
+              <span>{{ currentLanguage.toUpperCase() }}</span>
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#f59e0b">
                   <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
               </svg>

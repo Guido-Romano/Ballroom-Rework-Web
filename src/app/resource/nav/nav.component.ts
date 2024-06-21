@@ -8,6 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class NavComponent implements OnInit {
   dropdownOpen = false;
+  currentLanguage: string = 'es'; // Valor inicial
 
   constructor(private router: Router, private translate: TranslateService) {
     translate.setDefaultLang('es');
@@ -33,13 +34,13 @@ export class NavComponent implements OnInit {
   }
 
   changeLanguage(lang: string) {
-    this.translate.use(lang);
-    this.dropdownOpen = false; 
+    this.translate.use(lang).subscribe(() => {
+      this.currentLanguage = lang;
+    });
+    this.dropdownOpen = false;
   }
 
   toggleDropdown() {
     this.dropdownOpen = !this.dropdownOpen;
   }
 }
-
-

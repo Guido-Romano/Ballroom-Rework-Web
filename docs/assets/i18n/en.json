@@ -82,121 +82,123 @@
       }
     ],
 
+      "QUESTIONS": [
+        {
+          "id": 1,
+          "title": "What is ballroom dancing?",
+          "info": "\"Ballroom\" refers to a set of 10 rhythms: English Waltz, Viennese Waltz, Tango, Foxtrot, Quickstep (Standard), and Samba, Cha Cha Cha, Rumba, Paso Doble, Jive (Latin)."
+        },
+        {
+          "id": 2,
+          "title": "Do you offer free classes?",
+          "info": "The first class is free!"
+        },
+        {
+          "id": 3,
+          "title": "What days are the classes?",
+          "info": "Tuesday, Wednesday, Thursday, and Saturday."
+        },
+        {
+          "id": 4,
+          "title": "What are the class schedules?",
+          "info": "Tuesday, 8:00 pm - 9:00 pm\nThursday, 8:00 pm - 9:00 pm\nSaturday, 10:00 am - 11:00 am\nWednesday, 7:30 pm - 8:30 pm"
+        },
+        {
+          "id": 5,
+          "title": "Where are the classes held?",
+          "info": "4534 Corrientes Avenue (El Juvenil) and 1612 Belgrano Avenue (Congress area)."
+        },
+        {
+          "id": 6,
+          "title": "What is the price of the classes?",
+          "info": "$5,000 per class\n$15,000 for a pack of 4 classes\n$20,000 for a pack of 6 classes\n$8,000 for private classes + room cost\n$12,000 for couples classes + room cost"
+        },
+        {
+          "id": 7,
+          "title": "Are there ballroom classes for beginners?",
+          "info": "Yes, for beginners, intermediates, and advanced levels."
+        },
+        {
+          "id": 8,
+          "title": "How should I dress for the classes?",
+          "info": "Wear comfortable pants or jogging pants, a t-shirt or comfortable shirt, and flexible shoes or sneakers."
+        },
+        {
+          "id": 9,
+          "title": "Do I need to bring a partner to the classes?",
+          "info": "It is not necessary, but recommended for a better experience."
+        }
+      ],
+      "PROMOTION": [
+        {
+          "id": 1,
+          "title": "'Gold Plan'",
+          "save": "Save 25%",
+          "newprice": "$15,000",
+          "oldprice": "$20,000",
+          "info": "The plan includes 4 ballroom classes",
+          "info2": "Instructor Juan Almirón",
+          "time": "per month",
+          "join": "Sign up"
+        },
+        {
+          "id": 2,
+          "title": "'Platinum Plan'",
+          "save": "Save 33%",
+          "newprice": "$20,000",
+          "oldprice": "$30,000",
+          "info": "The plan includes 6 ballroom classes",
+          "info2": "Instructor Juan Almirón",
+          "time": "per month",
+          "join": "Sign up"
+        },
+        {
+          "id": 3,
+          "title": "'Diamond Plan'",
+          "save": "Save 40%",
+          "newprice": "$40,000",
+          "oldprice": "$60,000",
+          "info": "The plan includes 12 ballroom classes",
+          "info2": "Instructor Juan Almirón",
+          "time": "per month",
+          "join": "Sign up"
+        }
+      ],
+      "STAFF": [
+        {
+          "id": 1,
+          "title": "Camille Vindal",
+          "role": "Teacher and Dance Partner",
+          "info": "Expert in ballroom dances, skillfully guiding students.",
+          "img": "../../assets/cami.webp",
+           "contact" : "https://www.instagram.com/vogueliamatta/"
+        },
+        {
+          "id": 2,
+          "title": "Juan Manuel Almirón",
+          "role": "CEO and Founder",
+          "info": "Creator of BASC Argentina, sharing passion for dance.",
+          "img": "../../assets/chino.webp",
+          "contact" : "https://www.instagram.com/juanm.almiron/"
+        },
+        {
+          "id": 3,
+          "title": "Guido Romano",
+          "role": "Developer",
+          "info": "Digital marketing and web applications developer.",
+          "img": "../../assets/guido.webp",
+          "contact" : "https://www.instagram.com/guido.apocca/"
+        },
+        {
+          "id": 4,
+          "title": "Cecilia Bulgarelli",
+          "role": "Community Manager",
+          "info": "Manages social networks, contributes creative ideas.",
+          "img": "../../assets/ceci.webp",
+           "contact" : "https://www.instagram.com/cecy_bulgarelli/"
+        }
+      ],
     
-        "QUESTIONS": [
-          {
-            "id": 1,
-            "title": "What is ballroom dancing?",
-            "info": "\"Ballroom\" is the term used to refer to a set of 10 rhythms. They belong to the so-called \"Standard\" rhythms. These include: English Waltz, Viennese Waltz, Tango, Foxtrot, Quickstep. Corresponding to the \"Latin\" rhythms are: Samba, Cha Cha Cha, Rumba, Paso Doble, Jive."
-          },
-          {
-            "id": 2,
-            "title": "Do you offer free classes?",
-            "info": "The first class is free!"
-          },
-          {
-            "id": 3,
-            "title": "What days are the classes?",
-            "info": "Tuesday, Wednesday, Thursday, and Saturday."
-          },
-          {
-            "id": 4,
-            "title": "What are the class schedules?",
-            "info": "Tuesday, 8:00 pm - 9:00 pm\nThursday, 8:00 pm - 9:00 pm\nSaturday, 10:00 am - 11:00 am\nWednesday, 7:30 pm - 8:30 pm"
-          },
-          {
-            "id": 5,
-            "title": "Where are the classes held?",
-            "info": "4534 Corrientes Avenue (El Juvenil) and 1612 Belgrano Avenue (Congress area)."
-          },
-          {
-            "id": 6,
-            "title": "What is the price of the classes?",
-            "info": "$5,000 per class\n$15,000 for a pack of 4 classes\n$20,000 for a pack of 6 classes\n$8,000 for private classes + room cost\n$12,000 for couples classes + room cost"
-          },
-          {
-            "id": 7,
-            "title": "Are there ballroom classes for beginners?",
-            "info": "For beginners, intermediates, and advanced levels."
-          },
-          {
-            "id": 8,
-            "title": "How should I dress for the classes?",
-            "info": "It is recommended to wear comfortable pants or jogging pants, a t-shirt or comfortable shirt, and flexible shoes or sneakers."
-          },
-          {
-            "id": 9,
-            "title": "Do I need to bring a partner to the classes?",
-            "info": "It is not necessary, but for a better experience, we recommend it."
-          }
-        ],
-      
-        "PROMOTION": [
-          {
-            "id": 1,
-            "title": "'Gold Plan'",
-            "save": "save 25%",
-            "newprice": "$15,000",
-            "oldprice": "$20,000",
-            "info": "The plan includes 4 ballroom classes",
-            "info2": "Instructor Juan Almirón", 
-            "time": "per month",
-            "join": "Sign up"
-          },
-          {
-            "id": 2,
-            "title": "'Platinum Plan'",
-            "save": "save 33%",
-            "newprice": "$20,000",
-            "oldprice": "$30,000",
-            "info": "The plan includes 6 ballroom classes",
-            "info2": "Instructor Juan Almirón",
-            "time": "per month",
-            "join": "Sign up"
-          },
-          {
-            "id": 3,
-            "title": "'Diamond Plan'",
-            "save": "save 40%",
-            "newprice": "$40,000",
-            "oldprice": "$60,000",
-            "info": "The plan includes 12 ballroom classes",
-            "info2": "Instructor Juan Almirón",
-            "time": "per month",
-            "join": "Sign up"
-          }
-        ],
-      
-        "STAFF": [
-          {
-            "id": 1,
-            "title": "Juan Manuel Almirón",
-            "rol": "CEO and Founder",
-            "info": "Founder of BASC Argentina. I share my passion for dance with those who want to learn.",
-            "img" : "../../assets/chino.png"
-          },
-          {
-            "id": 2,
-            "title": "Cecilia Bulgarelli",
-            "rol": "Community Manager",
-            "info": "I manage our social networks and contribute creative ideas for our business model and design.",
-            "img" : "../../assets/ceci.png"
-          },
-          {
-            "id": 3,
-            "title": "Guido Romano",
-            "rol": "Developer",
-            "info": "I work in digital marketing, developing web applications and managing our social media presence.",
-            "img" : "../../assets/guido.png"
-          },
-          {
-            "id": 4,
-            "title": "Camille Vindal",
-            "rol": "Teacher and Dance Partner",
-            "info": "I am an expert in ballroom dances; I skillfully guide my students in the art of Ballroom.",
-            "img" : "../../assets/cami.JPG"
-          }
-        ],
         
         "WOMANSHOES": [
   {
@@ -694,6 +696,34 @@
         "info": "Stand out on stage with our men's dancewear that offers unparalleled comfort and style 🎵",
         "info2": ""
       }
-    ]
+    ],
+
+    "FOOTERPAGE": {
+    "date":"June 2024",
+    "titlepolicy":"### Privacy Policy",
+    "textpolicy": "At Ballroom Argentina Sport Club, we value and respect your privacy. This policy details how we collect, use, and protect the information you provide to us when visiting our website or using our services. By interacting with us, you agree to the practices described in this policy.",
+    "ptitle1":"#1. Information Collection",
+    "ptext1": "We collect personal information that you directly provide to us, such as your name, email address, and phone number, when you register for our courses or contact us for information. We may also collect information automatically through cookies and other tracking technologies to enhance your experience on our site.",
+    "ptitle2":"#2. Use of Information",
+    "ptext2": "We use the collected information to provide our services to you, process your requests, personalize your experience, and improve our website. We do not share your personal information with third parties without your consent, except when necessary to comply with the law or protect our rights.",
+    "ptitle3":"#3. Information Security",
+    "ptext3": "We implement security measures to protect your personal data from unauthorized access, alteration, or destruction. However, please be aware that no method of transmission over the Internet or electronic storage is entirely secure.",
+    "ptitle4":"#4. Copyright Notice",
+    "ptext4": "All intellectual property rights of the content on our website are owned by Ballroom Argentina Sport Club. Reproduction or distribution without prior written permission is prohibited.",
+
+    "titleterms":"### Terms of Use",
+    "textterms": "",
+    "ttitle1":"#1. Welcome to Ballroom Argentina Sport Club",
+    "ttext1": "By accessing and using our website, you agree to comply with these terms and conditions. If you do not agree with any part of these terms, please do not use our site.",
+    "ttitle2":"#2. Acceptable Use",
+    "ttext2": "The content of this website is intended solely for informational and promotional purposes of our services. It is not permitted to use our site in a way that interferes with its operation or affects other users.",
+    "ttitle3":"#3. Limitation of Liability",
+    "ttext3": "We strive to maintain the accuracy and timeliness of the information provided on our website, but we do not guarantee its completeness or accuracy. We are not liable for any direct, indirect, or consequential loss or damage that may arise from the use of our site.",
+    "ttitle4":"#4. Modifications*",
+    "ttext4": "We reserve the right to modify these terms at any time without prior notice. We recommend reviewing this page regularly to stay informed of any changes.",
+    "ttitle5":"#5. Copyright*",
+    "ttext5":"All intellectual property rights in the content and design of this website belong to Ballroom Argentina Sport Club. Total or partial reproduction of the content is prohibited without our explicit written consent. These texts are designed to provide clarity and protection to both users and the business, ensuring compliance with legal regulations and protecting the intellectual property rights of Ballroom Argentina Sport Club."
+}
+
   } 
 

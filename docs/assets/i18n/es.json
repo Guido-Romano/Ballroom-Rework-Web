@@ -173,30 +173,34 @@
     {
       "id": 1,
       "title": "Camille Vindal",
-      "rol": "Profesora y Pareja de Baile",
+      "role": "Profesora y Pareja de Baile",
       "info": "Soy experta en de bailes de salón; guío siempre con destreza a mis alumnos en el arte del Ballroom.",
-      "img" : "../../assets/cami.webp"
+      "img" : "../../assets/cami.webp",
+      "contact" : "https://www.instagram.com/vogueliamatta/"
     },
     {
       "id": 2,
       "title": "Juan Manuel Almirón",
-      "rol": "CEO y Fundador",
+      "role": "CEO y Fundador",
       "info": "Creador de BASC Argentina. Comparto mi pasión por el baile con aquellas personas que quieran aprender.",
-      "img" : "../../assets/chino.webp"
+      "img" : "../../assets/chino.webp",
+      "contact" : "https://www.instagram.com/juanm.almiron/"
     },
     {
       "id": 3,
       "title": "Guido Romano",
-      "rol": "Desarrollador",
+      "role": "Desarrollador",
       "info": "Trabajo en marketing digital, tanto en el desarrollo de aplicaciones web como para nuestras redes.",
-      "img" : "../../assets/guido.webp"
+      "img" : "../../assets/guido.webp",
+      "contact" : "https://www.instagram.com/guido.apocca/"
     },
     {
       "id": 4,
       "title": "Cecilia Bulgarelli",
-      "rol": "Community Manager",
+      "role": "Community Manager",
       "info": "Administro de nuestras redes y aporto ideas creativas en diseño y para el modelo de nuestro negocio.",
-      "img" : "../../assets/ceci.webp"
+      "img" : "../../assets/ceci.webp",
+      "contact" : "https://www.instagram.com/cecy_bulgarelli/"
     }
   ],
 
@@ -707,6 +711,32 @@
       "info": "Destaca en el escenario con nuestra ropa de baile para hombre que ofrece confort y estilo sin igual 🎵",
       "info2": ""
     }
-  ]
+  ],
+  "FOOTERPAGE": {
+    "date":"Junio 2024",
+    "titlepolicy":"### Política de Privacidad",
+    "textpolicy": "En Ballroom Argentina Sport Club, valoramos y respetamos tu privacidad. Esta política detalla cómo recopilamos, utilizamos y protegemos la información que nos proporcionas cuando visitas nuestro sitio web o utilizas nuestros servicios. Al interactuar con nosotros, aceptas las prácticas descritas en esta política.",
+    "ptitle1":"#1. Recopilación de Información",
+    "ptext1": "Recopilamos información personal que nos proporcionas directamente, como nombre, dirección de correo electrónico y número de teléfono, cuando te registras en nuestros cursos o nos contactas para obtener información. También podemos recopilar información automáticamente a través de cookies y otras tecnologías de seguimiento para mejorar tu experiencia en nuestro sitio.",
+    "ptitle2":"#2. Uso de la Información",
+    "ptext2": " Utilizamos la información recopilada para proporcionarte nuestros servicios, procesar tus solicitudes, personalizar tu experiencia y mejorar nuestro sitio web. No compartimos tu información personal con terceros sin tu consentimiento, salvo cuando sea necesario para cumplir con la ley o proteger nuestros derechos.",
+    "ptitle3":"#3. Seguridad de la Información",
+    "ptext3": " Implementamos medidas de seguridad para proteger tus datos personales contra el acceso no autorizado, la alteración o la destrucción. Sin embargo, ten en cuenta que ningún método de transmisión por Internet o almacenamiento electrónico es completamente seguro.",
+    "ptitle4":"#4. Derechos Reservados",
+    "ptext4": "Todos los derechos de propiedad intelectual del contenido de nuestro sitio web son propiedad de Ballroom Argentina Sport Club. No está permitida la reproducción o distribución sin autorización previa por escrito.",
+
+    "titleterms":"### Política de Privacidad",
+    "textterms": "",
+    "ttitle1":"#1. Bienvenido a Ballroom Argentina Sport Club",
+    "ttext1": "Al acceder y utilizar nuestro sitio web, aceptas cumplir con estos términos y condiciones. Si no estás de acuerdo con alguna parte de estos términos, por favor no utilices nuestro sitio.",
+    "ttitle2":"#2. Uso Aceptable",
+    "ttext2": " El contenido de este sitio web está destinado únicamente para fines informativos y de promoción de nuestros servicios. No está permitido utilizar nuestro sitio de manera que interfiera con su funcionamiento o afecte a otros usuarios.",
+    "ttitle3":"#3. Limitación de Responsabilidad",
+    "ttext3": "Nos esforzamos por mantener la exactitud y la actualización de la información proporcionada en nuestro sitio web, pero no garantizamos su integridad o precisión. No somos responsables por cualquier pérdida o daño directo, indirecto o consecuente que pueda surgir del uso de nuestro sitio.",
+    "ttitle4":"#4. Modificaciones*",
+    "ttext4": " Nos reservamos el derecho de modificar estos términos en cualquier momento y sin previo aviso. Te recomendamos revisar esta página regularmente para estar al tanto de cualquier cambio.",
+    "ttitle5":"#5. Derechos Reservados*",
+    "ttext5":"Todos los derechos de propiedad intelectual del contenido y diseño de este sitio web pertenecen a Ballroom Argentina Sport Club. Está prohibida la reproducción total o parcial del contenido sin nuestro consentimiento explícito por escrito. Estos textos están diseñados para proporcionar claridad y protección tanto a los usuarios como al negocio, asegurando que se cumplan las normativas legales y se protejan los derechos de propiedad intelectual de Ballroom Argentina Sport Club."
+  }
 }
 

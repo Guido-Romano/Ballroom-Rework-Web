@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "fixing nav-en" 
+git commit -m "arreglando detalles" 
 git push origin main
 
 
