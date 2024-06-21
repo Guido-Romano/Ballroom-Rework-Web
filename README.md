@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "arreglando detalles" 
+git commit -m "fix pricing button" 
 git push origin main
 
 
