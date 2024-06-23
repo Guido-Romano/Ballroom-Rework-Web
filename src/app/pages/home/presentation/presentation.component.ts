@@ -11,7 +11,7 @@ export class PresentationComponent implements OnInit, OnDestroy {
   private langChangeSubscription: Subscription | undefined;
 
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('es');
+   
   }
 
   ngOnInit(): void {
