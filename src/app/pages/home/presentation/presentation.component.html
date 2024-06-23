@@ -1,21 +1,22 @@
-
-<section>
+<section aria-labelledby="presentacion">
     <div class="container mx-auto py-14 px-5 sm:px-12 max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div class="max-w-2xl">
-                <h3 class="py-2 text-center text-xl sm:text-3xl font-semibold text-slate-900" [innerHTML]="text.title | translate"></h3>
+                <div class="sr-only" id="presentacion">{{ text.title | translate }}</div> <!-- Título accesible pero oculto visualmente -->
+                <h3 class="py-2 text-center text-xl sm:text-3xl font-semibold text-slate-900 visually-hidden">{{ text.title | translate }}</h3> <!-- Título visualmente oculto -->
                 <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="text.info"></p>
                 <div class="mt-4">
-                    <a href="#" class="leading-relaxed text-amber-600 focus:outline-none font-semibold hover:text-amber-800" [innerHTML]="text.info2">
+                    <a alt="ver mas" href="#" class="leading-relaxed text-amber-600 focus:outline-none font-semibold hover:text-amber-800" [innerHTML]="text.info2">
                     </a>
                 </div>
             </div>
             <div>
-                <img src="../../assets/img01.webp" alt="About Us Image" class="object-cover rounded-lg shadow-md">
+                <img src="../../assets/img01.webp" alt="Imagen de Juan Almirón Bailando en una competencia" class="object-cover rounded-lg shadow-md" loading="lazy">
             </div>
         </div>
     </div>
 </section>
+
 
 
 

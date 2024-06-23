@@ -1,19 +1,19 @@
 <section id="our-team" class="bg-gray-100 py-10">
     <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8 text-primary">{{ question.title | translate }}</h2>
+        <h2 class="text-3xl font-bold text-center mb-8 text-primary" aria-label="nuestro equipo">{{ question.title | translate }}</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-8 max-w-screen-xl mx-auto">
             <div *ngFor="let member of staff" class="bg-white rounded-lg shadow-md p-6 md:my-6 text-center">
-                <img src="{{member.img }}" alt="Team Member 1" class="w-full rounded-full mb-4">
+                <img src="{{ member.img }}" alt="{{ member.title }}" class="w-full rounded-full mb-4">
                 <h3 class="text-xl font-semibold mb-2">{{ member.title | translate }}</h3>
                 <p class="text-gray-700">{{ member.role | translate }}</p>
                 <div class="mt-4">
-                    <a href="{{ member.contact }}" target="_blank" class="py-2 px-4 rounded-xl text-white font-semibold transition-colors bg-slate-700 hover:bg-slate-900 block text-center max-w-xs mx-auto">{{ contact | translate }}</a>
-
+                    <a href="{{ member.contact }}" target="_blank" rel="noopener noreferrer" class="py-2 px-4 rounded-xl text-white font-semibold transition-colors bg-slate-700 hover:bg-slate-900 block text-center max-w-xs mx-auto">{{ 'contact' | translate }}</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 

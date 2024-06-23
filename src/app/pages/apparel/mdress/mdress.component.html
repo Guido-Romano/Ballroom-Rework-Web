@@ -1,36 +1,30 @@
 <div class="container mx-auto max-w-6xl px-2 sm:px-6 md:px-14 lg:px-32 xl:px-0 pb-8 sm:pb-16">
-    <div class="bg-white rounded-xl shadow-md py-2 mx-auto">
-      <div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 justify-center mx-auto px-4">
-          <div *ngFor="let promo of promotions"
-               class="bg-white overflow-hidden border border-neutral-50 xl:border-transparent"
-               style="max-width: 196px; max-height: 326px;"
-               (mouseover)="hoveredProduct = promo"
-               (mouseout)="hoveredProduct = null">
-            <div class="flex justify-center items-center px-3 h-48 bg-white">
-              <img class="w-full h-auto object-contain"
-                   style="max-width: 188px; max-height: 188px;"
-                   [src]="promo.img"
-                   alt="{{ promo.title }}">
-            </div>
-            <div class="px-2">
-              <h3 class="text-sm font-semibold text-center"
-                  [class.text-blue-500]="hoveredProduct === promo"
-                  style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">
-                  {{ promo.title | translate }}
-              </h3>
-              <p class="text-slate-500 text-sm text-left"
-                 style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
-                 {{ promo.info | translate }}
-              </p>
-            </div>
-            <div class="flex justify-center pt-4 pb-1">
-              <a [href]="promo.link" target="_blank">
-                <button class="text-sm py-1 px-2 rounded-lg text-white font-semibold transition-colors bg-slate-700 hover:bg-slate-900">Amazon</button>
-              </a>
-            </div>
-          </div>
+  <section class="bg-white rounded-xl shadow-md py-2 mx-auto">
+    <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-4 justify-center px-4">
+      <div *ngFor="let promo of promotions" class="max-w-xs bg-white border border-neutral-50 xl:border-transparent rounded-xl overflow-hidden shadow-md"
+           style="max-width: 196px; max-height: 326px;"
+           (mouseover)="hoveredProduct = promo"
+           (mouseout)="hoveredProduct = null">
+        <div class="flex justify-center items-center h-48">
+          <img class="w-full h-auto object-cover" [src]="promo.img" [alt]="promo.title">
+        </div>
+        <div class="px-4 py-3">
+          <h3 class="text-base font-semibold text-center text-blue-500 truncate" [class.text-blue-600]="hoveredProduct === promo" [title]="promo.title">
+            {{ promo.title | translate }}
+          </h3>
+          <p class="text-sm text-slate-500 leading-snug text-left h-20 overflow-hidden">
+            {{ promo.info | translate }}
+          </p>
+        </div>
+        <div class="flex justify-center pt-4 pb-1">
+          <a [href]="promo.link" target="_blank" rel="noopener noreferrer">
+            <button class="text-sm py-1 px-3 rounded-lg text-white font-semibold transition-colors bg-slate-700 hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-500">
+              Amazon
+            </button>
+          </a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+</div>
+

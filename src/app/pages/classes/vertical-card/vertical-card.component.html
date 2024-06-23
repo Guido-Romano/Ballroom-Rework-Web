@@ -1,22 +1,22 @@
-<div class="bg-gray-900 pb-0 md:pb-16 ">
-<div class="flex justify-center items-center min-h-screen">
-  <div class="container p-5 sm:p-0">
-    <div class="flex justify-center w-full">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
-        <ng-container *ngFor="let cards of classes">
-          <div class="p-8 max-w-sm border border-neutral-500 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-            <img [src]="cards.img" alt="article image" class="shadow rounded-2xl overflow-hidden border object-cover" *ngIf="cards.img">
-            <div class="mt-8">
-              <h3 class="font-bold text-lg sm:text-xl text-white">{{ cards.day }} {{ cards.schedule }}</h3>
-              <span class="text-gray-400">{{ cards.address }}</span>
-              <p class="mt-2 text-gray-100 text-base sm:text-lg">{{ cards.info }}</p>
-
-            </div>
-          </div>
-        </ng-container>
-      </div>
+<div class="bg-gray-900 pb-0 md:pb-16">
+  <div class="flex justify-center items-center min-h-screen">
+    <div class="container p-5 sm:p-0">
+      <section class="flex justify-center w-full">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
+          <ng-container *ngFor="let cards of classes">
+            <article class="p-8 max-w-sm border border-neutral-500 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
+              <img [src]="cards.img" [alt]="cards.img ? 'Imagenes mostrando distintas clases' : 'Sin imagen'" class="shadow rounded-2xl overflow-hidden border object-cover" *ngIf="cards.img">
+              <div class="mt-8 text-center">
+                <h2 class="font-bold text-lg sm:text-xl text-white">{{ cards.day }} {{ cards.schedule }}</h2>
+                <p class="text-gray-400">{{ cards.address }}</p>
+                <p class="mt-2 text-gray-100 text-base sm:text-lg">{{ cards.info }}</p>
+              </div>
+            </article>
+          </ng-container>
+        </div>
+      </section>
     </div>
   </div>
 </div>
-</div>
+
 
