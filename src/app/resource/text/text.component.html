@@ -1,7 +1,7 @@
-<section class="article-section px-5 sm:px-12 max-w-6xl mx-auto py-1 sm:py-12" *ngIf="article">
+<section class="article-section px-5 sm:px-12 max-w-6xl mx-auto  sm:py-12" *ngIf="article">
   <div class="article-section__content text-center">
     <div class="sr-only" [innerHTML]="article.title"></div>
-    <h2 class="visually-hidden article-title md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900">{{ article.title }}</h2>
+    <h2 class="visually-hidden article-title md:mb-4  text-center text-xl sm:text-3xl font-bold text-slate-900 mb-4">{{ article.title }}</h2>
   </div>
   <p class="leading-relaxed text-base sm:text-lg" [innerHTML]="formattedInfo"></p>
   <p class="leading-relaxed text-base sm:text-lg" *ngIf="article.showMore" [innerHTML]="formattedInfo2"></p>

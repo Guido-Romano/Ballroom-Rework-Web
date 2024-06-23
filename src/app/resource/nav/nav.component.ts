@@ -8,25 +8,20 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class NavComponent implements OnInit {
   dropdownOpen = false;
-  currentLanguage: string = 'es'; // Valor inicial
+  currentLanguage: string; // No es necesario inicializar aquí
 
   constructor(private router: Router, private translate: TranslateService) {
-    translate.setDefaultLang('es');
+    // Obtener el idioma del navegador
+    const browserLang = navigator.language.split('-')[0]; // Obtener solo el código de idioma (ej. 'es' de 'es-ES')
+    this.currentLanguage = browserLang;
+
+    // Configurar el idioma por defecto y el idioma actual
+    translate.setDefaultLang('en');
+    translate.use(this.currentLanguage); // Usar el idioma detectado del navegador
   }
 
   ngOnInit(): void {
-    const collapseButton = document.querySelector('[data-collapse-toggle="navbar-default"]') as HTMLButtonElement;
-    const collapseTarget = document.getElementById('navbar-default') as HTMLElement;
-
-    if (collapseButton && collapseTarget) {
-      collapseButton.addEventListener('click', () => {
-        if (collapseTarget.classList.contains('hidden')) {
-          collapseTarget.classList.remove('hidden');
-        } else {
-          collapseTarget.classList.add('hidden');
-        }
-      });
-    }
+    // Código de inicialización
   }
 
   isActive(url: string): boolean {
