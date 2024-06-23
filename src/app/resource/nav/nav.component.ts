@@ -16,7 +16,7 @@ export class NavComponent implements OnInit {
     this.currentLanguage = browserLang;
 
     // Configurar el idioma por defecto y el idioma actual
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('es');
     translate.use(this.currentLanguage); // Usar el idioma detectado del navegador
   }
 

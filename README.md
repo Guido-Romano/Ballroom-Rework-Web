@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "fixing 3 lenguage" 
+git commit -m "fixedlenguage" 
 git push origin trabajo-de-SEO
 
 
