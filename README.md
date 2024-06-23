@@ -1,6 +1,6 @@
 ng build
 git add . 
-git commit -m "fix SEO ready" 
+git commit -m "EN lenguage prede" 
 git push origin trabajo-de-SEO
 
 

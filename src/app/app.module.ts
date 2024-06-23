@@ -7,7 +7,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ApparelComponent } from './pages/apparel/apparel.component';
 import { PresentationComponent } from './pages/home/presentation/presentation.component';
