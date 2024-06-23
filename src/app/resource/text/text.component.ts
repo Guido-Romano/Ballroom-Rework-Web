@@ -16,7 +16,7 @@ export class TextComponent implements OnInit, OnDestroy {
   private langChangeSubscription: Subscription | undefined;
 
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('es');
+    this.translate.setDefaultLang('en');
   }
 
   ngOnInit(): void {
