@@ -3,13 +3,13 @@
     <div class="container p-5 sm:p-0">
       <section class="flex justify-center w-full">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
-          <ng-container *ngFor="let cards of classes">
-            <article class="p-8 max-w-sm border border-neutral-500 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
-              <img [src]="cards.img" [alt]="cards.img ? 'Imagenes mostrando distintas clases' : 'Sin imagen'" class="shadow rounded-2xl overflow-hidden border object-cover" *ngIf="cards.img">
+          <ng-container *ngFor="let card of classes">
+            <article class="class-card p-8 max-w-sm border border-neutral-500 rounded-2xl hover:shadow-xl hover:shadow-color3 flex flex-col items-center">
+              <img [src]="card.img" [alt]="card.img ? 'Imagenes mostrando distintas clases' : 'Sin imagen'" class="card-img shadow rounded-2xl overflow-hidden border object-cover" *ngIf="card.img">
               <div class="mt-8 text-center">
-                <h2 class="font-bold text-lg sm:text-xl text-white">{{ cards.day }} {{ cards.schedule }}</h2>
-                <p class="text-gray-400">{{ cards.address }}</p>
-                <p class="mt-2 text-gray-100 text-base sm:text-lg">{{ cards.info }}</p>
+                <h2 class="class-day-time font-bold text-lg sm:text-xl text-white">{{ card.day }} {{ card.schedule }}</h2>
+                <p class="class-address text-gray-400">{{ card.address }}</p>
+                <p class="class-info mt-2 text-gray-100 text-base sm:text-lg">{{ card.info }}</p>
               </div>
             </article>
           </ng-container>
@@ -18,5 +18,6 @@
     </div>
   </div>
 </div>
+
 
 

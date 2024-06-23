@@ -1,4 +1,4 @@
-<div *ngIf="article" class="flex flex-1 w-full flex-col items-center justify-center text-center px-2 md:px-6 py-10 md:py-14 bg-gray-200 sm:px-8">
+<section *ngIf="article" class="article-section flex flex-1 w-full flex-col items-center justify-center text-center px-2 md:px-6 py-10 md:py-14 bg-gray-200 sm:px-8">
     <div class="mx-auto max-w-4xl font-display font-bold tracking-normal text-slate-900 text-xl sm:text-3xl lg:text-5xl">
         {{ article.title }}
         <span class="relative whitespace-nowrap text-orange-400">
@@ -11,7 +11,8 @@
     <div class="mt-4 text-left mx-auto md:mt-12 max-w-3xl text-base leading-7 px-4 text-base sm:text-lg" [innerHTML]="formattedInfo2">
         {{ article.info2 }}
     </div>
-</div>
+</section>
+
 
 
 

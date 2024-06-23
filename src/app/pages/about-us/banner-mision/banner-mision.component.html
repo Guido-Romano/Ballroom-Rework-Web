@@ -1,17 +1,18 @@
-<section class="text-center py-12 px-4 mx-auto bg-gray-900">
-    <h2 class="text-2xl font-bold text-white" aria-label="Statistics Section Title">{{ 'STATS.subtitle2' | translate }}</h2>
-    <p class="mt-4 text-neutral-300 max-w-2xl mx-auto" aria-label="Statistics Section Description">
-      {{ 'STATS.subtitle3' | translate }}
-    </p>
-    <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
-      <div class="transition transform hover:scale-110">
-        <h3 class="text-xl font-bold text-amber-500" aria-label="Stat Number">{{ 'STATS.number2' | translate }}</h3>
-        <p class="text-neutral-300" aria-label="Stat Description">{{ 'STATS.button2' | translate }}</p>
-      </div>
-      <div class="transition transform hover:scale-110">
-        <h3 class="text-xl font-bold text-amber-500" aria-label="Stat Number">{{ 'STATS.number1' | translate }}</h3>
-        <p class="text-neutral-300" aria-label="Stat Description">{{ 'STATS.button1' | translate }}</p>
-      </div>
+<section class="statistics-section text-center py-12 px-4 mx-auto bg-gray-900">
+  <h2 class="section-title text-2xl font-bold text-white" aria-label="Statistics Section Title">{{ 'STATS.subtitle2' | translate }}</h2>
+  <p class="section-description mt-4 text-neutral-300 max-w-2xl mx-auto" aria-label="Statistics Section Description">
+    {{ 'STATS.subtitle3' | translate }}
+  </p>
+  <div class="flex justify-center space-x-8 mt-8 animate-fadeIn">
+    <div class="stat-item transition transform hover:scale-110">
+      <h3 class="stat-number text-xl font-bold text-amber-500" aria-label="Stat Number">{{ 'STATS.number2' | translate }}</h3>
+      <p class="stat-description text-neutral-300" aria-label="Stat Description">{{ 'STATS.button2' | translate }}</p>
     </div>
-  </section>
+    <div class="stat-item transition transform hover:scale-110">
+      <h3 class="stat-number text-xl font-bold text-amber-500" aria-label="Stat Number">{{ 'STATS.number1' | translate }}</h3>
+      <p class="stat-description text-neutral-300" aria-label="Stat Description">{{ 'STATS.button1' | translate }}</p>
+    </div>
+  </div>
+</section>
+
   

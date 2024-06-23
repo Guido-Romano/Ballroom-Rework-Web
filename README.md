@@ -1,7 +1,7 @@
 ng build
 git add . 
-git commit -m "fix pricing button" 
-git push origin main
+git commit -m "fix SEO ready" 
+git push origin trabajo-de-SEO
 
 
 Aquí hay una lista de algunos valores predefinidos para el espaciado en Tailwind CSS:

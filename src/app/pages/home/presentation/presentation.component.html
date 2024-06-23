@@ -1,16 +1,16 @@
-<section aria-labelledby="presentacion">
+<section class="presentation-section" aria-labelledby="presentation">
     <div class="container mx-auto py-14 px-5 sm:px-12 max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-            <div class="max-w-2xl">
-                <div class="sr-only" id="presentacion">{{ text.title | translate }}</div> <!-- Título accesible pero oculto visualmente -->
-                <h3 class="py-2 text-center text-xl sm:text-3xl font-semibold text-slate-900 visually-hidden">{{ text.title | translate }}</h3> <!-- Título visualmente oculto -->
+            <div class="presentation-section__content max-w-2xl">
+                <div class="sr-only" id="presentation">{{ text.title | translate }}</div>
+                <h3 class="visually-hidden article-title md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900">{{ text.title | translate }}</h3>
                 <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="text.info"></p>
                 <div class="mt-4">
-                    <a alt="ver mas" href="#" class="leading-relaxed text-amber-600 focus:outline-none font-semibold hover:text-amber-800" [innerHTML]="text.info2">
+                    <a href="#" class="presentation-section__link leading-relaxed text-amber-600 focus:outline-none font-semibold hover:text-amber-800" [innerHTML]="text.info2">
                     </a>
                 </div>
             </div>
-            <div>
+            <div class="presentation-section__image">
                 <img src="../../assets/img01.webp" alt="Imagen de Juan Almirón Bailando en una competencia" class="object-cover rounded-lg shadow-md" loading="lazy">
             </div>
         </div>

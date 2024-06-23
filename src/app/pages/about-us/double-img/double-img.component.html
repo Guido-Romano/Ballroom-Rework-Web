@@ -1,30 +1,29 @@
-<section class="bg-gray-50 text-slate-800 py-8">
+<section class="section-articles bg-gray-50 text-slate-800 py-8">
   <div class="container mx-auto py-0 md:py-8 px-5 sm:px-12 max-w-6xl">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-      <div class="max-w-2xl">
-        <h2 class="md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900" aria-label="Primer titulo de seccion">{{ firsttext?.title }}</h2>
-        <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(firsttext?.info + firsttext?.info2)" aria-label="Primer contenido de seccion"></p>
-
+      <div class="article-content max-w-2xl">
+        <h2 class="article-title md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900" aria-label="Primer titulo de seccion">{{ firsttext?.title }}</h2>
+        <p class="article-text mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(firsttext?.info + firsttext?.info2)" aria-label="Primer contenido de seccion"></p>
       </div>
-      <div class="mt-2 md:mt-0">
-        <img src="../../assets/img25.webp" alt="Imagen de Juan de espaldas" class="object-cover rounded-lg shadow-md" loading="lazy">
+      <div class="article-image mt-2 md:mt-0">
+        <img src="../../assets/img25.webp" alt="Imagen de Juan de espaldas" class="article-img object-cover rounded-lg shadow-md" loading="lazy">
       </div>
     </div>
   </div>
 
   <div class="container mx-auto py-8 px-5 sm:px-12 max-w-6xl">
     <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-      <div class="mt-2 md:mt-0">
-        <img src="../../assets/img08.webp" alt="Imagen de clases de baile de juan" class="object-cover rounded-lg shadow-md" loading="lazy">
+      <div class="article-image mt-2 md:mt-0">
+        <img src="../../assets/img08.webp" alt="Imagen de clases de baile de juan" class="article-img object-cover rounded-lg shadow-md" loading="lazy">
       </div>
-      <div class="max-w-2xl">
-        <h2 class="md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900" aria-label="Segundo titulo de seccion">{{ secondtext?.title }}</h2>
-        <p class="mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(secondtext?.info + secondtext?.info2)" aria-label="Segundo contenido de seccion"></p>
-
+      <div class="article-content max-w-2xl">
+        <h2 class="article-title md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900" aria-label="Segundo titulo de seccion">{{ secondtext?.title }}</h2>
+        <p class="article-text mt-4 leading-relaxed text-base sm:text-lg" [innerHTML]="formatText(secondtext?.info + secondtext?.info2)" aria-label="Segundo contenido de seccion"></p>
       </div>
     </div>
   </div>
 </section>
+
 
   
   

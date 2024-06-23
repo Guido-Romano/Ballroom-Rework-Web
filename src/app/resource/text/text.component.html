@@ -1,14 +1,15 @@
-<div class="px-5 sm:px-12 max-w-6xl mx-auto py-1 sm:py-12" *ngIf="article">
-  <div class="text-center">
-    <div class="sr-only" [innerHTML]="article.title"></div> <!-- Utilizando sr-only para accesibilidad -->
-    <h2 class="pt-10 pb-4 md:py-8 text-center text-xl sm:text-4xl font-bold visually-hidden">{{ article.title }}</h2> <!-- También ocultando el h2 visualmente para cumplir con la restricción de no usar h1 -->
+<section class="article-section px-5 sm:px-12 max-w-6xl mx-auto py-1 sm:py-12" *ngIf="article">
+  <div class="article-section__content text-center">
+    <div class="sr-only" [innerHTML]="article.title"></div>
+    <h2 class="visually-hidden article-title md:mb-4 pt-4 text-center text-2xl sm:text-3xl font-bold text-slate-900">{{ article.title }}</h2>
   </div>
   <p class="leading-relaxed text-base sm:text-lg" [innerHTML]="formattedInfo"></p>
   <p class="leading-relaxed text-base sm:text-lg" *ngIf="article.showMore" [innerHTML]="formattedInfo2"></p>
-  <button *ngIf="article.info2" (click)="toggleText()" class="mt-4 text-amber-600  focus:outline-none font-semibold hover:hover:text-amber-800">
+  <button *ngIf="article.info2" (click)="toggleText()" class="article-section__button mt-4 text-amber-600 focus:outline-none font-semibold hover:text-amber-800">
     {{ article.showMore ? '&#8592; Ocultar' : 'Leer más&nbsp;&#8594;' }}
   </button>
-</div>
+</section>
+
 
 
 
