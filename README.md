@@ -1,8 +1,7 @@
 ng build
 git add . 
-git commit -m "fixedlenguage" 
-git push origin trabajo-de-SEO
-
+git commit -m "finished" 
+git push origin main
 
 Aquí hay una lista de algunos valores predefinidos para el espaciado en Tailwind CSS:
 
