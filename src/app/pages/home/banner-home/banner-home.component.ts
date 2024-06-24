@@ -5,7 +5,7 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
   templateUrl: './banner-home.component.html'
 })
 export class BannerHomeComponent implements AfterViewInit {
-  @ViewChild('video') videoElement!: ElementRef<HTMLVideoElement>;
+  @ViewChild('video', { static: false }) videoElement!: ElementRef<HTMLVideoElement>;
 
   ngAfterViewInit() {
     this.playVideo();
@@ -15,9 +15,20 @@ export class BannerHomeComponent implements AfterViewInit {
     const video: HTMLVideoElement = this.videoElement.nativeElement;
     video.muted = true;
     video.loop = true;
-    video.play().catch(error => {
-      console.error('Error trying to play video:', error);
-    });
+
+    const tryPlay = () => {
+      video.play().then(() => {
+        console.log('Video is playing');
+      }).catch(error => {
+        console.error('Error trying to play video:', error);
+        // Retry after a delay if play fails
+        setTimeout(tryPlay, 1000);
+      });
+    };
+
+    // Try to play the video
+    tryPlay();
   }
 }
+
 
