@@ -14,6 +14,7 @@ Ballroom Rework es la versión 2.0 de un prototipo de página diseñado y desarr
 Este proyecto ha sido desarrollado con las siguientes tecnologías:
 
 - ![Angular 16.2.0](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) **Framework de JavaScript**
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) **Para la programación**
 - ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) **Framework de CSS**
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **Para estilizar la presentación de la página web**
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) **Como lenguaje de marcado**
