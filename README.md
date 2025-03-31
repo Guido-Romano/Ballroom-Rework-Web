@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Ballroom Rework (Escuela de Baile)<br> https://ballroom-rework.vercel.app/ </h1>
-  <img src="https://github.com/Guido-Romano/lavalynch-rework/blob/main/src/assets/logo.svg" alt="Ballroom" width="300">
+  <img src="https://github.com/Guido-Romano/Ballroom-Rework-Web/blob/main/src/logo.svg" alt="Ballroom" width="300">
 </div>
 
 ## Descripción
