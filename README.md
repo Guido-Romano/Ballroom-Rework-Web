@@ -5,7 +5,7 @@
 
 ## Descripción
 
-Ballroom Rework es la versión 2.0 de un prototipo de página diseñado y desarrollado para una escuela de baile especializada en Ballroom. El objetivo de esta página es proporcionar información sobre los cursos ofrecidos, horarios, precios y contacto, presentando una experiencia moderna y atractiva para los usuarios.
+Ballroom Rework es la versión 2.0 de un prototipo creado para una escuela de baile especializada en Ballroom. Este proyecto ofrece un sitio web diseñado para destacar por su estética actual y su facilidad de uso, proporcionando información esencial sobre los cursos, horarios, precios y opciones de contacto de forma accesible y organizada.
 
 **Accede a la web aquí:** [Ballroom Rework](https://ballroom-rework.vercel.app/)
 
