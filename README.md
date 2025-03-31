@@ -5,7 +5,7 @@
 
 ## Descripción
 
-Ballroom Rework es la versión 2.0 de un prototipo creado para una escuela de baile especializada en Ballroom. Este proyecto ofrece un sitio web diseñado para destacar por su estética actual y su facilidad de uso, proporcionando información esencial sobre los cursos, horarios, precios y opciones de contacto de forma accesible y organizada.
+Ballroom Rework es la versión 2.0 de un prototipo creado para una escuela de baile especializada en Ballroom. Este proyecto ofrece un sitio web diseñado para destacar por su estética actual y su facilidad de uso, proporcionando información esencial sobre los cursos, horarios, precios y opciones de contacto de forma accesible y organizada. La web, tiene tres idiomas diferentes verificados (Español, Ingles, Ruso)
 
 **Accede a la web aquí:** [Ballroom Rework](https://ballroomargentina.vercel.app/)
 
@@ -22,10 +22,9 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 ## Características
 
 - ✅ **Diseño moderno y visualmente atractivo**
-- ✅ **Uso de Tailwind CSS para estilos personalizables**
 - ✅ **Compatible con múltiples dispositivos y navegadores**
-- ✅ **Navegación clara y optimizada**
-- ✅ **Fácil mantenimiento y actualización**
+- ✅ **Código modular y escalable**
+- ✅ **Tres idiomas diferentes (Español, Ingles, Ruso)**
 
 ---
 
