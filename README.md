@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Ballroom Rework (Prototipo Web 2.0)<br> https://ballroom-rework.vercel.app/ </h1>
+  <h1>Ballroom Rework (Prototipo Web 2.0)<br> https://ballroomargentina.vercel.app/ </h1>
   <img src="https://github.com/Guido-Romano/Ballroom-Rework-Web/blob/main/src/logo.svg" alt="Ballroom" width="300">
 </div>
 
@@ -7,7 +7,7 @@
 
 Ballroom Rework es la versión 2.0 de un prototipo creado para una escuela de baile especializada en Ballroom. Este proyecto ofrece un sitio web diseñado para destacar por su estética actual y su facilidad de uso, proporcionando información esencial sobre los cursos, horarios, precios y opciones de contacto de forma accesible y organizada.
 
-**Accede a la web aquí:** [Ballroom Rework](https://ballroom-rework.vercel.app/)
+**Accede a la web aquí:** [Ballroom Rework](https://ballroomargentina.vercel.app/)
 
 ## Tecnologías Utilizadas
 
